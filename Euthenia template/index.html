@@ -1,234 +1,189 @@
-﻿<!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]>
-<!--><html class="no-js" lang="en"><!--<![endif]-->
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Image Grid Motion Effect | Demo 1 | Codrops</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="Codrops">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="https://use.typekit.net/eqx3jwb.css">
+	<link rel="stylesheet" type="text/css" href="base.98fd6c19.css">
+	<script>
+		document.documentElement.className = "js";
 
-	<!-- Basic Page Needs
-	================================================== -->
-	<meta charset="utf-8">
-	<title>Euthenia</title>
-	<meta name="description"  content="Professional Creative Template" />
-	<meta name="author" content="IG Design">
-	<meta name="keywords"  content="ig design, website, design, html5, css3, jquery, creative, clean, animated, portfolio, blog, one-page, multi-page, corporate, business," />
-	<meta property="og:title" content="Professional Creative Template" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="" />
-	<meta property="og:image" content="" />
-	<meta property="og:image:width" content="470" />
-	<meta property="og:image:height" content="246" />
-	<meta property="og:site_name" content="" />
-	<meta property="og:description" content="Professional Creative Template" />
-	<meta name="twitter:card" content="" />
-	<meta name="twitter:site" content="https://twitter.com/IvanGrozdic" />
-	<meta name="twitter:domain" content="http://ivang-design.com/" />
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:description" content="Professional Creative Template" />
-	<meta name="twitter:image" content="http://ivang-design.com/" />
+		var supportsCssVars = function supportsCssVars() {
+			var e,
+				t = document.createElement("style");
+			return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e;
+		};
 
-	<!-- Mobile Specific Metas
-	================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta name="theme-color" content="#212121"/>
-    <meta name="msapplication-navbutton-color" content="#212121"/>
-    <meta name="apple-mobile-web-app-status-bar-style" content="#212121"/>
+		supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
+	</script>
+	<style class="back">
+		/*mark*/
+		/* mark {
+  background-color: #fbff00;
+  color: #000;
+} */
 
-	<!-- Web Fonts 
-	================================================== -->
-	<link href="https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext,vietnamese" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
-	
-	<!-- CSS
-	================================================== -->
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="css/animsition.min.css"/>
-	<link rel="stylesheet" href="css/swiper.min.css"/>
-	<link rel="stylesheet" href="css/style.css"/>
-			
-	<!-- Favicons
-	================================================== -->
-	<link rel="icon" type="image/png" href="favicon.jpg">
-	<link rel="apple-touch-icon" href="apple-touch-icon.jpg">
-	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.jpg">
-	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.jpg">
-	
-	
+		/* animated background */
+		@-webkit-keyframes argh-my-eyes {
+			0% {
+				background-color: #1500ff;
+			}
+
+			49% {
+				background-color: #000;
+			}
+
+			50% {
+				background-color: #1500ff;
+			}
+
+			99% {
+				background-color: #000;
+			}
+
+			100% {
+				background-color: #1500ff;
+			}
+		}
+
+		@-moz-keyframes argh-my-eyes {
+			0% {
+				background-color: #1500ff;
+			}
+
+			49% {
+				background-color: #fff;
+			}
+
+			50% {
+				background-color: #1500ff;
+			}
+
+			99% {
+				background-color: #fff;
+			}
+
+			100% {
+				background-color: #1500ff;
+			}
+		}
+
+		@keyframes argh-my-eyes {
+			0% {
+				background-color: #1500ff;
+			}
+
+			49% {
+				background-color: #000;
+			}
+
+			50% {
+				background-color: #1500ff;
+			}
+
+			99% {
+				background-color: #000;
+			}
+
+			100% {
+				background-color: #1500ff;
+			}
+		}
+
+		body {
+			-webkit-animation: argh-my-eyes 0.1s infinite;
+			-moz-animation: argh-my-eyes 0.1s infinite;
+			animation: argh-my-eyes 0.3s infinite;
+		}
+	</style>
 </head>
-<body class="over-hide">
 
-	<!-- Page preloader wrap
-	================================================== -->
+<body class="demo-1 loading">
+	<main>
+		<div class="message">pls 1920 x 1080 view</div>
 
-	<div class="animsition">	
-		
-		<!-- Nav and Logo
-		================================================== -->
-
-		<header class="cd-header">
-			<div class="header-wrapper">
-				<div class="logo-wrap">
-					<a href="index.html" class="hover-target animsition-link"><img src="img/logo.png" alt=""></a>
-				</div>
-				<div class="nav-but-wrap">
-					<div class="menu-icon hover-target">
-						<span class="menu-icon__line menu-icon__line-left"></span>
-						<span class="menu-icon__line"></span>
-						<span class="menu-icon__line menu-icon__line-right"></span>
-					</div>					
-				</div>					
-			</div>				
-		</header>
-
-		<div class="nav">
-			<div class="nav__content">
-				<div class="curent-page-name-shadow">work</div>
-				<ul class="nav__list">
-					<li class="nav__list-item active-nav"><a data-toggle="collapse" href="#collapseSub" class="hover-target" role="button" aria-expanded="false" aria-controls="collapseSub">work</a>
-						<ul class="sub-links collapse" id="collapseSub">
-							<li class="active-nav"><a href="index.html" class="hover-target animsition-link">slider centerd title</a></li>
-							<li><a href="index-1.html" class="hover-target animsition-link">slider centerd image</a></li>
-							<li><a href="index-2.html" class="hover-target animsition-link">slider bottom title</a></li>
-							<li><a href="index-3.html" class="hover-target animsition-link">slice revealer</a></li>
-							<li><a href="index-4.html" class="hover-target animsition-link">masonry version</a></li>
-						</ul>
-					</li>
-					<li class="nav__list-item"><a href="studio.html" class="hover-target animsition-link">studio</a></li>
-					<li class="nav__list-item"><a href="blog.html" class="hover-target animsition-link">news</a></li>
-					<li class="nav__list-item"><a href="contact.html" class="hover-target animsition-link">contact</a></li>
-				</ul>
+		<!-- HEADER -->
+		<div class="frame">
+			<div class="frame__title-wrap">
+				<!-- <h1 class="frame__title">Image Grid Motion Interaction</h1> -->
+				<a href="index.html" class="frame__demos frame__demo--current">the ElsaGate archive</a>
 			</div>
-		</div>	
-
-		<!-- Primary Page Layout
-		================================================== -->
-		
-		<div class="section full-height over-hide swiper-container z-bigger" id="hero-slider">
-			<ul class="swiper-wrapper case-study-wrapper">
-				<li class="swiper-slide full-height case-study-name">
-					<a href="project.html" class="hover-target animsition-link">
-						<h1>The Battle</h1>
-					</a>
-				</li>
-				<li class="swiper-slide full-height case-study-name">
-					<a href="project-1.html" class="hover-target animsition-link">
-						<h1>Dark Dream</h1>
-					</a>
-				</li>
-				<li class="swiper-slide full-height case-study-name">
-					<a href="project.html" class="hover-target animsition-link">
-						<h1>L'Etoile Feb</h1>
-					</a>
-				</li>
-				<li class="swiper-slide full-height case-study-name">
-					<a href="project-1.html" class="hover-target animsition-link">
-						<h1>Tempo</h1>
-					</a>
-				</li>
-				<li class="swiper-slide full-height case-study-name">
-					<a href="project.html" class="hover-target animsition-link">
-						<h1>Kresios</h1>
-					</a>
-				</li>
-				<li class="swiper-slide full-height case-study-name">
-					<a href="project-1.html" class="hover-target animsition-link">
-						<h1>Hospitality</h1>
-					</a>
-				</li>
-				<li class="swiper-slide full-height case-study-name">
-					<a href="project.html" class="hover-target animsition-link">
-						<h1>Processors</h1>
-					</a>
-				</li>
-				<li class="swiper-slide full-height case-study-name">
-					<a href="project-1.html" class="hover-target animsition-link">
-						<h1>Mrsoet</h1>
-					</a>
-				</li>
-			</ul>
-			
-			<!-- Background Images -->
-			<div class="swiper-scrollbar"></div>
+			<div class="frame__links">
+				<!-- <a href="index2.html">ARCHIVE</a>
+				<a href="index-home.html">ABOUT</a> -->
+			</div>
+			<div class="frame__demos">
+				<!-- <a href="index-home.html" class="frame__demo">ENTRA</a> -->
+			</div>
 		</div>
-		
-		<!-- Slider background images
-		================================================== -->
-		
-		<ul class="case-study-images">
-			<li>
-				<div class="img-hero-background no-blur" style="background-image: url('img/5.jpg');"></div> 
-				<h2 class="fullscreen-image no-blur">The Battle</h2>
-				<div class="hero-number">01</div> 
-				<div class="hero-number-fixed">08</div> 
-			</li>
-			<li>
-				<div class="img-hero-background no-blur" style="background-image: url('img/1.jpg');"></div> 
-				<h2 class="fullscreen-image no-blur">Dark Dream</h2>
-				<div class="hero-number">02</div> 
-			</li>
-			<li>
-				<div class="img-hero-background no-blur" style="background-image: url('img/2.jpg');"></div>
-				<h2 class="fullscreen-image no-blur">L'Etoile Feb</h2>
-				<div class="hero-number">03</div> 
-			</li>
-			<li>
-				<div class="img-hero-background no-blur" style="background-image: url('img/3.jpg');"></div>
-				<h2 class="fullscreen-image no-blur">Tempo</h2>
-				<div class="hero-number">04</div> 
-			</li>
-			<li>
-				<div class="img-hero-background no-blur" style="background-image: url('img/4.jpg');"></div> 
-				<h2 class="fullscreen-image no-blur">Kresios</h2>
-				<div class="hero-number">05</div> 
-			</li>
-			<li>
-				<div class="img-hero-background no-blur" style="background-image: url('img/6.jpg');"></div> 
-				<h2 class="fullscreen-image no-blur">Hospitality</h2>
-				<div class="hero-number">06</div> 
-			</li>
-			<li>
-				<div class="img-hero-background no-blur" style="background-image: url('img/7.jpg');"></div> 
-				<h2 class="fullscreen-image no-blur">Processors</h2>
-				<div class="hero-number">07</div> 
-			</li>
-			<li>
-				<div class="img-hero-background no-blur" style="background-image: url('img/8.jpg');"></div> 
-				<h2 class="fullscreen-image no-blur">Mrsoet</h2>
-				<div class="hero-number">08</div> 
-			</li>
-		</ul>
-		
-		<!-- Social links
-		================================================== -->
-		
-		<div class="social-fixed">
-			<a href="#" class="hover-target">tw</a>
-			<a href="#" class="hover-target">fb</a>
-			<a href="#" class="hover-target">be</a>
-			<a href="#" class="hover-target">gh</a>
-		</div>
-		<div class="copyr">
-			2019 © <a href="https://themeforest.net/user/ig_design/portfolio" class="hover-target">Euthenia</a>
-		</div>
-		
-		<!-- Page cursor
-		================================================== -->
-		
-        <div class='cursor' id="cursor"></div>
-        <div class='cursor2' id="cursor2"></div>
-        <div class='cursor3' id="cursor3"></div>
 
-	</div>
+		<!-- IMMAGINI FLUTTUANTI -->
+		<div class="content">
+			<div class="grid grid--img">
 
-	
-	<!-- JAVASCRIPT
-    ================================================== -->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/popper.min.js"></script> 
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/plugins.js"></script> 
-	<script src="js/custom.js"></script>  
-<!-- End Document
-================================================== -->
+
+				<div class="grid__item pos-1">
+					<div class="grid__item-img" style="background-image:url(mine-24.gif);"></div>
+				</div>
+				<div class="grid__item pos-2">
+					<div class="grid__item-img" style="background-image:url(mine-21.gif);"></div>
+				</div>
+				<div class="grid__item pos-3">
+					<div class="grid__item-img" style="background-image:url(mine-30.gif);"></div>
+				</div>
+				<div class="grid__item pos-4">
+					<div class="grid__item-img" style="background-image:url(mine-8.gif);"></div>
+				</div>
+				<div class="grid__item pos-5">
+					<div class="grid__item-img" style="background-image:url(mine-17.gif);"></div>
+				</div>
+				<div class="grid__item pos-6">
+					<div class="grid__item-img" style="background-image:url(mine-21.gif);"></div>
+				</div>
+				<div class="grid__item pos-7">
+					<div class="grid__item-img" style="background-image:url(mine-30.gif);"></div>
+				</div>
+				<div class="grid__item pos-8">
+					<div class="grid__item-img" style="background-image:url(mine-8.gif);"></div>
+				</div>
+				<div class="grid__item pos-9">
+					<div class="grid__item-img" style="background-image:url(mine-17.gif);"></div>
+				</div>
+				<div class="grid__item pos-10">
+					<div class="grid__item-img" style="background-image:url(mine-24.gif);"></div>
+				</div>
+				<div class="grid__item pos-11">
+					<div class="grid__item-img" style="background-image:url(mine-24.gif);"></div>
+				</div>
+
+
+			</div>
+			<h2 class="content__title no-select">
+				<span>enable <br> autoplay?</span>
+			</h2>
+			<br>
+			<!-- Rounded switch -->
+			<label class="switch">
+				<input id="switch_id" type="checkbox">
+				<span class="slider round"></span>
+			</label>
+			<h2 class="content__title no-select">
+				<!-- <span class="content__title-sub">tapes</span> -->
+			</h2>
+		</div>
+	</main>
+	<svg class="cursor" width="80" height="80" viewBox="0 0 80 80">
+		<circle class="cursor__inner" cx="40" cy="40" r="20"></circle>
+	</svg>
+	<script src="demo1.js"></script>
+
+
 </body>
+
 </html>
