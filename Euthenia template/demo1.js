@@ -139,10 +139,22 @@ function _inheritsLoose(subClass, superClass) {
   subClass.__proto__ = superClass;
 }
 
+var imagess = document.getElementById("lol");
+imagess.style.display = "none";
+
 // IMPUT LEVETTA
 document.getElementById('switch_id').addEventListener("change", function(){
-    if (this.checked) window.location.href = 'index-home.html';
-5000});
+  // var imagez = document.getElementsByClassName("tired");
+
+    if (this.checked){
+    // window.location.href = 'index-home.html';
+    // imagez.style.display = 'none';
+    imagess.style.display  = 'block'; //aggiungere sempre block
+  } else {
+    imagess.style.display  = 'none';
+  } ;
+
+});
 
 var _config = {
   autoSleep: 120,

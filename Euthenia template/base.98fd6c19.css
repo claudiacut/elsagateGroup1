@@ -131,6 +131,8 @@ a:focus {
 	z-index: 1000;
 }
 
+
+
 .frame__title {
 	font-size: 1.5rem;
 	margin: 1 1 2rem;
@@ -349,14 +351,15 @@ input:checked + .slider:before {
 	margin: 0;
 	line-height: 1;
 	position: relative;
+	text-align: center;
 }
 
 .content__title-sub {
 	color: var(--color-content-title-sub);
-	font-size: 4.5vw;
-	display: block;
-	margin-left: 3vw;
-	line-height: 0.5;
+	font-size: 2vw;
+	margin: 0;
+	line-height: 1;
+	position: relative;
 }
 
 .cursor {
