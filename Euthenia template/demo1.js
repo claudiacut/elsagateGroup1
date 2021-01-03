@@ -139,8 +139,10 @@ function _inheritsLoose(subClass, superClass) {
   subClass.__proto__ = superClass;
 }
 
-var imagess = document.getElementById("lol");
-imagess.style.display = "none";
+var lol = document.getElementById("lol");
+lol.style.display = "none";
+var nope = document.getElementById("nope");
+nope.style.display = "block";
 
 // IMPUT LEVETTA
 document.getElementById('switch_id').addEventListener("change", function(){
@@ -149,9 +151,11 @@ document.getElementById('switch_id').addEventListener("change", function(){
     if (this.checked){
     // window.location.href = 'index-home.html';
     // imagez.style.display = 'none';
-    imagess.style.display  = 'block'; //aggiungere sempre block
+    lol.style.display  = 'block'; //aggiungere sempre block
+    nope.style.display  = 'none';
   } else {
-    imagess.style.display  = 'none';
+    lol.style.display  = 'none';
+    nope.style.display  = 'block';
   } ;
 
 });

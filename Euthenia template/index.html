@@ -23,92 +23,6 @@
 		supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
 	</script>
 	<style class="back">
-		/*mark*/
-		/* mark {
-  background-color: #fbff00;
-  color: #000;
-} */
-
-		/* animated background */
-		@-webkit-keyframes argh-my-eyes {
-			0% {
-				background-color: #1500ff;
-			}
-
-			49% {
-				background-color: #000;
-			}
-
-			50% {
-				background-color: #1500ff;
-			}
-
-			99% {
-				background-color: #000;
-			}
-
-			100% {
-				background-color: #1500ff;
-			}
-		}
-
-		@-moz-keyframes argh-my-eyes {
-			0% {
-				background-color: #1500ff;
-			}
-
-			49% {
-				background-color: #fff;
-			}
-
-			50% {
-				background-color: #1500ff;
-			}
-
-			99% {
-				background-color: #fff;
-			}
-
-			100% {
-				background-color: #1500ff;
-			}
-		}
-
-		@keyframes argh-my-eyes {
-			0% {
-				background-color: #1500ff;
-			}
-
-			49% {
-				background-color: #000;
-			}
-
-			50% {
-				background-color: #1500ff;
-			}
-
-			99% {
-				background-color: #000;
-			}
-
-			100% {
-				background-color: #1500ff;
-			}
-		}
-
-		body {
-			-webkit-animation: argh-my-eyes 0.1s infinite;
-			-moz-animation: argh-my-eyes 0.1s infinite;
-			animation: argh-my-eyes 0.3s infinite;
-		}
-
-		div.ex1 {
-  background-color: lightblue;
-  width: 110px;
-  height: 110px;
-  overflow: scroll;
-}
-
 
 	</style>
 </head>
@@ -145,9 +59,15 @@
 			<div class="grid grid--img">
 
 
-				<div class="grid__item pos-1">
-					<div id="lol" class="grid__item-img tired" style="background-image:url(mine-24.gif);"></div>
+				<div id="lol" class="grid__item pos-1">
+					<div class="grid__item-img tired" style="background-image:url(mine-24.gif);"></div>
 				</div>
+
+				<div id="nope" class="grid__item pos-1">
+					<div class="grid__item-img tired" style="background-image:url(mine_ok-24.jpg);"></div>
+				</div>
+
+
 				<div class="grid__item pos-2">
 					<div class="grid__item-img tired" style="background-image:url(mine-21.gif);"></div>
 				</div>

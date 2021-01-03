@@ -34,6 +34,81 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+/* animated background */
+@-webkit-keyframes argh-my-eyes {
+	0% {
+		background-color: #1500ff;
+	}
+
+	49% {
+		background-color: #000;
+	}
+
+	50% {
+		background-color: #1500ff;
+	}
+
+	99% {
+		background-color: #000;
+	}
+
+	100% {
+		background-color: #1500ff;
+	}
+}
+
+@-moz-keyframes argh-my-eyes {
+	0% {
+		background-color: #1500ff;
+	}
+
+	49% {
+		background-color: #fff;
+	}
+
+	50% {
+		background-color: #1500ff;
+	}
+
+	99% {
+		background-color: #fff;
+	}
+
+	100% {
+		background-color: #1500ff;
+	}
+}
+
+@keyframes argh-my-eyes {
+	0% {
+		background-color: #1500ff;
+	}
+
+	49% {
+		background-color: #000;
+	}
+
+	50% {
+		background-color: #1500ff;
+	}
+
+	99% {
+		background-color: #000;
+	}
+
+	100% {
+		background-color: #1500ff;
+	}
+}
+
+
+	body {
+	-webkit-animation: argh-my-eyes 0.1s infinite;
+	-moz-animation: argh-my-eyes 0.1s infinite;
+	animation: argh-my-eyes 0.3s infinite;
+}
+
+
 .demo-2 {
 	--color-text: #000000;
     --color-bg: #832f05;
