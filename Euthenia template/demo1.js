@@ -139,6 +139,12 @@ function _inheritsLoose(subClass, superClass) {
   subClass.__proto__ = superClass;
 }
 
+// io che faccio casino sul codice PERCHè NON VAIIIIII
+// document.body.style.animation = "argh-my-eyes, 2s";
+document.getElementById("content").style.animation = "new-argh-my-eyes 5s infinite";
+
+
+
 var lol = document.getElementById("lol");
 lol.style.display = "none";
 var nope = document.getElementById("nope");
@@ -153,12 +159,18 @@ document.getElementById('switch_id').addEventListener("change", function(){
     // imagez.style.display = 'none';
     lol.style.display  = 'block'; //aggiungere sempre block
     nope.style.display  = 'none';
+    document.getElementById("content").style.animation = "argh-my-eyes 0.5s infinite";
+    // document.body.style.backgroundColor = "yellow";
+
   } else {
     lol.style.display  = 'none';
     nope.style.display  = 'block';
+    document.getElementById("content").style.animation = "new-argh-my-eyes 5s infinite";
   } ;
 
 });
+
+
 
 var _config = {
   autoSleep: 120,

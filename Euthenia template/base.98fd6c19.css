@@ -32,52 +32,10 @@ body {
 	font-family: bilo, -apple-system, BlinkMacSystemFont,'Nintendoid1', Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	/* animation: argh-my-eyes 1s infinite; */
 }
 
-/* animated background */
-@-webkit-keyframes argh-my-eyes {
-	0% {
-		background-color: #1500ff;
-	}
 
-	49% {
-		background-color: #000;
-	}
-
-	50% {
-		background-color: #1500ff;
-	}
-
-	99% {
-		background-color: #000;
-	}
-
-	100% {
-		background-color: #1500ff;
-	}
-}
-
-@-moz-keyframes argh-my-eyes {
-	0% {
-		background-color: #1500ff;
-	}
-
-	49% {
-		background-color: #fff;
-	}
-
-	50% {
-		background-color: #1500ff;
-	}
-
-	99% {
-		background-color: #fff;
-	}
-
-	100% {
-		background-color: #1500ff;
-	}
-}
 
 @keyframes argh-my-eyes {
 	0% {
@@ -101,11 +59,21 @@ body {
 	}
 }
 
+/* new animated background */
 
-	body {
-	-webkit-animation: argh-my-eyes 0.1s infinite;
-	-moz-animation: argh-my-eyes 0.1s infinite;
-	animation: argh-my-eyes 0.3s infinite;
+
+@keyframes new-argh-my-eyes {
+	0% {
+		background-color: #ccffff;
+	}
+
+	49% {
+		background-color: #ccffcc;
+	}
+
+	100% {
+		background-color: #ccffff;
+	}
 }
 
 
@@ -122,7 +90,7 @@ body {
 
 .demo-1 {
 	--color-text: #fbff00;
-    --color-bg: #000000;
+    --color-bg: #ffffff;
     --color-link: #ffffff;
     --color-link-hover: #ccc;
     --color-content-title-sub: #ffffff;
@@ -242,7 +210,14 @@ a:focus {
 	align-items: center;
 	justify-content: center;
 	max-height: 300px;
+
 }
+
+#content {
+	animation: argh-my-eyes 1s infinite;
+}
+
+
 
 .grid {
 	pointer-events: none;
