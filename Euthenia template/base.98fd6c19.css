@@ -409,7 +409,7 @@ input:checked + .slider:before {
 
 
 	.frame__links {
-		grid-area: links;
+		grid-area: demos;
 		padding: 0;
 		justify-self: end;
 	}

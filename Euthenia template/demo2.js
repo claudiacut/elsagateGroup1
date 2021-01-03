@@ -139,10 +139,7 @@ function _inheritsLoose(subClass, superClass) {
   subClass.__proto__ = superClass;
 }
 
-// IMPUT LEVETTA
-document.getElementById('switch_id').addEventListener("change", function(){
-    if (this.checked) window.location.href = 'index-home.html';
-5000});
+
 
 var _config = {
   autoSleep: 120,

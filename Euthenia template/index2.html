@@ -23,114 +23,108 @@
 		supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
 	</script>
 	<style class="back">
-		/*mark*/
-		/* mark {
-  background-color: #fbff00;
-  color: #000;
-} */
 
-		/* animated background */
-		@-webkit-keyframes argh-my-eyes {
-			0% {
-				background-color: #1500ff;
-			}
+body{
+	background-color: black;
+}
+		div.ex1 {
+			background-color:#1500ff;
+			width: 500px;
+			height: 300px;
+			padding: 50px;
+			overflow: scroll;
+			z-index: 1000;
+			font-size: 30px;
 
-			49% {
-				background-color: #000;
-			}
-
-			50% {
-				background-color: #1500ff;
-			}
-
-			99% {
-				background-color: #000;
-			}
-
-			100% {
-				background-color: #1500ff;
-			}
-		}
-
-		@-moz-keyframes argh-my-eyes {
-			0% {
-				background-color: #1500ff;
-			}
-
-			49% {
-				background-color: #fff;
-			}
-
-			50% {
-				background-color: #1500ff;
-			}
-
-			99% {
-				background-color: #fff;
-			}
-
-			100% {
-				background-color: #1500ff;
-			}
-		}
-
-		@keyframes argh-my-eyes {
-			0% {
-				background-color: #1500ff;
-			}
-
-			49% {
-				background-color: #000;
-			}
-
-			50% {
-				background-color: #1500ff;
-			}
-
-			99% {
-				background-color: #000;
-			}
-
-			100% {
-				background-color: #1500ff;
-			}
-		}
-
-		body {
-			-webkit-animation: argh-my-eyes 0.1s infinite;
-			-moz-animation: argh-my-eyes 0.1s infinite;
-			animation: argh-my-eyes 0.3s infinite;
 		}
 	</style>
 </head>
 
 <body class="demo-1 loading">
 	<main>
-		<div class="message">Please view this demo on a desktop to see the effect.</div>
+		<div class="message">pls 1920 x 1080 view</div>
+
+		<!-- HEADER -->
 		<div class="frame">
 			<div class="frame__title-wrap">
 				<!-- <h1 class="frame__title">Image Grid Motion Interaction</h1> -->
+				<a href="index.html" class="frame__demos frame__demo--current">the ElsaGate archive</a>
 			</div>
 			<div class="frame__links">
-				<a href="index2.html">ARCHIVE</a>
-				<a href="index2.html">ABOUT</a>
+				<!-- <a href="index2.html">ARCHIVE</a>
+				<a href="index-home.html">ABOUT</a> -->
 			</div>
-			<div class="content">
-				<div class="grid grid--img">
+			<div class="frame__demos">
+				<!-- <a href="index-home.html" class="frame__demo">ENTRA</a> -->
+			</div>
+
+			<div class="frame__links">
+
+				<a href="index2.html" class="frame__demo">???</a>
+			</div>
+		</div>
+
+		<!-- IMMAGINI FLUTTUANTI -->
+		<div class="content">
+			<div class="ex1">"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"</div>
+			<div class="grid grid--img">
+
+
+				<div class="grid__item pos-1">
+					<div class="grid__item-img" style="background-image:url(mine-24.gif);"></div>
 				</div>
-				<h2 class="content__title no-select">
-					<span>homepage</span>
-				</h2>
-				<br>
-				<h2 class="content__title no-select">
-					<!-- <span class="content__title-sub">tapes</span> -->
-				</h2>
+				<div class="grid__item pos-2">
+					<div class="grid__item-img" style="background-image:url(mine-21.gif);"></div>
+				</div>
+				<div class="grid__item pos-3">
+					<div class="grid__item-img" style="background-image:url(mine-30.gif);"></div>
+				</div>
+				<div class="grid__item pos-4">
+					<div class="grid__item-img" style="background-image:url(mine-8.gif);"></div>
+				</div>
+				<div class="grid__item pos-5">
+					<div class="grid__item-img" style="background-image:url(mine-17.gif);"></div>
+				</div>
+				<div class="grid__item pos-6">
+					<div class="grid__item-img" style="background-image:url(mine-21.gif);"></div>
+				</div>
+				<div class="grid__item pos-7">
+					<div class="grid__item-img" style="background-image:url(mine-30.gif);"></div>
+				</div>
+				<div class="grid__item pos-8">
+					<div class="grid__item-img" style="background-image:url(mine-8.gif);"></div>
+				</div>
+				<div class="grid__item pos-9">
+					<div class="grid__item-img" style="background-image:url(mine-17.gif);"></div>
+				</div>
+				<div class="grid__item pos-10">
+					<div class="grid__item-img" style="background-image:url(mine-24.gif);"></div>
+				</div>
+				<div class="grid__item pos-11">
+					<div class="grid__item-img" style="background-image:url(mine-24.gif);"></div>
+				</div>
+
+
 			</div>
+
+
+
+
+		</div>
+
+
+
+
+
+		</div>
+
 	</main>
 	<svg class="cursor" width="80" height="80" viewBox="0 0 80 80">
 		<circle class="cursor__inner" cx="40" cy="40" r="20"></circle>
 	</svg>
-	<script src="demo1.js"></script>
+	<script src="demo2.js"></script>
+
+
 </body>
 
 </html>
