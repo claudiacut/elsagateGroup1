@@ -140,31 +140,121 @@ function _inheritsLoose(subClass, superClass) {
 }
 
 // io che faccio casino sul codice PERCHè NON VAIIIIII
-// document.body.style.animation = "argh-my-eyes, 2s";
 document.getElementById("content").style.animation = "new-argh-my-eyes 5s infinite";
 
 
 
-var lol = document.getElementById("lol");
-lol.style.display = "none";
-var nope = document.getElementById("nope");
-nope.style.display = "block";
+document.getElementById("lol").style.display = "none";
+document.getElementById("nope").style.display = "block";
+
+document.getElementById("lol2").style.display = "none";
+document.getElementById("nope2").style.display = "block";
+
+document.getElementById("lol3").style.display = "none";
+document.getElementById("nope3").style.display = "block";
+
+document.getElementById("lol4").style.display = "none";
+document.getElementById("nope4").style.display = "block";
+
+document.getElementById("lol5").style.display = "none";
+document.getElementById("nope5").style.display = "block";
+
+document.getElementById("lol6").style.display = "none";
+document.getElementById("nope6").style.display = "block";
+
+document.getElementById("lol7").style.display = "none";
+document.getElementById("nope7").style.display = "block";
+
+document.getElementById("lol8").style.display = "none";
+document.getElementById("nope8").style.display = "block";
+
+document.getElementById("lol9").style.display = "none";
+document.getElementById("nope9").style.display = "block";
+
+document.getElementById("lol10").style.display = "none";
+document.getElementById("nope10").style.display = "block";
+
+document.getElementById("lol11").style.display = "none";
+document.getElementById("nope11").style.display = "block";
+
 
 // IMPUT LEVETTA
 document.getElementById('switch_id').addEventListener("change", function(){
-  // var imagez = document.getElementsByClassName("tired");
+
 
     if (this.checked){
     // window.location.href = 'index-home.html';
-    // imagez.style.display = 'none';
+
     lol.style.display  = 'block'; //aggiungere sempre block
     nope.style.display  = 'none';
+
+    lol2.style.display  = 'block';
+    nope2.style.display  = 'none';
+
+    lol3.style.display  = 'block';
+    nope3.style.display  = 'none';
+
+    lol4.style.display  = 'block';
+    nope4.style.display  = 'none';
+
+    lol5.style.display  = 'block';
+    nope5.style.display  = 'none';
+
+    lol6.style.display  = 'block';
+    nope6.style.display  = 'none';
+
+    lol7.style.display  = 'block';
+    nope7.style.display  = 'none';
+
+    lol8.style.display  = 'block';
+    nope8.style.display  = 'none';
+
+    lol9.style.display  = 'block';
+    nope9.style.display  = 'none';
+
+    lol10.style.display  = 'block';
+    nope10.style.display  = 'none';
+
+    lol11.style.display  = 'block';
+    nope11.style.display  = 'none';
+
     document.getElementById("content").style.animation = "argh-my-eyes 0.5s infinite";
-    // document.body.style.backgroundColor = "yellow";
+
 
   } else {
     lol.style.display  = 'none';
     nope.style.display  = 'block';
+
+    lol2.style.display  = 'none';
+    nope2.style.display  = 'block';
+
+    lol3.style.display  = 'none';
+    nope3.style.display  = 'block';
+
+    lol4.style.display  = 'none';
+    nope4.style.display  = 'block';
+
+    lol5.style.display  = 'none';
+    nope5.style.display  = 'block';
+
+    lol6.style.display  = 'none';
+    nope6.style.display  = 'block';
+
+    lol7.style.display  = 'none';
+    nope7.style.display  = 'block';
+
+    lol8.style.display  = 'none';
+    nope8.style.display  = 'block';
+
+    lol9.style.display  = 'none';
+    nope9.style.display  = 'block';
+
+    lol10.style.display  = 'none';
+    nope10.style.display  = 'block';
+
+    lol11.style.display  = 'none';
+    nope11.style.display  = 'block';
+
     document.getElementById("content").style.animation = "new-argh-my-eyes 5s infinite";
   } ;
 
