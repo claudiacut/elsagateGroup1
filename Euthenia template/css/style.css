@@ -574,6 +574,14 @@ a:hover {
 	-o-transition :all 0.3s ease-out;
 	transition : all 0.3s ease-out;
 }
+
+p.padding-element {
+    position: relative;
+	display: inline-block;
+	float: right;
+/*    padding: 20px !important;*/
+}
+
 .menu-icon {
 	height: 30px;
 	width: 30px;
