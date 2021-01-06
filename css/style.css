@@ -568,18 +568,18 @@ a:hover {
 	float: right;
 	padding-left: 15px;
 	padding-top: 15px;
-	margin-top: 26px;
+/*	margin-top: 26px;*/
 	-webkit-transition : all 0.3s ease-out;
 	-moz-transition : all 0.3s ease-out;
 	-o-transition :all 0.3s ease-out;
 	transition : all 0.3s ease-out;
 }
 
-p.padding-element {
+.padding-element {
     position: relative;
 	display: inline-block;
 	float: right;
-/*    padding: 20px !important;*/
+    padding: 20px !important;
 }
 
 .menu-icon {
