@@ -77,7 +77,7 @@ body {
 }
 
 
-.demo-2 {
+/* .demo-2 {
 	--color-text: #000000;
     --color-bg: #832f05;
     --color-link: #ffffff;
@@ -86,7 +86,7 @@ body {
     --cursor-stroke: #000000;
     --cursor-fill: none;
     --cursor-stroke-width: 1px;
-}
+} */
 
 .demo-1 {
 	--color-text: #fbff00;
