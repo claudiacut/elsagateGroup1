@@ -228,8 +228,8 @@ h1 {
 	opacity: 0;
 }
 
-
-@media screen and (max-width: 1200px){
+/* larghezza colonna centrale? */
+@media screen and (max-width: 1500px){
 	.cursor,.cursor2,.cursor3{
 		display: none
 	}
@@ -561,6 +561,9 @@ a:hover {
 	background-color: rgba(21, 21, 21, 0);
 }
 
+.roba{
+	display: inline-block;
+}
 
 .nav-but-wrap{
 	position: relative;

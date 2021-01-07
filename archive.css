@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
+body {}
+
+/* ---- button ---- */
+.button {
+  display: inline-block;
+  padding: 0.3em 1.0em;
+  background-color: white;
+  border: none;
+  color: blue;
+  border-radius: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-shadow: 0 1px white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #FF00FF;
+  text-shadow: 0 -1px #FFFFFF;
+  color: blue;
+}
+
+.button:active,
+.button.is-checked {
+  background-color: #000000;
+  color: white;
+}
+
+.button.is-checked {
+  color: white;
+  text-shadow: 0 -1px #FF00FF;
+}
+
+.button:active {
+  box-shadow: inset 0 2px 20px #FF00FF;
+  border-color: #FF00FF;
+}
+
+
+/* ---- button-group ---- */
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.button-group .button {
+  float: left;
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 1px;
+}
+
+/* se li vogliamo stondati */
+.button-group .button:first-child {
+  border-radius:  0.5em 0 0 0.5em;
+}
+
+.button-group .button:last-child {
+  border-radius: 0 0.5em 0.5em 0;
+}
+
+.grid {
+  max-width: 2000px;
+  margin-top: 30px;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ui group */
+.ui-group {
+  display: inline-block;
+}
+
+
+
+.ui-group h3 {
+  display: inline-block;
+  margin-right: 0.2em;
+  font-size: 18px;
+}
+
+.ui-group .button-group {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* color-shape = grandezza dell'involucro dove sta la forma (thumbnail) */
+.color-shape {
+  width: 240px;
+  height: 135px;
+  margin: 2px;
+  float: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* .color-shape.round {
+  border-radius: 0px;
+} */
+/* in realtà i cerchi sono dei rettangoli con angoli smussatissimi */
+/* .color-shape.big.round {
+  border-radius: 0px;
+} */
+.mine {
+  background-color: white;
+  background-size: contain;
+}
+
+.peppa {
+  background-color: pink;
+  background-size: contain;
+}
+
+.elsa {
+  background-color: yellow;
+  background-size: contain;
+}
+
+.super {
+  background-color: bisque;
+  background-size: contain;
+}
+
+/* .color-shape.red { background: red; } */
+/* .color-shape.blue { background: black; } */
+/* .color-shape.yellow {
+  background: yellow;
+} */
+/* .color-shape.wide, .color-shape.big { height: 150px; width: 200px;}
+.color-shape.tall, .color-shape.big {  height: 150px; width: 200px;} */
