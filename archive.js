@@ -30,7 +30,7 @@ $('.button-group').each( function( i, buttonGroup ) {
     $button.addClass('is-checked');
   });
 });
-  
+
 // flatten object by concatting values
 function concatValues( obj ) {
   var value = '';
