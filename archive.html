@@ -7,7 +7,7 @@
 	<!-- Basic Page Needs
 	================================================== -->
 	<meta charset="utf-8">
-	<title>ElsaGate</title>
+	<title>Euthenia</title>
 	<meta name="description"  content="Professional Creative Template" />
 	<meta name="author" content="IG Design">
 	<meta name="keywords"  content="ig design, website, design, html5, css3, jquery, creative, clean, animated, portfolio, blog, one-page, multi-page, corporate, business," />
@@ -45,6 +45,7 @@
 	<link rel="stylesheet" href="css/animsition.min.css"/>
 	<link rel="stylesheet" href="css/swiper.min.css"/>
 	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="./archive.css">
 
 	<!-- Favicons
 	================================================== -->
@@ -55,8 +56,7 @@
 
 
 </head>
-<body class="over-hide">
-
+<body>
 
 	<!-- Page preloader wrap
 	================================================== -->
@@ -67,52 +67,27 @@
 		================================================== -->
 
 		<header class="cd-header">
-
 			<div class="header-wrapper">
-
-<!--
-                <div class="header-logo">
-                  <a href="#index" class="logo">CompanyLogo</a>
-                </div>
-
-                <div class="header-pages">
-                  <a href="#">Contact</a>
-                  <a href="#">About</a>
-                    </div>
--->
-
-
 				<div class="logo-wrap">
 					<a href="index.html" class="hover-target animsition-link"><img src="img/logo.png" alt=""></a>
 				</div>
 				<div class="nav-but-wrap">
-
-<!--                    <div class="row">-->
-                    <a href="" class="hover-target animsition-link padding-element"> About</a>
-                    <a href="./archive.html" class="hover-target animsition-link padding-element"> Archive</a>
-<!--                    </div>-->
-
-
 					<div class="menu-icon hover-target">
-<!--
 						<span class="menu-icon__line menu-icon__line-left"></span>
 						<span class="menu-icon__line"></span>
 						<span class="menu-icon__line menu-icon__line-right"></span>
--->
 					</div>
 				</div>
 			</div>
-
-	</header>
-
+		</header>
 
 		<div class="nav">
 			<div class="nav__content">
-				<div class="curent-page-name-shadow">work</div>
+				<div class="curent-page-name-shadow">news</div>
 				<ul class="nav__list">
-					<li class="nav__list-item active-nav"><a data-toggle="collapse" href="#collapseSub" class="hover-target" role="button" aria-expanded="false" aria-controls="collapseSub">work</a>
+					<li class="nav__list-item"><a data-toggle="collapse" href="#collapseSub" class="hover-target" role="button" aria-expanded="false" aria-controls="collapseSub">work</a>
 						<ul class="sub-links collapse" id="collapseSub">
-							<li class="active-nav"><a href="index.html" class="hover-target animsition-link">slider centerd title</a></li>
+							<li><a href="index.html" class="hover-target animsition-link">slider centerd title</a></li>
 							<li><a href="index-1.html" class="hover-target animsition-link">slider centerd image</a></li>
 							<li><a href="index-2.html" class="hover-target animsition-link">slider bottom title</a></li>
 							<li><a href="index-3.html" class="hover-target animsition-link">slice revealer</a></li>
@@ -120,7 +95,7 @@
 						</ul>
 					</li>
 					<li class="nav__list-item"><a href="studio.html" class="hover-target animsition-link">studio</a></li>
-					<li class="nav__list-item"><a href="blog.html" class="hover-target animsition-link">news</a></li>
+					<li class="nav__list-item active-nav"><a href="blog.html" class="hover-target animsition-link">news</a></li>
 					<li class="nav__list-item"><a href="contact.html" class="hover-target animsition-link">contact</a></li>
 				</ul>
 			</div>
@@ -129,80 +104,110 @@
 		<!-- Primary Page Layout
 		================================================== -->
 
-		<div class="section full-height over-hide swiper-container z-bigger" id="hero-slider">
-			<ul class="swiper-wrapper case-study-wrapper">
-				<li class="swiper-slide full-height case-study-name">
-					<a href="project.html" class="hover-target animsition-link">
-						<h1>Elsa</h1>
-					</a>
-				</li>
-				<li class="swiper-slide full-height case-study-name">
-					<a href="project-1.html" class="hover-target animsition-link">
-						<h1>Superheroes</h1>
-					</a>
-				</li>
-				<li class="swiper-slide full-height case-study-name">
-					<a href="project.html" class="hover-target animsition-link">
-						<h1>Peppa Pig</h1>
-					</a>
-				</li>
-				<li class="swiper-slide full-height case-study-name">
-					<a href="project-1.html" class="hover-target animsition-link">
-						<h1>Minecraft</h1>
-					</a>
-				</li>
-			</ul>
+		<div class="shadow-title parallax-top-shadow">Archive</div>
 
-			<!-- Background Images -->
-			<div class="swiper-scrollbar"></div>
+		<div class="section padding-page-top padding-bottom over-hide z-bigger">
+			<div class="container z-bigger">
+				<div class="row page-title px-5 px-xl-2">
+					<div class="col-12 parallax-fade-top">
+						<h1>Our Stories</h1>
+					</div>
+					<div class="offset-1 col-11 parallax-fade-top mt-2 mt-sm-3">
+						<p>full of stuff</p>
+					</div>
+				</div>
+			</div>
 		</div>
 
-		<!-- Slider background images
-		================================================== -->
+		<div class="section padding-bottom-big z-bigger over-hide">
+			<div class="container z-bigger">
+				<div class="row page-title px-5 px-xl-2">
+					<div class="col-12">
 
-		<ul class="case-study-images">
-			<li>
-				<div class="img-hero-background no-blur" style="background-image: url('img/5.jpg');"></div>
-				<h2 class="fullscreen-image no-blur">The Battle</h2>
-				<div class="hero-number">01</div>
-				<div class="hero-number-fixed">08</div>
-			</li>
-			<li>
-				<div class="img-hero-background no-blur" style="background-image: url('img/1.jpg');"></div>
-				<h2 class="fullscreen-image no-blur">Dark Dream</h2>
-				<div class="hero-number">02</div>
-			</li>
-			<li>
-				<div class="img-hero-background no-blur" style="background-image: url('img/2.jpg');"></div>
-				<h2 class="fullscreen-image no-blur">L'Etoile Feb</h2>
-				<div class="hero-number">03</div>
-			</li>
-			<li>
-				<div class="img-hero-background no-blur" style="background-image: url('img/3.jpg');"></div>
-				<h2 class="fullscreen-image no-blur">Tempo</h2>
-				<div class="hero-number">04</div>
-			</li>
-			<li>
-				<div class="img-hero-background no-blur" style="background-image: url('img/4.jpg');"></div>
-				<h2 class="fullscreen-image no-blur">Kresios</h2>
-				<div class="hero-number">05</div>
-			</li>
-			<li>
-				<div class="img-hero-background no-blur" style="background-image: url('img/6.jpg');"></div>
-				<h2 class="fullscreen-image no-blur">Hospitality</h2>
-				<div class="hero-number">06</div>
-			</li>
-			<li>
-				<div class="img-hero-background no-blur" style="background-image: url('img/7.jpg');"></div>
-				<h2 class="fullscreen-image no-blur">Processors</h2>
-				<div class="hero-number">07</div>
-			</li>
-			<li>
-				<div class="img-hero-background no-blur" style="background-image: url('img/8.jpg');"></div>
-				<h2 class="fullscreen-image no-blur">Mrsoet</h2>
-				<div class="hero-number">08</div>
-			</li>
-		</ul>
+								<!-- INIZIO -->
+						<h1>Isotope - combination filters</h1>
+
+		<div class="filters">
+
+		  <div class="ui-group">
+		    <h3>Color</h3>
+		    <div class="button-group js-radio-button-group" data-filter-group="color">
+		      <button class="button is-checked" data-filter="">any</button>
+		      <button class="button" data-filter=".red">red</button>
+		      <button class="button" data-filter=".blue">blue</button>
+		      <button class="button" data-filter=".yellow">yellow</button>
+		    </div>
+		  </div>
+
+		  <div class="ui-group">
+		    <h3>Size</h3>
+		    <div class="button-group js-radio-button-group" data-filter-group="size">
+		      <button class="button is-checked" data-filter="">any</button>
+		      <button class="button" data-filter=".small">small</button>
+		      <button class="button" data-filter=".wide">wide</button>
+		      <button class="button" data-filter=".big">big</button>
+		      <button class="button" data-filter=".tall">tall</button>
+		    </div>
+		  </div>
+
+		  <div class="ui-group">
+		    <h3>Shape</h3>
+		    <div class="button-group js-radio-button-group" data-filter-group="shape">
+		      <button class="button is-checked" data-filter="">any</button>
+		      <button class="button" data-filter=".round">round</button>
+		      <button class="button" data-filter=".square">square</button>
+		    </div>
+		  </div>
+
+		</div>
+
+		<div class="grid">
+		  <div class="color-shape small round red"></div>
+		  <div class="color-shape small round blue"></div>
+		  <div class="color-shape small round yellow"></div>
+		  <div class="color-shape small square red"></div>
+		  <div class="color-shape small square blue"></div>
+		  <div class="color-shape small square yellow"></div>
+		  <div class="color-shape wide round red"></div>
+		  <div class="color-shape wide round blue"></div>
+		  <div class="color-shape wide round yellow"></div>
+		  <div class="color-shape wide square red"></div>
+		  <div class="color-shape wide square blue"></div>
+		  <div class="color-shape wide square yellow"></div>
+		  <div class="color-shape big round red"></div>
+		  <div class="color-shape big round blue"></div>
+		  <div class="color-shape big round yellow"></div>
+		  <div class="color-shape big square red"></div>
+		  <div class="color-shape big square blue"></div>
+		  <div class="color-shape big square yellow"></div>
+		  <div class="color-shape tall round red"></div>
+		  <div class="color-shape tall round blue"></div>
+		  <div class="color-shape tall round yellow"></div>
+		  <div class="color-shape tall square red"></div>
+		  <div class="color-shape tall square blue"></div>
+		  <div class="color-shape tall square yellow"></div>
+		</div>
+		<!-- FINE -->
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<div class="section padding-top-bottom over-hide z-bigger background-dark-3 footer">
+			<div class="shadow-on-footer" data-scroll-reveal="enter bottom move 30px over 0.5s after 0.1s">Our Stories</div>
+			<div class="container" data-scroll-reveal="enter bottom move 20px over 0.5s after 0.4s">
+				<div class="row">
+					<div class="col-12 text-center z-bigger py-5">
+						<div class="footer-lines">
+							<a href="blog.html" class="hover-target animsition-link"><h4>Older News</h4></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
 		<!-- Social links
 		================================================== -->
@@ -213,6 +218,11 @@
 			<a href="#" class="hover-target">be</a>
 			<a href="#" class="hover-target">gh</a>
 		</div>
+		<div class="copyr">
+			2019 © <a href="https://themeforest.net/user/ig_design/portfolio" class="hover-target">Euthenia</a>
+		</div>
+
+		<div class="scroll-to-top hover-target"></div>
 
 		<!-- Page cursor
 		================================================== -->
@@ -226,11 +236,17 @@
 
 	<!-- JAVASCRIPT
     ================================================== -->
+		<!-- partial -->
+	  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+	<script src='https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js'></script><script  src="./archive.js"></script>
+
 	<script src="js/jquery.min.js"></script>
-	<script src="js/popper.min.js"></script>
+	<!-- <script src="js/popper.min.js"></script> -->
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/plugins.js"></script>
 	<script src="js/custom.js"></script>
+
+
 <!-- End Document
 ================================================== -->
 </body>
