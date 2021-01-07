@@ -24,7 +24,7 @@ body{
 	line-height: 1.7;
 	color: #c4c3ca;
 	background-color: #1500ff;
-	overflow-y: hidden;
+	overflow-x: hidden;
     
 }
 h1, h2, h3, h4, h5, h6,
