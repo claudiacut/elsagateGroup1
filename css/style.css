@@ -25,7 +25,7 @@ body{
 	color: #c4c3ca;
 	background-color: #1500ff;
 	overflow-x: hidden;
-    
+
 }
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6{
@@ -379,6 +379,11 @@ a:hover {
 .container.z-bigger  {
 	z-index: 50;
 }
+
+.container2.z-bigger  {
+	z-index: 0;
+}
+
 .z-too-big  {
 	z-index:11000;
 }
@@ -665,6 +670,10 @@ a:hover {
 	width: 100%;
 	text-align: center;
 }
+
+
+
+
 .curent-page-name-shadow {
 	position: absolute;
 	top: 50%;
@@ -1285,7 +1294,7 @@ body.nav-active .nav__list-item:nth-child(10) {
 
 
 #color {
-    overflow-y:scroll; 
+    overflow-y:scroll;
     height: 1000px;
     background-color: aqua;
     position:relative;
@@ -1304,7 +1313,7 @@ body.nav-active .nav__list-item:nth-child(10) {
 
 #txt {
      font-size: 76px;
-    
+
 }
 
 /*
