@@ -976,7 +976,7 @@ body.nav-active .nav__list-item:nth-child(10) {
 }
 .swiper-slide h1{
 	position: relative;
-	font-size: 60px;
+	font-size: 45px;
 	letter-spacing: 3px;
 	line-height: 1;
 	font-weight: 800;
@@ -1176,6 +1176,8 @@ body.nav-active .nav__list-item:nth-child(10) {
 }
 .case-study-images li h2.fullscreen-image{
 	color: #353746;
+	font-size: 11.2em;
+	margin-bottom: 1%;
 }
 .case-study-images li h2.fullscreen-image.no-blur{
 	background: none;
@@ -1321,7 +1323,7 @@ body.nav-active .nav__list-item:nth-child(10) {
 .txtanimations:hover {
     color:yellow;
     font-size: 65px;
-    
+
 }
 
 .box-style {
@@ -1333,13 +1335,13 @@ body.nav-active .nav__list-item:nth-child(10) {
     color: black;
     overflow: scroll;
 /*    z-index: 100%;*/
-    
+
 }
 /*
     height: 40%;
     overflow: scroll;
 */
-    
+
 
 
 /*

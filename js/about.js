@@ -70,6 +70,20 @@ MediaRevealer.prototype.positionMedia = function() {
 			t1.resetMedia();
 		});
 
+		/**************************** effect1_1 ****************************/
+		var t1_1 = new MediaRevealer($('trigger-1_1'));
+		t1_1.el.addEventListener(evOn, function(ev) {
+			clearTimeout(triggertimeout);
+			triggertimeout = setTimeout(function() {
+				t1_1.positionMedia();
+				t1_1.mediaEl.style.opacity = 1;
+			}, triggerdelay);
+		});
+		t1_1.el.addEventListener(evOff, function(ev) {
+			clearTimeout(triggertimeout);
+			t1_1.resetMedia();
+		});
+
 
 		/**************************** effect4 ****************************/
 		var t4 = new MediaRevealer($('trigger-4'));
