@@ -182,12 +182,12 @@ body {}
 	top: 0px;
 	left: 170px;
 	width: 320px;
-  padding: 0.3em 1.0em;
-  background-color: white;
+  padding: 1em 1.0em;
+  background-color: black;
   margin-left: -120px;
   border: none;
-  color: blue;
-  border-radius: 5px;
+  color: yellow;
+  border-radius: 0px;
   font-family: sans-serif;
   font-size: 16px;
   text-shadow: 0 1px white;
