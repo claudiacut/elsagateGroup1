@@ -153,7 +153,7 @@ body {}
 	line-height: 25px;
 	text-align: left;
 	padding: 0px 8px;
-	margin: 10px;
+  margin-top: 10px;
 	text-decoration: none;
 	font-size: 1em;
 	font-weight: bold;
@@ -161,6 +161,7 @@ body {}
 
 .popup a span {
 	display: none;
+
 }
 
 .popup a:hover {
@@ -183,6 +184,7 @@ body {}
 	width: 320px;
   padding: 0.3em 1.0em;
   background-color: white;
+  margin-left: -120px;
   border: none;
   color: blue;
   border-radius: 5px;
@@ -190,4 +192,36 @@ body {}
   font-size: 16px;
   text-shadow: 0 1px white;
   z-index: 100;
+}
+
+/* panel layout mechanics */
+.panel-wrap {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 30em;
+  transform: translateX(100%);
+  transition: .3s ease-out;
+}
+.panel {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #333;
+  color: #eee;
+  overflow: auto;
+  padding: 1em;
+}
+
+/* simulate panel state control --
+this can also be triggered by a
+class name added to the body tag.
+Just using a checkbox sibling here
+for simplicity
+*/
+[type="checkbox"]:checked ~ .panel-wrap {
+  transform: translateX(0%);
 }

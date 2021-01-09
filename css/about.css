@@ -256,3 +256,24 @@ main {
 	text-align: left;
 	border: 1px solid #666;
 }
+
+
+.div-top{
+
+    position:fixed;
+    z-index:500;
+    overflow:scroll;
+
+}
+
+
+.div-bottom {
+    background:blue;
+    margin-top:50%;
+    z-index:600;
+    position:relative;
+}
+
+.fix {
+	position:fixed;
+}
