@@ -1336,7 +1336,9 @@ transition: 0.5s;
 
 }
 
-
+.space {
+    padding-top: 15%;
+}
 
 
 .box-style {
