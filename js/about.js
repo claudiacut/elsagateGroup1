@@ -112,4 +112,7 @@ MediaRevealer.prototype.positionMedia = function() {
 
 	init();
 
+
+	
+
 })(window);
