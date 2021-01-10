@@ -29,12 +29,13 @@
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="./archive.css">
 
+
 	<!-- Favicons
 	================================================== -->
-	<link rel="icon" type="image/png" href="ico/favicon.jpg">
-	<link rel="apple-touch-icon" href="ico/pple-touch-icon.jpg">
-	<link rel="apple-touch-icon" sizes="72x72" href="ico/apple-touch-icon-72x72.jpg">
-	<link rel="apple-touch-icon" sizes="114x114" href="ico/apple-touch-icon-114x114.jpg">
+	<link rel="icon" type="image/png" href="favicon.jpg">
+	<link rel="apple-touch-icon" href="apple-touch-icon.jpg">
+	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.jpg">
+	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.jpg">
 
 
 </head>
@@ -51,7 +52,7 @@
 
 			<div class="header-wrapper">
 				<div class="logo-wrap">
-					<a href="index.html" class="hover-target animsition-link"><h6>The ElsaGate archive</h6></a>
+					<a href="index.html" class="hover-target animsition-link"><img src="img/logo.png" alt=""></a>
 				</div>
 				<div class="nav-but-wrap">
 					<a href="" class=" roba hover-target animsition-link padding-element"> <h6>About</h6></a>
@@ -86,9 +87,8 @@
 		<!-- Primary Page Layout
 		================================================== -->
 
-		<div class="shadow-title parallax-top-shadow">About</div>
+		<div class="shadow-title parallax-top-shadow">Archive</div>
 
-<!--
 		<div class="section padding-page-top padding-bottom over-hide z-bigger">
 			<div class="container z-bigger">
 				<div class="row page-title px-5 px-xl-2">
@@ -102,11 +102,11 @@
 				</div>
 			</div>
 		</div>
--->
-        <div class="space"> </div>
-		<div class="section padding-bottom-big z-bigger over-hide">
-			<div class="container z-bigger">
+
+		<div class="section padding-bottom-big z-bigger">
+			<div class="container">
 				<div class="row page-title px-5 px-xl-2">
+
 
 						<!-- INIZIO -->
 
@@ -134,9 +134,24 @@
 						<div class=" col-8 parallax">
 
 							<div id="col2" class="box" id="abouttxt">
-								<br>
-								<h3> <a href="part1_ref" id="part1"></a> The Project</h3> <br>
-								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+
+								<!-- Media 1 -->
+								<div data-pop-media="media1" class="pop-media" style="background-image: url(img/slime.gif);">
+									<div class="pop-media__overlay pop-media__overlay--c1"></div>
+								</div>
+
+								<!-- Media 1_1 -->
+								<div data-pop-media="media1_1" class="pop-media" style="background-image: url(img/slime.gif);">
+									<div class="pop-media__overlay pop-media__overlay--c1"></div>
+								</div>
+
+								<!-- Media 4 -->
+								<div data-pop-media="media4" class="pop-media" style="background-image: url(img/algo.gif);"></div>
+
+
+
+								<h3 class="content__paragraph content__paragraph--c1"> <a href="part1_ref" id="part1"></a> The Project</h3> <br>
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. <span id="trigger-1"class="pop-text" data-pop-text-out data-pop-media="media1">Channels</span> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
 								when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 								It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
 								It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
@@ -213,6 +228,7 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/plugins.js"></script>
 	<script src="js/custom.js"></script>
+
 
 
 		<!-- PROVA ANCORAGGIO CON jQuery-->

@@ -1,36 +1,15 @@
 
 
-body {
-	font-family: 'Space Mono', 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif;
-	color: #fff;
-	background: #4133b4;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	overflow: auto;
-	overflow-x: hidden;
-	position: relative;
-	width: 100vw;
-}
-
-a {
-	outline: none;
-	color: #f670c8;
-	text-decoration: underline;
-}
 
 a:hover, a:focus {
 	color: #fff;
 }
 
-main {
-	max-width: 1440px;
-	margin: 0 auto;
-	padding: 5vh 10vw;
-}
+
 
 .hidden {
-	position: absolute;
-	overflow: hidden;
+
+
 	width: 0;
 	height: 0;
 	pointer-events: none;
@@ -147,7 +126,7 @@ main {
 /* Hover text */
 
 .pop-text {
-	font-weight: bold;
+
 	position: relative;
 	cursor: default;
 	white-space: nowrap;
@@ -222,7 +201,7 @@ main {
 	margin: 0;
 	text-decoration: none;
 	font-size: 1em;
-	font-weight: bold;
+
 }
 
 
@@ -259,11 +238,7 @@ main {
 
 
 .div-top{
-
-    position:fixed;
-    z-index:500;
-    overflow:scroll;
-
+z-index:500;
 }
 
 
