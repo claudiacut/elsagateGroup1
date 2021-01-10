@@ -1309,6 +1309,8 @@ body.nav-active .nav__list-item:nth-child(10) {
     overflow: scroll;
     background-color: black;
     position: relative;
+		padding: 40px;
+		scroll-behavior: smooth;
 }
 
 #abouttxt {
@@ -2962,5 +2964,5 @@ figure.vimeo a img, figure.youtube a img {
 
 #col12 {
 	margin: 10px;
-	scroll-behavior: smooth;
+	background-color: peachpuff;
 }

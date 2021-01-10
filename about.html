@@ -148,39 +148,57 @@
 			<div class="container z-bigger">
 				<div class="row page-title px-5 px-xl-2">
 					<div class="col-4 parallax-fade-top about-style">
+
+						<a href="#part1_ref" id="part1_button">
 						<h2 class="txtanimations">The Project</h2>
-						<h3 class="txtanimations">The Research</h3>
-						<h3 class="txtanimations">The Other Thing</h3>
+					</a>
+
+
+						<a href="#part2_ref" id="part2_button">
+							<h2 class="txtanimations">The Research</h2>
+						</a>
+
 						<a href="#part3_ref" id="part3_button">
-							<h3 class="txtanimations">The Other Thing</h3>
+							<h2 class="txtanimations">The Other Thing</h2>
 						</a>
+
 						<a href="#part4_ref" id="part4_button">
-							<h3 class="txtanimations">Credits</h3>
+							<h2 class="txtanimations">Credits</h2>
 						</a>
+
 					</div>
+
 					<div class=" col-8 parallax-fade-top">
 
 						<div id="col2" class="box" id="abouttxt">
-							<h3> The Project</h3> <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-							ea commodo consequat.
-							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+							<br>
+							<h3> <a href="part1_ref" id="part1"></a> The Project</h3> <br>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+							when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+							It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+							It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+							and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-							<h3> The Research</h3> <br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-							laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-							sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-							sunt in culpa qui officia deserunt mollit anim id est laborum.
+							<h3> <a href="part2_ref" id="part2"></a> The Research</h3> <br>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+							when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+							It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+							It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+							and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
 							<h3> <a href="part3_ref" id="part3"></a> The Other Thing</h3> <br>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-							nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+							when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+							It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+							It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+							and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-							<h3> <a href="part4_ref" id="part4"></a> Credits</h3> <br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-							deserunt mollit anim id est laborum.
+							<h3> <a href="part4_ref" id="part4"></a> Credits</h3> <br>
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+							when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+							It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+							It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+							and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 						</div>
 
 					</div>
@@ -252,6 +270,19 @@
 
 	<!-- PROVA ANCORAGGIO CON jQuery-->
 	<script>
+
+	$("#part1_button").click(function() {
+		var container = document.getElementById('col2');
+		var scrollTo1 = document.getElementById('part1');
+		container.scrollTop = scrollTo1.offsetTop;
+	});
+
+	$("#part2_button").click(function() {
+		var container = document.getElementById('col2');
+		var scrollTo2 = document.getElementById('part2');
+		container.scrollTop = scrollTo2.offsetTop;
+	});
+
 		$("#part3_button").click(function() {
 			var container = document.getElementById('col2');
 			var scrollTo3 = document.getElementById('part3');
