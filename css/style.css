@@ -1322,11 +1322,22 @@ body.nav-active .nav__list-item:nth-child(10) {
 /*    padding-top: 5%;*/
 }
 
+.txtanimations {
+	color:white;
+	font-size: 40px;
+transition: 0.5s;
+	white-space: nowrap;
+   overflow: hidden;
+}
+
 .txtanimations:hover {
-    color:yellow;
-    font-size: 65px;
+    color: black;
+    font-size: 40px;
 
 }
+
+
+
 
 .box-style {
     background-color: deepskyblue;
