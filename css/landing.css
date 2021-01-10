@@ -224,7 +224,7 @@ a:focus {
 
 .grid__item {
   position: relative;
-  border: 2px solid #fbff00;
+  border: 2px solid blue;
   animation-duration: 0.01s;
   /* animation-name: box-shad; */
   animation-iteration-count: infinite;
