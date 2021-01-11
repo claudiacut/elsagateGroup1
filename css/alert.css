@@ -43,6 +43,7 @@ img {
   grid-template-rows: repeat(12, 1fr);
 }
 
+
 .grid__item--bg {
   grid-column: 2 / span 9;
   z-index: 0;
@@ -51,14 +52,15 @@ img {
 
 .grid__item--portrait-half {
   grid-column: 6 / span 6;
-  z-index: 2;
+  z-index: 1;
   grid-row: 1 / -1;
   -webkit-clip-path: polygon(5% 10%, 27% 3%, 94% 25%, 84% 98%, 39% 98%, 11% 98%, 4% 66%, 4% 34%);
   clip-path: polygon(5% 10%, 27% 3%, 94% 25%, 84% 98%, 39% 98%, 11% 98%, 4% 66%, 4% 34%);
+
 }
 
 .grid__item--portrait-neck {
-  
+
   clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
   grid-column: 6 / span 4;
   grid-row: 5 / 11;
@@ -138,3 +140,82 @@ img {
 #cat1:hover ~ .catone {
   display:block;
 } */
+
+.floating {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    /* margin-left: 30px;
+    margin-top: 5px;  */
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }
+}
+
+
+.floating2 {
+    animation-name: floating2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    /* margin-left: 30px;
+    margin-top: 5px;  */
+}
+
+@keyframes floating2 {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 7px); }
+    100%   { transform: translate(0, -0px); }
+}
+
+
+.floating3 {
+    animation-name: floating3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    /* margin-left: 30px;
+    margin-top: 5px;  */
+}
+
+@keyframes floating3 {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 20px); }
+    100%   { transform: translate(0, -0px); }
+}
+
+
+.floating4 {
+    animation-name: floating4;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    /* margin-left: 30px;
+    margin-top: 5px;  */
+}
+
+@keyframes floating4 {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 13px); }
+    100%   { transform: translate(0, -0px); }
+}
+
+
+.floating5 {
+    animation-name: floating5;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    /* margin-left: 30px;
+    margin-top: 5px;  */
+}
+
+@keyframes floating5 {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 25px); }
+    100%   { transform: translate(0, -0px); }
+}
