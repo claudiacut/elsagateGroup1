@@ -1,4 +1,4 @@
-// 
+//
 // var rellax = new Rellax(".rellax");
 //
 // // grabs the media query
@@ -16,6 +16,14 @@ let cat_2 = document.getElementById("cat2");
 let word2 = document.getElementById("collage2");
 word2.style.display  = 'none';
 
+let cat_3 = document.getElementById("cat3");
+let word3 = document.getElementById("collage3");
+word3.style.display  = 'none';
+
+let cat_4 = document.getElementById("cat4");
+let word4 = document.getElementById("collage4");
+word4.style.display  = 'none';
+
 
 cat_1.addEventListener("mouseover", function(){
   // alert ("mouse over test!")
@@ -29,6 +37,17 @@ cat_2.addEventListener("mouseover", function(){
   word2.style.display  = 'block';
 });
 
+cat_3.addEventListener("mouseover", function(){
+  // alert ("mouse over test!")
+  // , (false);
+  word3.style.display  = 'block';
+});
+
+cat_4.addEventListener("mouseover", function(){
+  // alert ("mouse over test!")
+  // , (false);
+  word4.style.display  = 'block';
+});
 
 
 
@@ -41,6 +60,19 @@ cat_2.addEventListener("mouseout", function(){
 
   word2.style.display  = 'none';
 });
+
+cat_3.addEventListener("mouseout", function(){
+
+  word3.style.display  = 'none';
+});
+
+cat_4.addEventListener("mouseout", function(){
+
+  word4.style.display  = 'none';
+});
+
+
+
 
 
 
