@@ -1,0 +1,60 @@
+.curtains > li {
+  box-shadow: 0 0 12px #666;
+}
+
+.curtains > li:last-child {
+  box-shadow: none;
+}
+
+#section-3 .fixed {
+  position: fixed;
+  top: 150px;
+  left: 150px;
+  width: 200px;
+}
+
+#section-1{
+  background: black;
+}
+
+.cover {
+  background: url(http://lorempixel.com/1400/700/fashion/7) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+}
+
+html {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.curtains {
+  width: 100%;
+  z-index: 100;
+  position: relative;
+}
+
+.tenda {
+  padding: 150px 300px;
+}
+
+.curtains > li {
+  z-index: 100;
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  background: blue;
+  -webkit-transform: translateZ(0);
+}
+
+.curtains > li.hidden {
+  display: none;
+}
+
+.curtains > li:first-child {
+  z-index: 100;
+}

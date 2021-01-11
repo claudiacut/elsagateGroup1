@@ -515,7 +515,7 @@ a:hover {
 	width:100%;
 	top:0;
 	left:0;
-	z-index:100;
+	z-index:200;
 }
 .header-wrapper{
     position: relative;
@@ -543,7 +543,7 @@ a:hover {
 	top: 0;
 	left: 0;
 	background: rgba(20, 21, 26, 0.96);
-	width: 100%;
+	/* width: 100%;
 	z-index: 2002;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 	height: 100px;
@@ -560,7 +560,7 @@ a:hover {
 	-o-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
 	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
+	backface-visibility: hidden; */
 }
 .cd-header.is-fixed {
 	position: fixed;

@@ -140,7 +140,7 @@ function _inheritsLoose(subClass, superClass) {
 }
 
 // io che faccio casino sul codice PERCHè NON VAIIIIII
-document.getElementById("content").style.animation = "new-argh-my-eyes 5s infinite";
+document.getElementById("content").style.animation = "new-argh-my-eyes 10s infinite";
 
 
 
@@ -229,7 +229,7 @@ document.getElementById('switch_id').addEventListener("change", function(){
     nope11.style.display  = 'none';
     lol11.style.animation = "box-shad 0.5s infinite";
 
-    document.getElementById("content").style.animation = "argh-my-eyes 0.2s infinite";
+    document.getElementById("content").style.animation = "argh-my-eyes 0.5s infinite";
     document.getElementById("right").play();
 
 

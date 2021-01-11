@@ -63,15 +63,15 @@ body {
 /* new animated background */
 @keyframes new-argh-my-eyes {
   0% {
-    background-color: #fff;
+    background-color:  #1500ff;
   }
 
   49% {
-    background-color: #fff;
+    background-color: #000;
   }
 
   100% {
-    background-color: #fff;
+    background-color: #1500ff;
   }
 }
 
