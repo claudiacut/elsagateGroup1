@@ -8,14 +8,23 @@
 // if (motionMediaQuery.matches) rellax.destroy();
 
 let cat_1 = document.getElementById("cat1");
+let word = document.getElementById("collage");
+word.style.display  = 'none';
+
 
 // document.getElementById("collage").style.display = "none";
 
 cat_1.addEventListener("mouseover", function(){
-  alert ("mouse over test!")
-  , (false);
+  // alert ("mouse over test!")
+  // , (false);
+  word.style.display  = 'block';
 });
 
+cat_1.addEventListener("mouseout", function(){
+  // alert ("mouse over test!")
+  // , (false);
+  word.style.display  = 'none';
+});
 // document.getElementById('cat_1').addEventListener("mouseover", function(){
 //
 //   alert("WOrks");
