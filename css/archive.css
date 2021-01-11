@@ -66,6 +66,7 @@ body {}
 .grid {
   max-width: 2000px;
   margin-top: 30px;
+  margin-right: 10%;
 }
 
 /* clear fix */
@@ -95,7 +96,7 @@ body {}
 .color-shape {
   width: 240px;
   height: 135px;
-  margin: 2px;
+  margin: 10px;
   float: right;
   background-size: contain;
   background-repeat: no-repeat;
