@@ -6,9 +6,6 @@
 }
 
 
-
-
-
 .main_cut {
   padding: 5rem 0;
   display: flex;
@@ -54,14 +51,14 @@ img {
   grid-column: 6 / span 6;
   z-index: 1;
   grid-row: 1 / -1;
-  -webkit-clip-path: polygon(5% 10%, 27% 3%, 94% 25%, 84% 98%, 39% 98%, 11% 98%, 4% 66%, 4% 34%);
-  clip-path: polygon(5% 10%, 27% 3%, 94% 25%, 84% 98%, 39% 98%, 11% 98%, 4% 66%, 4% 34%);
+  /* -webkit-clip-path: polygon(5% 10%, 27% 3%, 94% 25%, 84% 98%, 39% 98%, 11% 98%, 4% 66%, 4% 34%);
+  clip-path: polygon(5% 10%, 27% 3%, 94% 25%, 84% 98%, 39% 98%, 11% 98%, 4% 66%, 4% 34%); */
 
 }
 
 .grid__item--portrait-neck {
 
-  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); */
   grid-column: 6 / span 4;
   grid-row: 5 / 11;
   z-index: 3;
@@ -70,16 +67,16 @@ img {
 }
 
 .grid__item--portrait-left {
-  -webkit-clip-path: polygon(10% 19%, 93% 15%, 90% 88%, 13% 92%);
-  clip-path: polygon(10% 19%, 93% 15%, 90% 88%, 13% 92%);
+  /* -webkit-clip-path: polygon(10% 19%, 93% 15%, 90% 88%, 13% 92%);
+  clip-path: polygon(10% 19%, 93% 15%, 90% 88%, 13% 92%); */
   grid-column: 1 / span 4;
   grid-row: 6 / 12;
   z-index: 4;
 }
 
 .grid__item--portrait-eye {
-  -webkit-clip-path: polygon(44% 6%, 90% 57%, 82% 100%, 18% 100%, 0% 38%);
-  clip-path: polygon(44% 6%, 90% 57%, 82% 100%, 18% 100%, 0% 38%);
+  /* -webkit-clip-path: polygon(44% 6%, 90% 57%, 82% 100%, 18% 100%, 0% 38%);
+  clip-path: polygon(44% 6%, 90% 57%, 82% 100%, 18% 100%, 0% 38%); */
   grid-column: 4 / span 2;
   grid-row: 2 / 5;
   z-index: 5;
@@ -90,39 +87,39 @@ img {
 
 .grid__item--portrait-shirt {
 
-  clip-path: polygon(44% 6%, 100% 28%, 100% 100%, 18% 100%, 0% 38%);
+  /* clip-path: polygon(44% 6%, 100% 28%, 100% 100%, 18% 100%, 0% 38%); */
   grid-column: 8 / span 2;
   grid-row: 6 / 2;
   z-index: 6;
 }
 
 .grid__item--portrait-bg-1 {
-  -webkit-clip-path: polygon(14% 13%, 84% 12%, 86% 34%, 90% 66%, 30% 76%, 10% 79%);
-  clip-path: polygon(14% 13%, 84% 12%, 86% 34%, 90% 66%, 30% 76%, 10% 79%);
+  /* -webkit-clip-path: polygon(14% 13%, 84% 12%, 86% 34%, 90% 66%, 30% 76%, 10% 79%);
+  clip-path: polygon(14% 13%, 84% 12%, 86% 34%, 90% 66%, 30% 76%, 10% 79%); */
   grid-column: 1 / span 2;
   grid-row: 1 / 4;
   z-index: 8;
 }
 
 .grid__item--portrait-bg-2 {
-  -webkit-clip-path: polygon(9% 4%, 80% 0%, 100% 100%, 0% 100%);
-  clip-path: polygon(9% 4%, 80% 0%, 100% 100%, 0% 100%);
+  /* -webkit-clip-path: polygon(9% 4%, 80% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(9% 4%, 80% 0%, 100% 100%, 0% 100%); */
   grid-column: 11 / -1;
   grid-row: 4 / 7;
   z-index: 8;
 }
 
 .grid__item--portrait-bg-3 {
-  -webkit-clip-path: polygon(9% 4%, 80% 0%, 100% 100%, 0% 100%);
-  clip-path: polygon(9% 4%, 80% 0%, 100% 100%, 0% 100%);
+  /* -webkit-clip-path: polygon(9% 4%, 80% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(9% 4%, 80% 0%, 100% 100%, 0% 100%); */
   grid-column: 1 / span 3;
   grid-row: 4 / 7;
   z-index: 4;
 }
 
 .grid__item--portrait-bg-4 {
-  -webkit-clip-path: polygon(5% 4%, 94% 3%, 97% 96%, 13% 96%);
-  clip-path: polygon(5% 4%, 94% 3%, 97% 96%, 13% 96%);
+  /* -webkit-clip-path: polygon(5% 4%, 94% 3%, 97% 96%, 13% 96%);
+  clip-path: polygon(5% 4%, 94% 3%, 97% 96%, 13% 96%); */
   grid-column: 10 / 12;
   grid-row: 1 / 6;
   z-index: 1;
@@ -140,6 +137,22 @@ img {
 #cat1:hover ~ .catone {
   display:block;
 } */
+
+#collage {
+    opacity: 0.5;
+}
+
+#collage2 {
+    opacity: 0.5;
+}
+
+#collage3 {
+    opacity: 0.5;
+}
+
+#collage4 {
+    opacity: 0.5;
+}
 
 .floating {
     animation-name: floating;
