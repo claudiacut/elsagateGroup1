@@ -187,38 +187,50 @@ document.getElementById('switch_id').addEventListener("change", function(){
 
     lol.style.display  = 'block'; //aggiungere sempre block
     nope.style.display  = 'none';
+    lol.style.animation = "box-shad 0.5s infinite";
 
     lol2.style.display  = 'block';
     nope2.style.display  = 'none';
+    lol2.style.animation = "box-shad 0.5s infinite";
 
     lol3.style.display  = 'block';
     nope3.style.display  = 'none';
+    lol3.style.animation = "box-shad 0.5s infinite";
 
     lol4.style.display  = 'block';
     nope4.style.display  = 'none';
+    lol4.style.animation = "box-shad 0.5s infinite";
 
     lol5.style.display  = 'block';
     nope5.style.display  = 'none';
+    lol5.style.animation = "box-shad 0.5s infinite";
 
     lol6.style.display  = 'block';
     nope6.style.display  = 'none';
+    lol6.style.animation = "box-shad 0.5s infinite";
 
     lol7.style.display  = 'block';
     nope7.style.display  = 'none';
+    lol7.style.animation = "box-shad 0.5s infinite";
 
     lol8.style.display  = 'block';
     nope8.style.display  = 'none';
+    lol8.style.animation = "box-shad 0.5s infinite";
 
     lol9.style.display  = 'block';
     nope9.style.display  = 'none';
+    lol9.style.animation = "box-shad 0.5s infinite";
 
     lol10.style.display  = 'block';
     nope10.style.display  = 'none';
+    lol10.style.animation = "box-shad 0.5s infinite";
 
     lol11.style.display  = 'block';
     nope11.style.display  = 'none';
+    lol11.style.animation = "box-shad 0.5s infinite";
 
-    document.getElementById("content").style.animation = "argh-my-eyes 0.5s infinite";
+    document.getElementById("content").style.animation = "argh-my-eyes 0.2s infinite";
+    document.getElementById("right").play();
 
 
   } else {
@@ -256,6 +268,8 @@ document.getElementById('switch_id').addEventListener("change", function(){
     nope11.style.display  = 'block';
 
     document.getElementById("content").style.animation = "new-argh-my-eyes 5s infinite";
+    document.getElementById("right").pause();
+
   } ;
 
 });
