@@ -58,37 +58,39 @@ img {
 }
 
 .grid__item--portrait-neck {
-  -webkit-clip-path: polygon(50% 0%, 66% 38%, 99% 80%, 18% 100%, 0% 38%);
-  clip-path: polygon(50% 0%, 66% 38%, 99% 80%, 18% 100%, 0% 38%);
-  grid-column: 5 / span 4;
-  grid-row: 6 / 11;
+  
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  grid-column: 6 / span 4;
+  grid-row: 5 / 11;
   z-index: 3;
+  width: 80%;
+  margin-top: 20%;
 }
 
 .grid__item--portrait-left {
   -webkit-clip-path: polygon(10% 19%, 93% 15%, 90% 88%, 13% 92%);
   clip-path: polygon(10% 19%, 93% 15%, 90% 88%, 13% 92%);
-  grid-column: 2 / span 4;
+  grid-column: 1 / span 4;
   grid-row: 6 / 12;
   z-index: 4;
 }
 
 .grid__item--portrait-eye {
-  -webkit-clip-path: polygon(50% 0%, 66% 38%, 99% 80%, 18% 100%, 0% 38%);
-  clip-path: polygon(50% 0%, 66% 38%, 99% 80%, 18% 100%, 0% 38%);
+  -webkit-clip-path: polygon(44% 6%, 90% 57%, 82% 100%, 18% 100%, 0% 38%);
+  clip-path: polygon(44% 6%, 90% 57%, 82% 100%, 18% 100%, 0% 38%);
   grid-column: 4 / span 2;
-  grid-row: 3 / 5;
+  grid-row: 2 / 5;
   z-index: 5;
-  width: 70%;
+  width: 80%;
   margin-top: 20%;
   justify-self: center;
 }
 
 .grid__item--portrait-shirt {
-  -webkit-clip-path: polygon(3% 2%, 50% 25%, 97% 8%, 97% 97%, 3% 98%);
-  clip-path: polygon(3% 2%, 50% 25%, 97% 8%, 97% 97%, 3% 98%);
-  grid-column: 1 / span 2;
-  grid-row: 11 / -1;
+
+  clip-path: polygon(44% 6%, 100% 28%, 100% 100%, 18% 100%, 0% 38%);
+  grid-column: 8 / span 2;
+  grid-row: 6 / 2;
   z-index: 6;
 }
 
@@ -104,7 +106,7 @@ img {
   -webkit-clip-path: polygon(9% 4%, 80% 0%, 100% 100%, 0% 100%);
   clip-path: polygon(9% 4%, 80% 0%, 100% 100%, 0% 100%);
   grid-column: 11 / -1;
-  grid-row: 2 / 7;
+  grid-row: 4 / 7;
   z-index: 8;
 }
 

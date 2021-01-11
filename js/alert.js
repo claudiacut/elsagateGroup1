@@ -1,11 +1,15 @@
 
-// const rellax = new Rellax('.rellax');
+// var rellax = new Rellax(".rellax", {
+// 	speed: -2,
 //
-// // grabs the media query
-// const motionMediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
-//
-// // if the user prefers reduced motion, disable parallax
-// if (motionMediaQuery.matches) rellax.destroy();
+// });
+
+// grabs the media query
+const motionMediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+
+// if the user prefers reduced motion, disable parallax
+if (motionMediaQuery.matches) rellax.destroy();
 
 let cat_1 = document.getElementById("cat1");
 let word = document.getElementById("collage");
