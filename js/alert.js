@@ -11,8 +11,10 @@ let cat_1 = document.getElementById("cat1");
 let word = document.getElementById("collage");
 word.style.display  = 'none';
 
+let cat_2 = document.getElementById("cat2");
+let word2 = document.getElementById("collage2");
+word2.style.display  = 'none';
 
-// document.getElementById("collage").style.display = "none";
 
 cat_1.addEventListener("mouseover", function(){
   // alert ("mouse over test!")
@@ -20,18 +22,26 @@ cat_1.addEventListener("mouseover", function(){
   word.style.display  = 'block';
 });
 
-cat_1.addEventListener("mouseout", function(){
+cat_2.addEventListener("mouseover", function(){
   // alert ("mouse over test!")
   // , (false);
+  word2.style.display  = 'block';
+});
+
+
+
+
+cat_1.addEventListener("mouseout", function(){
+
   word.style.display  = 'none';
 });
-// document.getElementById('cat_1').addEventListener("mouseover", function(){
-//
-//   alert("WOrks");
-//
-//   collage.style.display  = 'block';
-//
-// });
+
+cat_2.addEventListener("mouseout", function(){
+
+  word2.style.display  = 'none';
+});
+
+
 
 
 
