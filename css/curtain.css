@@ -38,6 +38,11 @@ html {
   padding: 150px 300px;
 }
 
+.tenda2{
+  padding: 150px 300px;
+  background-color: peachpuff;
+}
+
 .curtains > li {
   z-index: 100;
   position: fixed;
