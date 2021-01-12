@@ -33,6 +33,23 @@ body{
  src:  url('inferno.ttf'),
 }
 
+@font-face {
+    font-family: 'favorit_probold';
+    src: url('favoritpro-bold-webfont.woff2') format('woff2'),
+         url('favoritpro-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'favorit_probook';
+    src: url('fonts/favoritpro-book-webfont.woff2') format('woff2'),
+         url('fonts/favoritpro-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+	}
+
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6{

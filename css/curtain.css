@@ -6,6 +6,23 @@
   box-shadow: none;
 }
 
+@font-face {
+    font-family: 'favorit_probold';
+    src: url('fonts/favoritpro-bold-webfont.woff2') format('woff2'),
+         url('fonts/favoritpro-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'favorit_probook';
+    src: url('fonts/favoritpro-book-webfont.woff2') format('woff2'),
+         url('fonts/favoritpro-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 #section-3 .fixed {
   position: fixed;
   top: 150px;
@@ -61,6 +78,6 @@ html {
 }
 
 .tenda {
-	font-family: 'Arial';
+	font-family: 'favorit_probook';
   color: yellow;
 }
