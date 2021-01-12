@@ -309,56 +309,57 @@ input:checked+.slider:before {
 /* Shorthand grid-area: grid-row-start / grid-column-start / grid-row-end / grid-column-end */
 /* ok */
 .pos-1 {
-  grid-area: 10 / 1 / 21 / 10;
+  grid-area: 4 / 1 / 21 / 10;
 }
 
+
 .pos-2 {
-  grid-area: 1 / 18 / 9 / 25;
+  grid-area: 1 / 13 / 11 / 23;
 }
 
 /* ok */
 .pos-3 {
-  grid-area: 1 / 36 / 11 / 46;
+  grid-area: 1 / 30 / 18 / 46;
 }
 
 /* ok */
 .pos-4 {
-  grid-area: 13 / 11 / 24 / 21;
+  grid-area: 12 / 11 / 30 / 21;
 }
 
-/* ok */
+/* ok ok */
 .pos-5 {
-  grid-area: 17 / 32 / 28 / 42;
+  grid-area: 25 / 22 / 46 / 35;
 }
 
-/* ok */
+/* ok ok */
 .pos-6 {
-  grid-area: 2 / 46 / 10 / 51;
+  grid-area: 19 / 36 / 39 / 48;
 }
 
-/* ok */
+/* ok ok*/
 .pos-7 {
-  grid-area: 43 / 1 / 51 / 6;
+  grid-area: 31 / 1 / 49 / 16;
 }
 
-/* ok */
+/* ok ok*/
 .pos-8 {
-  grid-area: 38 / 14 / 46 / 21;
+  grid-area: 38 / 18 / 50 / 25;
 }
 
-/* ok */
+/* ok ok */
 .pos-9 {
-  grid-area: 28 / 24 / 36 / 31;
+  grid-area: 12 / 22 / 25 / 31;
 }
 
-/* ok */
+/* ok ok*/
 .pos-10 {
-  grid-area: 37 / 39 / 45 / 46;
+  grid-area: 36 / 40 / 50 / 50;
 }
 
-/* ok */
+/* ok ok*/
 .pos-11 {
-  grid-area: 20 / 42 / 28 / 48;
+  grid-area: 24 / 1 / 35 / 10;
 }
 
 .content__title {

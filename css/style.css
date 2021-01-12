@@ -1320,14 +1320,20 @@ QUI DIMENSIONI SLIDER  */
 }
 
 .scene {
-	background-color: #181818;
-
+	margin: 10px;
 }
 
 .scene:hover {
 	background-image: url("slime.gif");
 	opacity: 1;
 }
+
+.scene4:hover {
+	background-image: url("pre4.gif");
+	background-size: cover;
+	opacity: 1;
+}
+
 
 
 

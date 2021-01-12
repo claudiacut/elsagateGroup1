@@ -4,6 +4,11 @@
 
 body {}
 
+  .h2{
+  font-family: "canela";
+  font-size: 80px;
+  }
+
 /* ---- button ---- */
 .button {
   display: inline-block;
@@ -225,4 +230,9 @@ for simplicity
 */
 [type="checkbox"]:checked ~ .panel-wrap {
   transform: translateX(0%);
+}
+
+@font-face {
+  font-family: "canela";
+  src: url("/fonts/Canela-ThinItalic.otf");
 }
