@@ -142,7 +142,7 @@ a:hover, a:focus {
 }
 
 .pop-text--s1:hover {
-	color: #000;
+	color: blue;
 	background: yellow;
 	-webkit-transition: background 0s 0.05s, color, 0s 0.05s;
 	transition: background 0s 0.05s, color, 0s 0.05s;
@@ -172,7 +172,7 @@ a:hover, a:focus {
 
 .pop-text--s5:hover {
 	color: #000;
-	background: #fff;
+	background: blue;
 	-webkit-transition: background 0s 0.05s, color 0s 0.05s;
 	transition: background 0s 0.05s, color 0s 0.05s;
 }

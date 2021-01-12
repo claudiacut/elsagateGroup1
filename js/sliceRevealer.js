@@ -1,6 +1,6 @@
 /**
  *
- * 
+ *
  */
 {
     // the settings for each one of the slides uncover instances.
@@ -16,9 +16,9 @@
             slicesOrigin: {show: 'top', hide: 'top'}
         },
         {
-            slicesTotal: 8, 
-            slicesColor: '#fff', 
-            orientation: 'horizontal', 
+            slicesTotal: 8,
+            slicesColor: '#fff',
+            orientation: 'horizontal',
             slicesOrigin: {show: 'left', hide: 'left'}
         },
         {
@@ -194,7 +194,7 @@
     ];
 
     const items = Array.from(document.querySelectorAll('.row > .img-slice-wrap'));
-    
+
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if ( entry.intersectionRatio > 0.3 ) {
@@ -205,7 +205,7 @@
             }
         });
     }, { threshold: 0.3 });
-    
+
     let uncoverArr = [];
 
     imagesLoaded(document.querySelectorAll('.slide__img'), {background: true}, () => {
