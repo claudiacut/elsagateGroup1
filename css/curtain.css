@@ -38,10 +38,6 @@ html {
   padding: 150px 300px;
 }
 
-.tenda2{
-  padding: 150px 300px;
-  background-color: peachpuff;
-}
 
 .curtains > li {
   z-index: 100;
@@ -62,4 +58,9 @@ html {
 
 .curtains > li:first-child {
   z-index: 100;
+}
+
+.tenda {
+	font-family: 'Arial';
+  color: #00ff8b;
 }

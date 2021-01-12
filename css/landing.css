@@ -1,12 +1,4 @@
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
 
-:root {
-  font-size: 18px;
-}
 
 html,
 body,
@@ -19,19 +11,15 @@ main {
 
 body {
   margin: 0;
-  --color-text: #fbff00;
-  --color-bg: #0c0c0c;
-  --color-link: #fbff00;
-  --color-link-hover: #fff;
-  --color-content-title-sub: #fbff00;
-  color: var(--color-text);
+
+
+
+
   background-color: var(--color-bg);
   --cursor-stroke: #6b5537;
   --cursor-fill: none;
   --cursor-stroke-width: 1px;
-  font-family: "Muli", sans-serif;
-  font-style: bold;
-  text-transform: uppercase;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* animation: argh-my-eyes 1s infinite; */
@@ -63,7 +51,7 @@ body {
 /* new animated background */
 @keyframes new-argh-my-eyes {
   0% {
-    background-color:  #1500ff;
+    background-color:  #000;
   }
 
   49% {
@@ -71,7 +59,7 @@ body {
   }
 
   100% {
-    background-color: #1500ff;
+    background-color: #000;
   }
 }
 
@@ -96,18 +84,7 @@ body {
   --cursor-stroke-width: 3px;
 }
 
-a {
-  text-decoration: underline;
-  color: var(--color-link);
-  outline: none;
-}
 
-a:hover,
-a:focus {
-  text-decoration: none;
-  color: var(--color-link-hover);
-  outline: none;
-}
 
 /* Page Loader */
 .js .loading::before,
@@ -171,7 +148,7 @@ a:focus {
 }
 
 .frame__title {
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   margin: 1 1 2rem;
   font-weight: normal;
 }
@@ -224,7 +201,7 @@ a:focus {
 
 .grid__item {
   position: relative;
-  border: 2px solid blue;
+  /* border: 2px solid white; */
   animation-duration: 0.01s;
   /* animation-name: box-shad; */
   animation-iteration-count: infinite;
@@ -232,7 +209,7 @@ a:focus {
 }
 
 /* GLITCH IMMAGINI  */
-@keyframes box-shad {
+/* @keyframes box-shad {
   from {
     box-shadow: 3px 0 0 #ea36af, -4px 0 0 #75fa69;
   }
@@ -240,7 +217,7 @@ a:focus {
   to {
     box-shadow: 4px 1px 4px #ea36af, -3px -2px 4px #75fa69;
   }
-}
+} */
 
 .grid--img .grid__item {
   overflow: hidden;
@@ -269,8 +246,8 @@ a:focus {
 .switch {
   position: relative;
   display: inline-block;
-  width: 100px;
-  height: 48px;
+  width: 50px;
+  height: 24px;
 }
 
 /* Hide default HTML checkbox */
@@ -296,10 +273,10 @@ a:focus {
 .slider:before {
   position: absolute;
   content: "";
-  height: 32px;
-  width: 32px;
-  left: 8px;
-  bottom: 8px;
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
   background-color: #000000;
   -webkit-transition: .4s;
   transition: .4s;
@@ -314,19 +291,20 @@ input:focus+.slider {
 }
 
 input:checked+.slider:before {
-  -webkit-transform: translateX(52px);
-  -ms-transform: translateX(52px);
-  transform: translateX(52px);
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
 }
 
 /* Rounded sliders */
-.slider.round {
+
+/* .slider.round {
   border-radius: 48px;
 }
 
 .slider.round:before {
   border-radius: 50%;
-}
+} */
 
 /* Shorthand grid-area: grid-row-start / grid-column-start / grid-row-end / grid-column-end */
 /* ok */
@@ -335,7 +313,7 @@ input:checked+.slider:before {
 }
 
 .pos-2 {
-  grid-area: 1 / 18 / 8 / 25;
+  grid-area: 1 / 18 / 9 / 25;
 }
 
 /* ok */
@@ -384,23 +362,25 @@ input:checked+.slider:before {
 }
 
 .content__title {
-  font-family: "Muli", sans-serif;
-  font-weight: 800;
-  font-size: 4vw;
-  margin: 0;
-  line-height: 1;
-  position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	line-height: 1.35;
+	color: yellow;
   text-align: center;
-	color: white;
-	  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  z-index: 10;
 }
 
-.content__title-sub {
-  color: var(--color-content-title-sub);
-  font-size: 2vw;
-  margin: 0;
-  line-height: 1;
-  position: relative;
+a.content__title-sub {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	line-height: 1.35;
+	color: yellow;
+  text-align: center;
+  z-index: 10;
 }
 
 .cursor {
@@ -507,7 +487,7 @@ div.ex1 {
 }
 html { background: #111;
        padding: 1em;
-       font-family: Roboto;
+       font-family: Arial;
        color: #eee;
        font-size: 1em;
        line-height: 1;

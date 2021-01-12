@@ -6464,8 +6464,8 @@ var GridItem = /*#__PURE__*/function () {
 
       //limiti di movimento!
 
-      var xstart = (0, _utils.getRandomNumber)(200, 700);
-      var ystart = (0, _utils.getRandomNumber)(200, 700); // infinite loop
+      var xstart = (0, _utils.getRandomNumber)(200, 300);
+      var ystart = (0, _utils.getRandomNumber)(200, 300); // infinite loop
 
       var render = function render() {
         // Calculate the amount to move.
