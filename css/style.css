@@ -988,6 +988,10 @@ body.nav-active .nav__list-item:nth-child(10) {
 	float: none;
 }
 
+.miao {
+	background-color: peachpuff;
+}
+
 
 .swiper-slide:active,
 .swiper-slide:focus{
@@ -1165,6 +1169,8 @@ QUI DIMENSIONI SLIDER  */
 	z-index: 1;
 }
 
+
+
 .case-study-images li {
 	position: absolute;
 	width: 100%;
@@ -1312,6 +1318,18 @@ QUI DIMENSIONI SLIDER  */
 .case-study-images li.show .img-hero-background-over {
 	opacity: 1;
 }
+
+.scene {
+	background-color: #181818;
+
+}
+
+.scene:hover {
+	background-image: url("slime.gif");
+	opacity: 1;
+}
+
+
 
 .case-study-images li .hero-number-fixed{
 	position: absolute;
