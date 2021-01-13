@@ -1,26 +1,25 @@
-.curtains > li {
+.curtains>li {
   box-shadow: 0 0 12px #666;
 }
 
-.curtains > li:last-child {
+.curtains>li:last-child {
   box-shadow: none;
 }
 
 @font-face {
-    font-family: 'favorit_probold';
-    src: url('fonts/favoritpro-bold-webfont.woff2') format('woff2'),
-         url('fonts/favoritpro-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: 'favorit_probold';
+  src: url('fonts/favoritpro-bold-webfont.woff2') format('woff2'),
+    url('fonts/favoritpro-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'favorit_probook';
-    src: url('fonts/favoritpro-book-webfont.woff2') format('woff2'),
-         url('fonts/favoritpro-book-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'favorit_probook';
+  src: url('fonts/favoritpro-book-webfont.woff2') format('woff2'),
+    url('fonts/favoritpro-book-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 #section-3 .fixed {
@@ -30,7 +29,7 @@
   width: 200px;
 }
 
-#section-1{
+#section-1 {
   background: black;
 }
 
@@ -55,8 +54,7 @@ html {
   padding: 150px 300px;
 }
 
-
-.curtains > li {
+.curtains>li {
   z-index: 100;
   position: fixed;
   display: block;
@@ -69,15 +67,15 @@ html {
   -webkit-transform: translateZ(0);
 }
 
-.curtains > li.hidden {
+.curtains>li.hidden {
   display: none;
 }
 
-.curtains > li:first-child {
+.curtains>li:first-child {
   z-index: 100;
 }
 
 .tenda {
-	font-family: 'favorit_probook';
+  font-family: 'favorit_probook';
   color: yellow;
 }
