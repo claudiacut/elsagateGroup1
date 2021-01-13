@@ -18,7 +18,7 @@
 ================================================== */
 
 body{
-	font-family: 'Roboto', sans-serif;
+/*	font-family: 'favorit', sans-serif;*/
 	/* font-weight: 300; */
 	font-size: 15px;
 	line-height: 1.7;
@@ -27,6 +27,19 @@ body{
 	overflow-x: hidden;
 
 }
+
+@font-face {
+    font-family: 'Staff Wide Test';
+    src: url('css/fonts/StaffWideTest-Bold.eot');
+    src: url('css/fonts/StaffWideTest-Bold.eot?#iefix') format('embedded-opentype'),
+        url('css/fonts/StaffWideTest-Bold.woff2') format('woff2'),
+        url('css/fonts/StaffWideTest-Bold.woff') format('woff'),
+        url('css/fonts/StaffWideTest-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 @font-face {
     font-family: 'favorit_probold';
@@ -55,7 +68,7 @@ h1, h2, h3, h4, h5, h6,
 	color: yellow;
 }
 h1, .h1 {
-	font-family: 'favorit_probook';
+	font-family: "Staff Wide Test" sans-serif';
 	font-size: 3.1rem;
 	/* font-weight: 600; */
 	color: white;
@@ -97,6 +110,9 @@ h6, .h6 {
 	background-color: #000;
 }
 
+.font-title {
+    font-family: "Staff Wide Test" sans-serif !important;
+}
 
 /* mark{
 	color:yellow;
@@ -458,7 +474,7 @@ a:hover {
 	padding-bottom: 50px;
 }
 .page-title h1{
-	font-family: 'favorit_probook';
+	font-family: 'Staff Wide Test';
 	position: relative;
 	font-size: 70px;
 	color: #fff;
@@ -1328,6 +1344,7 @@ QUI DIMENSIONI SLIDER  */
 }
 
 .scene_title{
+    font-family: "Staff Wide Test";
 	position: absolute;
 	top: 20%;
 	left: 37%;
