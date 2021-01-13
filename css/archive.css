@@ -10,8 +10,12 @@ body {}
   }
 
 
+.padding-ar {
+    padding-left: 15%;
+}
+
   .filters {
-    align-items: center;
+    
   }
 
 /* ---- button ---- */
@@ -75,8 +79,8 @@ body {}
 
 .grid {
   max-width: 2000px;
-  margin-top: 30px;
-  margin-right: 10%;
+  margin-top: 1%;
+/*  margin-right: 10%;*/
 }
 
 /* clear fix */

@@ -22,7 +22,7 @@ body{
 	/* font-weight: 300; */
 	font-size: 15px;
 	line-height: 1.7;
-	color: yellow;
+	color: white;
 	background-color: #000000;
 	overflow-x: hidden;
 
@@ -475,6 +475,7 @@ a:hover {
 	padding-left: 45px;
 	z-index: 2;
 	text-transform: uppercase;
+    color: yellow;
 }
 .page-title p:before{
 	position: absolute;
@@ -1445,9 +1446,7 @@ QUI DIMENSIONI SLIDER  */
 	width: 100%;
 	height: 500px;
     overflow: scroll;
-    background-color: blue;
-		scroll-behavior: smooth;
-
+    scroll-behavior: smooth;
 		background-color: #1500ff;
 		width: 800px;
 		height: 500px;
