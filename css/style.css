@@ -1507,10 +1507,11 @@ QUI DIMENSIONI SLIDER  */
 
 .txtanimations {
 	color:white;
-	font-size: 40px;
+	font-size: 38px;
 transition: 0.5s;
 	white-space: nowrap;
    overflow: hidden;
+    font-family: "Staff Wide Test";
 }
 
 .txtanimations:hover {
