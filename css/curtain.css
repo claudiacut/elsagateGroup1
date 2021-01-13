@@ -54,6 +54,11 @@ html {
   padding: 150px 300px;
 }
 
+.color-tenda {
+    color: blue;
+    text-shadow: -1px -1px 0 yellow, 1px -1px 0 yellow, -1px 1px 0 yellow, 1px 1px 0 yellow;
+}
+
 .curtains>li {
   z-index: 100;
   position: fixed;
