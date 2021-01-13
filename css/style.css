@@ -1491,6 +1491,10 @@ QUI DIMENSIONI SLIDER  */
 		font-size: 30px;
 }
 
+.font-wide {
+    font-family: "Staff Wide Test";
+}
+
 #abouttxt {
     color:white;
     padding: 4%;

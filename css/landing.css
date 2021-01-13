@@ -397,7 +397,7 @@ input:checked+.slider:before {
 }
 
 .content__title {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Staff Wide Test', sans-serif;
   font-size: 1rem;
 	text-transform: uppercase;
 	margin-bottom: 0;
@@ -408,7 +408,7 @@ input:checked+.slider:before {
 }
 
 a.content__title-sub {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Staff Wide Test', sans-serif;
   font-size: 1rem;
 	text-transform: uppercase;
 	margin-bottom: 0;
