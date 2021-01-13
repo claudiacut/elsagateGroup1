@@ -6471,7 +6471,8 @@ var GridItem = /*#__PURE__*/function () {
         // Calculate the amount to move.
         // Using linear interpolation to smooth things out.
         // Translation values will be in the range of [-start, start] for a cursor movement from 0 to the window's width/height
-        //spostamento thumbnails!
+
+        //spostamento thumbnails! + velocitàà
         translationVals.tx = (0, _utils.lerp)(translationVals.tx, (0, _utils.map)(mousepos.x, 0, winsize.width, -xstart, xstart), 0.03);
         translationVals.ty = (0, _utils.lerp)(translationVals.ty, (0, _utils.map)(mousepos.y, 0, winsize.height, -ystart, ystart), 0.03);
 

@@ -5,8 +5,13 @@
 body {}
 
   .h2{
-  font-family: "canela";
+  font-family: ;
   font-size: 80px;
+  }
+
+
+  .filters {
+    align-items: center;
   }
 
 /* ---- button ---- */
@@ -19,30 +24,30 @@ body {}
   border-radius: 0;
   font-family: sans-serif;
   font-size: 16px;
-  text-shadow: 0 1px white;
+  /* text-shadow: 0 1px white; */
   cursor: pointer;
 }
 
 .button:hover {
-  background-color: #FF00FF;
-  text-shadow: 0 -1px #FFFFFF;
+  background-color: yellow;
+  /* text-shadow: 0 -1px #FFFFFF; */
   color: blue;
 }
 
 .button:active,
 .button.is-checked {
-  background-color: #000000;
+  background-color: blue;
   color: white;
 }
 
 .button.is-checked {
   color: white;
-  text-shadow: 0 -1px #FF00FF;
+  /* text-shadow: 0 -1px #FF00FF; */
 }
 
 .button:active {
-  box-shadow: inset 0 2px 20px #FF00FF;
-  border-color: #FF00FF;
+  box-shadow: inset 0 1px 10px black;
+  border-color: white;
 }
 
 /* ---- button-group ---- */
@@ -84,6 +89,7 @@ body {}
 /* ui group */
 .ui-group {
   display: inline-block;
+  margin-right: 10px;
 }
 
 .ui-group h3 {
@@ -116,23 +122,28 @@ body {}
   border-radius: 0px;
 } */
 .mine {
-  background-color: white;
+  /* background-color: white; */
   background-size: contain;
 }
 
 .peppa {
-  background-color: pink;
+  /* background-color: pink; */
   background-size: contain;
 }
 
 .elsa {
-  background-color: yellow;
+  /* background-color: yellow; */
   background-size: contain;
 }
 
 .super {
-  background-color: bisque;
+  /* background-color: bisque; */
   background-size: contain;
+}
+
+.offline {
+  background-color: rgba(255,255,255,0.8);
+  background-blend-mode: lighten;
 }
 
 /* .color-shape.red { background: red; } */
@@ -196,7 +207,7 @@ body {}
   border-radius: 0px;
   font-family: sans-serif;
   font-size: 16px;
-  text-shadow: 0 1px white;
+  /* text-shadow: 0 1px white; */
   z-index: 100;
 }
 
