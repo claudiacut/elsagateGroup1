@@ -1462,6 +1462,11 @@ QUI DIMENSIONI SLIDER  */
     padding: 4%;
 }
 
+.paddingelements {
+    padding-top: 27%;
+}
+
+
 .about-style {
 /*    padding-top: 5%;*/
 }
@@ -1475,7 +1480,7 @@ transition: 0.5s;
 }
 
 .txtanimations:hover {
-    color: black;
+    color: yellow;
     font-size: 40px;
 
 }

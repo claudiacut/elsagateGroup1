@@ -75,7 +75,7 @@ a:hover, a:focus {
 /* Individual paragraph colors and blend modes */
 
 .content__paragraph--c1 {
-	color: #6ae0fd;
+	color: white;
 	mix-blend-mode: color-dodge;
 }
 
@@ -131,19 +131,19 @@ a:hover, a:focus {
 	cursor: default;
 	white-space: nowrap;
 	word-spacing: -0.1em;
-	color: #fff;
+	color: black;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
 	-webkit-touch-callout: none;
 	-khtml-user-select: none;
-	text-decoration: underline;
+	-webkit-text-stroke: 1px white;
 }
 
 .pop-text--s1:hover {
 	color: blue;
-	background: yellow;
+    -webkit-text-stroke: none;
 	-webkit-transition: background 0s 0.05s, color, 0s 0.05s;
 	transition: background 0s 0.05s, color, 0s 0.05s;
 }
@@ -171,8 +171,7 @@ a:hover, a:focus {
 }
 
 .pop-text--s5:hover {
-	color: #000;
-	background: blue;
+    color: blue;
 	-webkit-transition: background 0s 0.05s, color 0s 0.05s;
 	transition: background 0s 0.05s, color 0s 0.05s;
 }
