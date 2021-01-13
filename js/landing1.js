@@ -177,6 +177,9 @@ document.getElementById("nope10").style.display = "block";
 document.getElementById("lol11").style.display = "none";
 document.getElementById("nope11").style.display = "block";
 
+document.getElementById("on").style.display = "none";
+document.getElementById("off").style.display = "block";
+
 
 // IMPUT LEVETTA
 document.getElementById('switch_id').addEventListener("change", function(){
@@ -229,8 +232,13 @@ document.getElementById('switch_id').addEventListener("change", function(){
     nope11.style.display  = 'none';
     lol11.style.animation = "box-shad 0.5s infinite";
 
+    document.getElementById("on").style.display = "block";
+    document.getElementById("off").style.display = "none";
+
     document.getElementById("content").style.animation = "argh-my-eyes 0.5s infinite";
     document.getElementById("right").play();
+
+
 
 
   } else {
@@ -267,6 +275,10 @@ document.getElementById('switch_id').addEventListener("change", function(){
     lol11.style.display  = 'none';
     nope11.style.display  = 'block';
 
+
+    document.getElementById("on").style.display = "none";
+    document.getElementById("off").style.display = "block";
+    
     document.getElementById("content").style.animation = "new-argh-my-eyes 5s infinite";
     document.getElementById("right").pause();
 
