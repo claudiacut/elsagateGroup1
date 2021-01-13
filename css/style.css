@@ -1346,6 +1346,24 @@ QUI DIMENSIONI SLIDER  */
 
 }
 
+
+
+.scene1:hover {
+	background-image: url("elsaok-3.gif");
+	background-size: cover;
+	opacity: 1;
+	background-color: rgba(255,255,255,0.9);
+  background-blend-mode: exclusion;
+}
+
+.scene2:hover {
+	background-image: url("spidermanok-2.gif");
+	background-size: cover;
+	opacity: 1;
+	background-color: rgba(255,255,255,0.9);
+  background-blend-mode: exclusion;
+}
+
 .scene3:hover {
 	background-image: url("pre3.gif");
 	background-size: cover;
