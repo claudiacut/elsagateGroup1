@@ -15,7 +15,7 @@ body {}
 }
 
   .filters {
-    
+
   }
 
 /* ---- button ---- */
@@ -147,8 +147,8 @@ body {}
 }
 
 .offline {
-  background-color: rgba(255,255,255,0.8);
-  background-blend-mode: lighten;
+  background-color: rgba(0,0,0,0.5);
+  background-blend-mode: darken;
 }
 
 /* .color-shape.red { background: red; } */
@@ -171,10 +171,9 @@ body {}
 	position: relative;
 	display: block;
   background-color: blue;
-	width: 25px;
+	width: 10px;
 	line-height: 25px;
-	text-align: left;
-	padding: 0px 8px;
+	padding: 0px 22px;
   margin-top: 10px;
 	text-decoration: none;
 	font-size: 1em;
