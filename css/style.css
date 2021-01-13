@@ -1347,10 +1347,11 @@ QUI DIMENSIONI SLIDER  */
     font-family: "Staff Wide Test";
 	position: absolute;
 	top: 20%;
-	left: 37%;
+	left: 33%;
 	text-align: center;
 	display: block;
  font-size: 40px;
+ text-transform: lowercase;
 
 }
 
