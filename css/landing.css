@@ -189,7 +189,7 @@ body {
 
 .tired {
 
-  animation: blinker 0.4s linear  infinite;
+  animation: blinker 2s linear  infinite;
 
 }
 
@@ -197,11 +197,12 @@ body {
 @keyframes blinker {
   0% {
     background-color: rgba(255,255,255,0.9);
-    background-blend-mode: exclusion;
+    background-blend-mode: normal;
   }
 
   25% {
-opacity:0;
+    background-color: rgba(255,255,255,0.9);
+    background-blend-mode: normal;
   }
 
   50% {
@@ -210,12 +211,13 @@ opacity:0;
   }
 
   75% {
-opacity:0;
-  }
+    background-color: rgba(255,255,255,0.9);
+    background-blend-mode: normal;
+    }
 
   100% {
     background-color: rgba(255,255,255,0.9);
-    background-blend-mode: exclusion;
+    background-blend-mode: normal;
   }
 }
 
