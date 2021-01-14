@@ -122,6 +122,11 @@ body {}
   color: white;
 }
 
+.color-info {
+    color: black;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+
+}
 
 /* .color-shape.round {
   border-radius: 0px;
