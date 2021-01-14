@@ -118,6 +118,10 @@ body {}
   background-repeat: no-repeat;
 }
 
+.content__paragraph {
+  color: white;
+}
+
 
 /* .color-shape.round {
   border-radius: 0px;
