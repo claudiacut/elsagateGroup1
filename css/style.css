@@ -141,7 +141,7 @@ h6, .h6 {
 /* menu home */
 
 .style-menu {
-	height: 120px;
+	height: 125px;
 	width: 1000px;
 	background-color: black;
 	border: 2px solid white;
@@ -3167,7 +3167,7 @@ figure.vimeo a img, figure.youtube a img {
 	/* prima era fixed */
   position: fixed;
 	/* usare px e non % */
-margin-top: 150px;
+margin-top: 90px;
   overflow: hidden;
   height: 4rem;
 	/* padding-bottom: 3rem; */
