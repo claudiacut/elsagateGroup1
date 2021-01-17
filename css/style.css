@@ -128,7 +128,25 @@ h6, .h6 {
 } */
 
 
+/* .space {
+	padding-top: 15%;
+} */
+
+/* menu home */
+
+.style-menu {
+	height: 120px;
+	width: 1000px;
+	background-color: black;
+	border: 2px solid white;
+	padding: 20px 0 20px;
+	/* padding-top: 7%;
+	padding-bottom: 7%; */
+	/* padding: 7% 0 7% 0; */
+}
+
 /* AGGIUNTE ISI */
+
 
 .frame__title-wrap {
 	grid-area: title;
