@@ -151,9 +151,30 @@ h6, .h6 {
 	/* padding: 7% 0 7% 0; */
 }
 
-.style-menu:hover {
+.elsa:hover {
 	background-color: blue;
 	background-image: url("elsaok-3.gif");
+	background-size: cover;
+
+}
+
+.spider:hover {
+	background-color: blue;
+	background-image: url("../spidermanok-1.gif");
+	background-size: cover;
+
+}
+
+.peppa:hover {
+	background-color: blue;
+	background-image: url("../peppaok-2.gif");
+	background-size: cover;
+
+}
+
+.mine:hover {
+	background-color: blue;
+	background-image: url("../mineok-3.gif");
 	background-size: cover;
 
 }
@@ -3145,31 +3166,20 @@ figure.vimeo a img, figure.youtube a img {
 
 	/* prima era fixed */
   position: fixed;
-margin-top: 7%;
+	/* usare px e non % */
+margin-top: 150px;
   overflow: hidden;
-  height: 5rem;
+  height: 4rem;
 	/* padding-bottom: 3rem; */
-	/* border: 1px solid white; */
-  /* background-color: yellow; */
+  background-color: blue;
   box-sizing: content-box;
 }
 
-.ticker-wrap:hover {
-
-	/* prima era fixed */
-	position: fixed;
-/* margin-top: 150px; */
-  overflow: hidden;
-  height: 5rem;
-  background-image: url("slime.gif");
-	background-size: contain;
-  box-sizing: content-box;
-}
 
 
 .ticker-wrap .ticker {
 	display: inline-block;
-  height: 2rem;
+  height: 1rem;
   line-height: 4rem;
   white-space: nowrap;
   padding-right: 100%;
@@ -3181,9 +3191,10 @@ animation: ticker linear infinite 60s;
 
 .ticker-wrap .ticker__item {
   display: inline-block;
-  padding: 0 2rem;
-  font-size: 1rem;
-  color: yellow;
+  padding: 0 4rem;
+  font-size: 2rem;
+  color: black;
+	text-transform: uppercase;
 }
 
 
