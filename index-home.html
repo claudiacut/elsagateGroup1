@@ -209,9 +209,20 @@
 	<script src="js/custom.js"></script>
 	<script src="js/about.js"></script>
 
-	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-	<script src='https://rawgit.com/desandro/imagesloaded/master/imagesloaded.pkgd.min.js'></script>
-	<script src="js/curtain.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="js/curtain.js"></script>
+<script>
+    $(function(){
+       $('.curtains').curtain({
+           scrollSpeed: 300,
+           controls: '.menu',
+           curtainLinks: '.curtain-links',
+           nextSlide: function(){
+            console.log("ok");
+           }
+       });
+    });
+</script>
 
 
 	<!-- End Document
