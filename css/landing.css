@@ -229,8 +229,8 @@ body {
   top: -5%;
   left: -5%;
   display: grid;
-  grid-template-columns: repeat(50, 2%);
-  grid-template-rows: repeat(50, 2%);
+  grid-template-columns: repeat(100, 2%);
+  grid-template-rows: repeat(100, 2%);
 }
 
 .grid__item {
@@ -341,59 +341,63 @@ input:checked+.slider:before {
 } */
 
 /* Shorthand grid-area: grid-row-start / grid-column-start / grid-row-end / grid-column-end */
-/* ok */
+/* ok spider */
 .pos-1 {
-  grid-area: 4 / 1 / 21 / 10;
+  grid-area: 50 / 10 / 70 / 20;
 }
 
-
+/* ok mine*/
 .pos-2 {
-  grid-area: 1 / 13 / 11 / 23;
+  grid-area: 1 / 1 / 18 / 18;
 }
 
-/* ok */
+/* ok mine*/
 .pos-3 {
-  grid-area: 1 / 30 / 18 / 46;
+  grid-area: 4 / 26 / 28 / 40;
 }
 
-/* ok */
+/* ok spider */
 .pos-4 {
-  grid-area: 12 / 11 / 30 / 21;
+  grid-area: 20 / 5 / 40 / 21;
 }
 
-/* ok ok */
+/* ok ok elsa*/
 .pos-5 {
-  grid-area: 25 / 22 / 46 / 35;
+  grid-area: 44 / 35 / 67 / 50;
 }
 
-/* ok ok */
+/* ok ok elsa*/
 .pos-6 {
-  grid-area: 19 / 36 / 39 / 48;
+  grid-area: 29 / 40 / 49 / 48;
 }
 
-/* ok ok*/
+/* ok ok peppa*/
 .pos-7 {
-  grid-area: 31 / 1 / 49 / 16;
+  grid-area: 40 / 30 / 55 / 20;
 }
 
-/* ok ok*/
+/* ok ok peppa*/
 .pos-8 {
-  grid-area: 38 / 18 / 50 / 25;
+  grid-area: 60 / 38 / 80 / 25;
 }
 
 /* ok ok */
 .pos-9 {
-  grid-area: 12 / 22 / 25 / 31;
+  grid-area: 12 / 52 / 25 / 61;
 }
 
-/* ok ok*/
+/* ok ok elsa*/
 .pos-10 {
-  grid-area: 36 / 40 / 50 / 50;
+  grid-area: 40 / 50 / 55 / 65;
 }
 
-/* ok ok*/
+/* ok ok peppa*/
 .pos-11 {
-  grid-area: 24 / 1 / 35 / 10;
+  grid-area: 45 / 1 / 60 / 10;
+}
+
+.pos-12 {
+  grid-area: 12 / 42 / 28 / 51;
 }
 
 .content__title {
