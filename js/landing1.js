@@ -142,7 +142,7 @@ function _inheritsLoose(subClass, superClass) {
 // io che faccio casino sul codice PERCHè NON VAIIIIII
 document.getElementById("content").style.animation = "new-argh-my-eyes 10s infinite";
 
-
+document.getElementById("title").style.zIndex = "1";
 
 document.getElementById("lol").style.display = "none";
 document.getElementById("nope").style.display = "block";
@@ -190,6 +190,8 @@ document.getElementById('switch_id').addEventListener("change", function(){
 
     if (this.checked){
     // window.location.href = 'index-home.html';
+
+
 
     lol.style.display  = 'block'; //aggiungere sempre block
     nope.style.display  = 'none';
@@ -245,6 +247,8 @@ document.getElementById('switch_id').addEventListener("change", function(){
     document.getElementById("content").style.animation = "argh-my-eyes 0.5s infinite";
     document.getElementById("right").play();
 
+    document.getElementById("title").style.zIndex = "205";
+
 
 
 
@@ -291,6 +295,8 @@ document.getElementById('switch_id').addEventListener("change", function(){
 
     document.getElementById("content").style.animation = "new-argh-my-eyes 5s infinite";
     document.getElementById("right").pause();
+
+  document.getElementById("title").style.zIndex = "1";
 
   } ;
 

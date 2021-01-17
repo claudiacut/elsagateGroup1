@@ -138,6 +138,7 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+
 }
 
 .frame {
@@ -231,6 +232,7 @@ body {
   display: grid;
   grid-template-columns: repeat(100, 2%);
   grid-template-rows: repeat(100, 2%);
+  z-index: 100;
 }
 
 .grid__item {
@@ -282,6 +284,19 @@ body {
   display: inline-block;
   width: 50px;
   height: 24px;
+  z-index: 200;
+}
+
+#switch {
+  z-index: 200;
+}
+
+.label {
+  z-index: 200;
+}
+
+.label:hover{
+
 }
 
 /* Hide default HTML checkbox */
@@ -413,13 +428,18 @@ input:checked+.slider:before {
 
 a.content__title-sub {
   font-family: 'Staff Wide Test', sans-serif;
-  font-size: 1rem;
+  font-size: 8rem;
 	text-transform: uppercase;
+  text-decoration: none;
 	margin-bottom: 0;
 	line-height: 1.35;
 	color: yellow;
   text-align: center;
-  z-index: 10;
+  z-index: 0;
+}
+
+.content__title-sub:hover{
+    text-decoration: underline;
 }
 
 .cursor {
