@@ -151,6 +151,13 @@ h6, .h6 {
 	/* padding: 7% 0 7% 0; */
 }
 
+.style-menu:hover {
+	background-color: blue;
+	background-image: url("elsaok-3.gif");
+	background-size: cover;
+
+}
+
 /* AGGIUNTE ISI */
 
 
