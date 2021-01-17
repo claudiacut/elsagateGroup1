@@ -143,6 +143,7 @@ function _inheritsLoose(subClass, superClass) {
 document.getElementById("content").style.animation = "new-argh-my-eyes 10s infinite";
 
 document.getElementById("title").style.zIndex = "1";
+title.style.pointerEvents = "none";
 
 document.getElementById("lol").style.display = "none";
 document.getElementById("nope").style.display = "block";
@@ -248,6 +249,7 @@ document.getElementById('switch_id').addEventListener("change", function(){
     document.getElementById("right").play();
 
     document.getElementById("title").style.zIndex = "205";
+    title.style.pointerEvents = "auto";
 
 
 
@@ -297,6 +299,7 @@ document.getElementById('switch_id').addEventListener("change", function(){
     document.getElementById("right").pause();
 
   document.getElementById("title").style.zIndex = "1";
+  title.style.pointerEvents = "none";
 
   } ;
 
