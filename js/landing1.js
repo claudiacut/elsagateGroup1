@@ -177,6 +177,9 @@ document.getElementById("nope10").style.display = "block";
 document.getElementById("lol11").style.display = "none";
 document.getElementById("nope11").style.display = "block";
 
+document.getElementById("lol12").style.display = "none";
+document.getElementById("nope12").style.display = "block";
+
 document.getElementById("on").style.display = "none";
 document.getElementById("off").style.display = "block";
 
@@ -232,6 +235,10 @@ document.getElementById('switch_id').addEventListener("change", function(){
     nope11.style.display  = 'none';
     lol11.style.animation = "box-shad 0.5s infinite";
 
+    lol12.style.display  = 'block';
+    nope12.style.display  = 'none';
+    lol12.style.animation = "box-shad 0.5s infinite";
+
     document.getElementById("on").style.display = "block";
     document.getElementById("off").style.display = "none";
 
@@ -275,10 +282,13 @@ document.getElementById('switch_id').addEventListener("change", function(){
     lol11.style.display  = 'none';
     nope11.style.display  = 'block';
 
+    lol12.style.display  = 'none';
+    nope12.style.display  = 'block';
+
 
     document.getElementById("on").style.display = "none";
     document.getElementById("off").style.display = "block";
-    
+
     document.getElementById("content").style.animation = "new-argh-my-eyes 5s infinite";
     document.getElementById("right").pause();
 
@@ -5060,8 +5070,9 @@ _identity2DMatrix = [1, 0, 0, 1, 0, 0],
     }
   }
 
-  cache.x = ((cache.xPercent = x && Math.round(target.offsetWidth / 2) === Math.round(-x) ? -50 : 0) ? 0 : x) + px;
-  cache.y = ((cache.yPercent = y && Math.round(target.offsetHeight / 2) === Math.round(-y) ? -50 : 0) ? 0 : y) + px;
+// prima era ?-50
+  cache.x = ((cache.xPercent = x && Math.round(target.offsetWidth / 2) === Math.round(-x) ? -100 : 0) ? 0 : x) + px;
+  cache.y = ((cache.yPercent = y && Math.round(target.offsetHeight / 2) === Math.round(-y) ? -100 : 0) ? 0 : y) + px;
   cache.z = z + px;
   cache.scaleX = (0, _gsapCore._round)(scaleX);
   cache.scaleY = (0, _gsapCore._round)(scaleY);
@@ -6476,8 +6487,8 @@ var GridItem = /*#__PURE__*/function () {
 
       //limiti di movimento!
 
-      var xstart = (0, _utils.getRandomNumber)(100, 300);
-      var ystart = (0, _utils.getRandomNumber)(100, 300); // infinite loop
+      var xstart = (0, _utils.getRandomNumber)(800, 1300);
+      var ystart = (0, _utils.getRandomNumber)(800, 1300); // infinite loop
 
       var render = function render() {
         // Calculate the amount to move.
@@ -6485,8 +6496,8 @@ var GridItem = /*#__PURE__*/function () {
         // Translation values will be in the range of [-start, start] for a cursor movement from 0 to the window's width/height
 
         //spostamento thumbnails! + velocitàà
-        translationVals.tx = (0, _utils.lerp)(translationVals.tx, (0, _utils.map)(mousepos.x, 0, winsize.width, -xstart, xstart), 0.03);
-        translationVals.ty = (0, _utils.lerp)(translationVals.ty, (0, _utils.map)(mousepos.y, 0, winsize.height, -ystart, ystart), 0.03);
+        translationVals.tx = (0, _utils.lerp)(translationVals.tx, (0, _utils.map)(mousepos.x, 0, winsize.width, -xstart, xstart), 0.01);
+        translationVals.ty = (0, _utils.lerp)(translationVals.ty, (0, _utils.map)(mousepos.y, 0, winsize.height, -ystart, ystart), 0.01);
 
         _gsap.gsap.set(_this.DOM.el, {
           x: translationVals.tx,
