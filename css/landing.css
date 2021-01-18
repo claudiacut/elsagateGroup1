@@ -281,7 +281,9 @@ body {
 /* The switch - the box around the slider */
 .switch {
   position: relative;
+  top:20%;
   display: inline-block;
+
   width: 50px;
   height: 24px;
   z-index: 200;
@@ -455,7 +457,7 @@ a.content__title-sub {
 
   .frame {
     position: fixed;
-    text-align: left;
+    text-align:center;
     z-index: 100;
     top: 0;
     left: 0;

@@ -188,7 +188,7 @@ h6, .h6 {
 
 .spider:hover {
 	background-color: blue;
-	background-image: url("../spidermanok-1.gif");
+	background-image: url("../img/spidermanok-1.gif");
 	background-size: cover;
 
 }
@@ -207,7 +207,7 @@ h6, .h6 {
 
 .peppa:hover {
 	background-color: blue;
-	background-image: url("../peppaok-2.gif");
+	background-image: url("../img/peppaok-2.gif");
 	background-size: cover;
 
 }
@@ -226,7 +226,7 @@ h6, .h6 {
 
 .mine:hover {
 	background-color: blue;
-	background-image: url("../mineok-3.gif");
+	background-image: url("../img/mineok-3.gif");
 	background-size: cover;
 
 }
