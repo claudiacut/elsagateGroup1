@@ -4,6 +4,7 @@
 
 
 
+
 	function BufferLoader(context, urlList, callback) {
 		this.context = context;
 		this.urlList = urlList;
@@ -106,13 +107,36 @@ MediaRevealer.prototype.positionMedia = function() {
 
 
 
+
+
 	// setTimeouts for the mouseenter events.
 	var triggertimeout, triggerdelay = 50;
+
+
+	// document.getElementById("c1child").style.display = "none";
+
+
+	//funzione comparsa / scomparsa contenuto div
+
+	// document.getElementById("c1").addEventListener("mouseover", mouseOver);
+	// document.getElementById("c1").addEventListener("mouseout", mouseOut);
+	//
+	// function mouseOver() {
+	//   document.getElementById("c1child").style.color = "red";
+	// }
+	//
+	// function mouseOut() {
+	//   document.getElementById("c1child").style.color = "black";
+	// }
+
 
 
 	init();
 
 
-	
+
+
+
+
 
 })(window);
