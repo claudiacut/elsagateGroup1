@@ -120,7 +120,7 @@ a:hover, a:focus {
 /* Hover text */
 
 .pop-text {
-
+  
 	position: relative;
 	cursor: default;
 	white-space: nowrap;
