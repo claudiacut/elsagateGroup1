@@ -16,32 +16,69 @@ a:hover, a:focus {
 }
 
 .style-menu2 {
-  height: 130px;
+  height: 2000px;
 	width: 315px;
 	/* height: 125px;
 	width: 1000px; */
 	background-color: black;
-	border: 1px solid #efefef;
-	margin: 20px 10px 20px 10px;
+	/* border: 1px solid #efefef; */
+	/* margin: 20px 10px 20px 10px; */
 	/* padding-top: 7%;
 	padding-bottom: 7%; */
 	/* padding: 7% 0 7% 0; */
 }
 
 .style-menu2:hover {
-
-  height: 420px;
-	width: 315px;
+  height: 2000px;
+	width: 1920px;
 	/* height: 125px;
 	width: 1000px; */
 	background-color: black;
-	border: 1px solid #efefef;
-	margin: 20px 10px 20px 10px;
+	/* border: 1px solid #efefef; */
+	/* margin: 20px 10px 20px 10px; */
 	transition: all 1s;
 	/* padding-top: 7%;
 	padding-bottom: 7%; */
 	/* padding: 7% 0 7% 0; */
 }
+
+#c1 {
+	background-color: #0023f5;
+
+}
+
+#c2 {
+	background-color: #76fa5a;
+}
+
+#c3 {
+  background-color: #f2f2f2;
+
+}
+
+#c4 {
+	background-color: #191819;
+}
+/*
+#cc1 {
+	width: 100px;
+	display: none;
+}
+
+#cc2 {
+	width: 100px;
+	display: none;
+}
+
+#cc3 {
+  width: 100px;
+	display: none;
+}
+
+#cc4 {
+	width: 100px;
+	display: none;
+} */
 
 .box-content {
 	width: 1000px;
