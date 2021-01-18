@@ -91,7 +91,7 @@ transition: all 1s;
 
 #c2:hover {
    height: 100vh;
-   width: 160vh;
+   width: 170vh;
    transition: all 1s;
    transition-delay: 0.5s;
  }
@@ -105,14 +105,14 @@ transition: all 1s;
 
 	#c3:hover {
 	   height: 100vh;
-	   width: 140vh;
+	   width: 160vh;
 	   transition: all 1s;
 	   transition-delay: 0.5s;
 	 }
 
 	 #c3:hover + #c2{
 	    height: 100vh;
-	    width: 160vh;
+	    width: 170vh;
 	    transition: all 1s;
 	    transition-delay: 0.5s;
 	  }
@@ -123,6 +123,35 @@ transition: all 1s;
 	     transition: all 1s;
 	     transition-delay: 0.5s;
 	   }
+
+		 #c4:hover {
+	 	   height: 100vh;
+	 	   width: 150vh;
+	 	   transition: all 1s;
+	 	   transition-delay: 0.5s;
+	 	 }
+
+		 #c4:hover + #c3{
+				height: 100vh;
+				width: 160vh;
+				transition: all 1s;
+				transition-delay: 0.5s;
+			}
+
+			#c4:hover + #c3 + #c2{
+	 	    height: 100vh;
+	 	    width: 170vh;
+	 	    transition: all 1s;
+	 	    transition-delay: 0.5s;
+	 	  }
+
+			#c4:hover + #c3 + #c2 + #c1{
+		     height: 100vh;
+		     width: 180vh;
+		     transition: all 1s;
+		     transition-delay: 0.5s;
+		   }
+
 
 
 
