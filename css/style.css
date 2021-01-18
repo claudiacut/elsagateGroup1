@@ -112,7 +112,7 @@ h6, .h6 {
 
 .font-title {
     font-family: "Staff Wide Test", sans-serif;
-		font-size: 38px;
+		font-size: 28px;
 		color: yellow;
 }
 
@@ -140,22 +140,50 @@ h6, .h6 {
 
 /* menu home */
 
+
 .style-menu {
-	height: 125px;
-	width: 1000px;
+  height: 420px;
+	width: 315px;
+	/* height: 125px;
+	width: 1000px; */
 	background-color: black;
-	border: 2px solid white;
-	padding: 20px 0 20px;
+	border: 1px solid #efefef;
+	margin: 20px 10px 20px 10px;
 	/* padding-top: 7%;
 	padding-bottom: 7%; */
 	/* padding: 7% 0 7% 0; */
 }
 
+#elsa-font {
+	font-family: 'Cinzel', serif;
+	font-size: 40px;
+	color: yellow;
+}
+
+.elsa {
+	/* background-color: blue; */
+	background-image: url("../elsa.jpg");
+	background-size: cover;
+}
+
 .elsa:hover {
+
 	background-color: blue;
 	background-image: url("elsaok-3.gif");
 	background-size: cover;
 
+}
+
+#spide-font {
+	font-family: 'Anton', sans-serif;
+	font-size: 49px;
+	color: yellow;
+}
+
+.spider {
+	/* background-color: blue; */
+	background-image: url("../spide.png");
+	background-size: cover;
 }
 
 .spider:hover {
@@ -165,6 +193,18 @@ h6, .h6 {
 
 }
 
+#peppa-font {
+	font-family: 'Sofia', cursive;
+	font-size: 49px;
+	color: yellow;
+}
+
+.peppa {
+	/* background-color: blue; */
+	background-image: url("../peppa.jpg");
+	background-size: cover;
+}
+
 .peppa:hover {
 	background-color: blue;
 	background-image: url("../peppaok-2.gif");
@@ -172,11 +212,27 @@ h6, .h6 {
 
 }
 
+#mine-font {
+	font-family: 'Chakra Petch', sans-serif;
+	font-size: 49px;
+	color: yellow;
+}
+
+.mine {
+	/* background-color: blue; */
+	background-image: url("../mine.jpg");
+	background-size: cover;
+}
+
 .mine:hover {
 	background-color: blue;
 	background-image: url("../mineok-3.gif");
 	background-size: cover;
 
+}
+
+.align-center {
+	text-align: center;
 }
 
 /* AGGIUNTE ISI */
