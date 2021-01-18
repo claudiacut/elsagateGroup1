@@ -30,11 +30,11 @@
 }
 
 #section-1 {
-  background: #ff00ff;
+  background: #F8F9FA;
 }
 
 #section-2 {
-  background: black;
+  background: #191819;
 }
 
 .cover {
@@ -59,8 +59,10 @@ html {
 }
 
 .color-tenda {
-    color: blue;
-    text-shadow: -1px -1px 0 yellow, 1px -1px 0 yellow, -1px 1px 0 yellow, 1px 1px 0 yellow;
+    color: #76FA5A;
+    text-decoration: underline;
+
+    /* text-shadow: -1px -1px 0 #76FA5A, 1px -1px 0 #76FA5A, -1px 1px 0 #76FA5A, 1px 1px 0 #76FA5A; */
 }
 
 .curtains>li {
@@ -86,5 +88,12 @@ html {
 
 .tenda {
   font-family: 'favorit_probook';
-  color: yellow;
+  color: #fff;
+  font-size: 64px;
+
+}
+
+.intro {
+ font-size: 36px;
+ color: black;
 }
