@@ -59,13 +59,23 @@ body{
 }
 
 
+@font-face {
+    font-family: 'favorit_probook_italic';
+    src: url('fonts/favoritpro-bookitalic-webfont.woff2') format('woff2'),
+         url('fonts/favoritpro-bookitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6{
 	font-family: 'favorit_probook', sans-serif;
 	/* font-weight: 100; */
 	margin-bottom: 0;
 	line-height: 1.35;
-	color: yellow;
+	color: #76FA5A;
 }
 h1, .h1 {
 	font-family: "Staff Wide Test" sans-serif';
@@ -87,10 +97,11 @@ h4, .h4 {
 }
 h5, .h5 {
 	font-size: 1.35rem;
+	font-family: "favorit_probook_italic";
 	/* font-weight: 400; */
 }
 h6, .h6 {
-	font-family: "Roboto";
+	font-family: "favorit_probook";
 	font-size: 1rem;
 	text-transform: uppercase;
 	/* font-weight: 700; */
@@ -113,7 +124,7 @@ h6, .h6 {
 .font-title {
     font-family: "Staff Wide Test", sans-serif;
 		font-size: 28px;
-		color: yellow;
+		color: #76FA5A;
 }
 
 /* .paddingsome {
@@ -121,7 +132,7 @@ h6, .h6 {
 } */
 
 /* mark{
-	color:yellow;
+	color:#76FA5A;
 }
 .lead {
 	font-size: 1.15rem;
@@ -157,7 +168,7 @@ h6, .h6 {
 #elsa-font {
 	font-family: 'Cinzel', serif;
 	font-size: 40px;
-	color: yellow;
+	color: #76FA5A;
 }
 
 .elsa {
@@ -177,7 +188,7 @@ h6, .h6 {
 #spide-font {
 	font-family: 'Anton', sans-serif;
 	font-size: 49px;
-	color: yellow;
+	color: #76FA5A;
 }
 
 .spider {
@@ -196,7 +207,7 @@ h6, .h6 {
 #peppa-font {
 	font-family: 'Sofia', cursive;
 	font-size: 49px;
-	color: yellow;
+	color: #76FA5A;
 }
 
 .peppa {
@@ -215,7 +226,7 @@ h6, .h6 {
 #mine-font {
 	font-family: 'Chakra Petch', sans-serif;
 	font-size: 49px;
-	color: yellow;
+	color: #76FA5A;
 }
 
 .mine {
@@ -270,7 +281,7 @@ h6, .h6 {
 }
 
 h1 {
-       /* text-shadow: 0.06rem 0 0.06rem yellow, -0.125rem 0 0.06rem #75fa69;
+       /* text-shadow: 0.06rem 0 0.06rem #76FA5A, -0.125rem 0 0.06rem #75fa69;
        animation-duration: 0.05s;
        animation-name: textflicker;
        animation-iteration-count: infinite;
@@ -281,10 +292,10 @@ h1 {
 
 @keyframes textflicker {
   from {
-    text-shadow: 1px 0 0 yellow, -2px 0 0 #75fa69;
+    text-shadow: 1px 0 0 #76FA5A, -2px 0 0 #75fa69;
   }
   to {
-    text-shadow: 2px 0.5px 2px yellow, -1px -0.5px 2px #75fa69;
+    text-shadow: 2px 0.5px 2px #76FA5A, -1px -0.5px 2px #75fa69;
   }
 }
 
@@ -599,7 +610,7 @@ a:hover {
 	padding-left: 45px;
 	z-index: 2;
 	text-transform: uppercase;
-    color: yellow;
+    color: #76FA5A;
 }
 .page-title p:before{
 	position: absolute;
@@ -1559,7 +1570,7 @@ QUI DIMENSIONI SLIDER  */
 	font-family: 'favorit_probook', sans-serif;
 	font-weight: normal;
 	line-height: 1;
-	color: yellow;
+	color: #76FA5A;
 	z-index: 6;
 	-webkit-transform: translateY(100%);
 	transform: translateY(100%);
@@ -1628,7 +1639,7 @@ transition: 0.5s;
 }
 
 .txtanimations:hover {
-    color: yellow;
+    color: #76FA5A;
     font-size: 40px;
 
 }
@@ -1694,7 +1705,7 @@ transition: 0.5s;
 
 #b{
    margin-top:100%;
-   background:yellow;
+   background:#76FA5A;
 }
 
 #c{
@@ -3215,6 +3226,7 @@ figure.vimeo a img, figure.youtube a img {
 
 
 
+
 /* PROVA TESTI TIPO TELEGIORNALE  */
 
 
@@ -3225,9 +3237,9 @@ figure.vimeo a img, figure.youtube a img {
 	/* usare px e non % */
 margin-top: 90px;
   overflow: hidden;
-  height: 4rem;
+  height: 3.2rem;
 	/* padding-bottom: 3rem; */
-  background-color: blue;
+  background-color: #76FA5A;
   box-sizing: content-box;
 }
 
@@ -3246,12 +3258,17 @@ animation: ticker linear infinite 60s;
 
 
 .ticker-wrap .ticker__item {
+
   display: inline-block;
-  padding: 0 4rem;
+  padding: 0 0.2rem;
   font-size: 2rem;
   color: black;
 	text-transform: uppercase;
 }
+
+/* .ticker__item{
+	font-style: 'favorit_probold' !;
+} */
 
 
 
