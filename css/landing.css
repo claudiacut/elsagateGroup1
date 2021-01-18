@@ -280,6 +280,7 @@ body {
 
 /* The switch - the box around the slider */
 .switch {
+  margin-left: 48%;
   position: relative;
   top:20%;
   display: inline-block;
@@ -319,6 +320,7 @@ body {
   background-color: #e6e6e6;
   -webkit-transition: .4s;
   transition: .4s;
+  
 }
 
 .slider:before {
