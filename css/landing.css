@@ -320,7 +320,7 @@ body {
   background-color: #e6e6e6;
   -webkit-transition: .4s;
   transition: .4s;
-  
+
 }
 
 .slider:before {
@@ -420,7 +420,7 @@ input:checked+.slider:before {
 }
 
 .content__title {
-  font-family: 'Staff Wide Test', sans-serif;
+  font-family: 'favorit', sans-serif;
   font-size: 1rem;
 	text-transform: uppercase;
 	margin-bottom: 0;
@@ -431,7 +431,7 @@ input:checked+.slider:before {
 }
 
 a.content__title-sub {
-  font-family: 'Staff Wide Test', sans-serif;
+  font-family: 'favorit', sans-serif;
   font-size: 8rem;
 	text-transform: uppercase;
   text-decoration: none;

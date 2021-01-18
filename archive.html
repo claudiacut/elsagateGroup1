@@ -28,6 +28,7 @@
 	<link rel="stylesheet" href="css/swiper.min.css" />
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/archive.css"/>
+	<link rel="stylesheet" href="css/curtain.css">
 
 	<!-- Favicons
 	================================================== -->
@@ -47,7 +48,7 @@
 
 		<!-- Nav and Logo-->
 
-		<header class="cd-header">
+		<!-- <header class="cd-header">
 
 			<div class="header-wrapper">
 				<div class="logo-wrap">
@@ -61,17 +62,32 @@
 				</div>
 			</div>
 
+		</header> -->
+
+		<header class="header">
+			<div class="header-wrapper">
+				<div class="logo-wrap">
+					<a href="index.html" class="hover-target animsition-link">
+						<h6>The ElsaGate Series</h6>
+					</a>
+				</div>
+				<div class="nav-but-wrap">
+					<a href="./archive.html" class=" roba hover-target animsition-link padding-element"> <h6>Archive</h6></a>
+					<a href="./about.html" class=" roba hover-target animsition-link padding-element"> <h6>About</h6></a>
+					<div class="menu-icon hover-target">
+					</div>
+				</div>
+			</div>
 		</header>
 
+		<ol class="curtains">
+			<li class="cover">
 
+				<div class="shadow-title parallax-top-shadow"></div>
 
-		<!-- Primary Page Layout
-		================================================== -->
+				<div class="section padding-page-top padding-bottom over-hide z-bigger">
+					<div class="container z-bigger">
 
-		<div class="shadow-title parallax-top-shadow"></div>
-
-		<div class="section padding-page-top padding-bottom over-hide z-bigger">
-			<div class="container z-bigger">
 				<div class="row page-title px-5 px-xl-2">
 					<div class="col-11 parallax-fade-top">
 						<h1>Archive</h1>
@@ -87,6 +103,34 @@
 	An overview of current Elsagate’s videos situation about which videos are still online, which have been taken off, the main issue they present and characters involved.
 </h3>
 				</div>
+					</div>
+						</div>
+			</li>
+
+
+	<li id="section-2">
+
+		<div class="ticker-wrap">
+		 <div class="ticker">
+				<div class="ticker__item">choose filters</div>
+				<div class="ticker__item">choose filters</div>
+				<div class="ticker__item">choose filters</div>
+				<div class="ticker__item">choose filters</div>
+				<div class="ticker__item">choose filters</div>
+				<div class="ticker__item">choose filters</div>
+				<div class="ticker__item">choose filters</div>
+				<div class="ticker__item">choose filters</div>
+				<div class="ticker__item">choose filters</div>
+				<div class="ticker__item">choose filters</div>
+			</div>
+		</div>
+
+
+		<div class="shadow-title parallax-top-shadow"></div>
+
+		<div class="section padding-page-top padding-bottom over-hide z-bigger">
+			<div class="container z-bigger">
+
 
 				<!-- <input id="clicker" type="checkbox" />
 	<label for="clicker">Click me! I'm an arbitrary trigger</label>
@@ -265,7 +309,7 @@
 								Title: example<br> Channel: example<br> Date: 00 / 00 / 00</span></a>
 							</div>
 
-							<div class="online popup color-shape gore peppa" style="background-image: url(../img/'peppa_14.gif');">
+							<div class="online popup color-shape gore peppa" style="background-image: url(../img/peppa_14.gif);">
 								<a> 19<span>Status: Online<br>
 									<br>
 								Title: example<br> Channel: example<br> Date: 00 / 00 / 00</span></a>
@@ -324,6 +368,8 @@
 
 
 			</div>
+		</li>
+					</ol>
 
 
 
@@ -369,6 +415,21 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/plugins.js"></script>
 	<script src="js/custom.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="js/curtain.js"></script>
+	<script>
+	    $(function(){
+	       $('.curtains').curtain({
+	           scrollSpeed: 300,
+	           controls: '.menu',
+	           curtainLinks: '.curtain-links',
+	           nextSlide: function(){
+	            console.log("ok");
+	           }
+	       });
+	    });
+	</script>
 
 
 	<!-- End Document
