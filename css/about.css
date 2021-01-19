@@ -159,22 +159,40 @@ box-shadow: 0 0 18px #191819;
 }
 
 #c1 {
-  background-color: #0023f5;
+  background-color: #191819;
 }
 
 #c2 {
-  background-color: #76fa5a;
+  background-color: #f2f2f2;
 }
 
 #c3 {
-	background-color: #f2f2f2;
+
+  background-color: #76fa5a;
 
 
 }
 
 #c4 {
-    background-color: #191819;
 
+    background-color: #0023f5;
+
+}
+
+.title-about {
+  font-size: 50px;
+  font-family: 'Staff Wide Test';
+}
+
+.p-about {
+  padding: 10% 5% 2% 5%;
+}
+
+.txt-about {
+  font-size: 20px;
+  color: white;
+  overflow: scroll;
+  font-family: favorit_probook;
 }
 
 /*
