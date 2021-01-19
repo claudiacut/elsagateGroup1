@@ -813,6 +813,10 @@ a:hover {
   z-index: 98;
 }
 
+#section-3 {
+  background: #191819;
+}
+
 .nav:before, .nav:after {
   content: "";
   position: fixed;
