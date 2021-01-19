@@ -704,14 +704,15 @@ a:hover {
 /* #Navigation
 ================================================== */
 .header {
-  background-color: #191819;
+  /* background-color: #191819; */
+	background-color: transparent;
   position: fixed;
 	height: 80px;
   width: 100%;
   top: 0;
   left: 0;
   z-index: 200;
-	box-shadow: 0 0 50px #1f2029;
+	/* box-shadow: 0 0 50px #1f2029; */
 }
 
 .header-wrapper {
