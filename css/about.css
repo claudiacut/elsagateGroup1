@@ -242,9 +242,14 @@ a:hover, a:focus {
 
 /* Individual paragraph colors and blend modes */
 .content__paragraph--c1 {
-  color: white;
-  mix-blend-mode: color-dodge;
+  color: black;
+  mix-blend-mode: overlay;
 }
+#trigger-1:hover {
+	color: white;
+	text-decoration: none;
+}
+
 
 .content__paragraph--c4 {
   color: #fb6868;
@@ -291,7 +296,7 @@ a:hover, a:focus {
   background: linear-gradient(to left, #fd0be9, #fbf93d);
 }
 
-/* Hover text */
+/* testi particolari nelle tende */
 .pop-text {
   position: relative;
   cursor: default;
@@ -303,6 +308,13 @@ a:hover, a:focus {
   user-select: none;
   -webkit-touch-callout: none;
   -khtml-user-select: none;
+	color: #76FA5A;
+	text-decoration: underline;
+}
+
+
+.color-tenda {
+    /* text-shadow: -1px -1px 0 #76FA5A, 1px -1px 0 #76FA5A, -1px 1px 0 #76FA5A, 1px 1px 0 #76FA5A; */
 }
 
 .color-info {
@@ -310,11 +322,13 @@ a:hover, a:focus {
   text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
 
+/* cambiamento testo senza immagine  */
 .pop-text--s1:hover {
   color: blue;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-  -webkit-transition: background 0s 0.05s, color, 0s 0.05s;
-  transition: background 0s 0.05s, color, 0s 0.05s;
+  /* text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; */
+  /* -webkit-transition: background 0s 0.05s, color, 0s 0.05s;
+  transition: background 0s 0.05s, color, 0s 0.05s; */
+	background-color: white;
 }
 
 .pop-text--s4::before {

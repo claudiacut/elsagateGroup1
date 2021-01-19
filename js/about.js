@@ -64,6 +64,7 @@ MediaRevealer.prototype.positionMedia = function() {
 			triggertimeout = setTimeout(function() {
 				t1.positionMedia();
 				t1.mediaEl.style.opacity = 1;
+				// t1.mediaEl.style.zIndex = 1;
 			}, triggerdelay);
 		});
 		t1.el.addEventListener(evOff, function(ev) {

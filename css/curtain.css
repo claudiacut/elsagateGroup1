@@ -33,15 +33,11 @@
   background: #F8F9FA;
 }
 
-#section-2 {
+#section-1_1 {
   background: #191819;
 }
 
-.cover {
-  background: url(http://lorempixel.com/1400/700/fashion/7) no-repeat center center;
-  background-size: cover;
-  width: 100%;
-}
+
 
 html {
   height: 100%;
@@ -54,16 +50,7 @@ html {
   position: relative;
 }
 
-.tenda {
-  padding: 150px 300px;
-}
 
-.color-tenda {
-    color: #76FA5A;
-    text-decoration: underline;
-
-    /* text-shadow: -1px -1px 0 #76FA5A, 1px -1px 0 #76FA5A, -1px 1px 0 #76FA5A, 1px 1px 0 #76FA5A; */
-}
 
 .curtains>li {
   z-index: 100;
@@ -86,7 +73,13 @@ html {
   z-index: 100;
 }
 
+
+
 .tenda {
+position: fixed;
+top: 20%;
+ left: 5%;
+ right:5%;
   font-family: 'favorit_probook';
   color: #fff;
   font-size: 64px;
@@ -96,4 +89,5 @@ html {
 .intro {
  font-size: 36px;
  color: black;
+
 }
