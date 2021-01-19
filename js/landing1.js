@@ -142,7 +142,7 @@ function _inheritsLoose(subClass, superClass) {
 // io che faccio casino sul codice PERCHè NON VAIIIIII
 document.getElementById("content").style.animation = "new-argh-my-eyes 10s infinite";
 
-document.getElementById("title").style.zIndex = "1";
+document.getElementById("title-par").style.zIndex = "1";
 title.style.pointerEvents = "none";
 
 document.getElementById("lol").style.display = "none";
@@ -183,6 +183,8 @@ document.getElementById("nope12").style.display = "block";
 
 document.getElementById("on").style.display = "none";
 document.getElementById("off").style.display = "block";
+
+
 
 
 // IMPUT LEVETTA
@@ -248,7 +250,7 @@ document.getElementById('switch_id').addEventListener("change", function(){
     document.getElementById("content").style.animation = "argh-my-eyes 0.5s infinite";
     document.getElementById("right").play();
 
-    document.getElementById("title").style.zIndex = "205";
+    document.getElementById("title-par").style.zIndex = "205";
     title.style.pointerEvents = "auto";
 
 
@@ -298,7 +300,7 @@ document.getElementById('switch_id').addEventListener("change", function(){
     document.getElementById("content").style.animation = "new-argh-my-eyes 5s infinite";
     document.getElementById("right").pause();
 
-  document.getElementById("title").style.zIndex = "1";
+  document.getElementById("title-par").style.zIndex = "1";
   title.style.pointerEvents = "none";
 
   } ;

@@ -16,7 +16,7 @@ body {
 
 
   background-color: var(--color-bg);
-  --cursor-stroke: #6b5537;
+  --cursor-stroke: #76fa5a;
   --cursor-fill: none;
   --cursor-stroke-width: 1px;
 
@@ -79,7 +79,7 @@ body {
   --color-link: #ffffff;
   --color-link-hover: #ccc;
   --color-content-title-sub: #ffffff;
-  --cursor-stroke: #fbff00;
+  --cursor-stroke: #76fa5a;
   --cursor-fill: none;
   --cursor-stroke-width: 3px;
 }
@@ -123,7 +123,7 @@ body {
 
 .message {
   position: relative;
-  z-index: 100;
+
   text-align: center;
   background: var(--color-text);
   color: var(--color-bg);
@@ -145,7 +145,7 @@ body {
   padding: 3rem 5vw;
   text-align: center;
   position: relative;
-  z-index: 1000;
+
 }
 
 .frame__title {
@@ -232,7 +232,7 @@ body {
   display: grid;
   grid-template-columns: repeat(100, 2%);
   grid-template-rows: repeat(100, 2%);
-  z-index: 100;
+  z-index: 10;
 }
 
 .grid__item {
@@ -302,6 +302,8 @@ body {
 
 }
 
+
+
 /* Hide default HTML checkbox */
 .switch input {
   opacity: 0;
@@ -336,7 +338,7 @@ body {
 }
 
 input:checked+.slider {
-  background-color: #fbff00;
+  background-color: #76fa5a;
 }
 
 input:focus+.slider {
@@ -425,9 +427,9 @@ input:checked+.slider:before {
 	text-transform: uppercase;
 	margin-bottom: 0;
 	line-height: 1.35;
-	color: yellow;
+	color: #76fa5a;
   text-align: center;
-  z-index: 10;
+
 }
 
 a.content__title-sub {
@@ -437,12 +439,16 @@ a.content__title-sub {
   text-decoration: none;
 	margin-bottom: 0;
 	line-height: 1.35;
-	color: yellow;
+	color: #76fa5a;
   text-align: center;
-  z-index: 0;
+
 
 
 }
+
+
+
+
 
 .content__title-sub:hover{
     text-decoration: underline;
@@ -460,7 +466,7 @@ a.content__title-sub {
   .frame {
     position: fixed;
     text-align:center;
-    z-index: 100;
+
     top: 0;
     left: 0;
     display: grid;
@@ -541,7 +547,7 @@ div.ex1 {
 	height: 500px;
 	padding: 50px;
 	overflow: scroll;
-	z-index: 1000;
+
 	font-size: 30px;
 
 }
