@@ -22,21 +22,14 @@
   font-style: normal;
 }
 
-#section-3 .fixed {
-  position: fixed;
-  top: 150px;
-  left: 150px;
-  width: 200px;
+
+.cover {
+  background-color: #0023f5;
 }
 
 #section-1 {
   background: #F8F9FA;
 }
-
-#section-1_1 {
-  background: #191819;
-}
-
 
 
 html {
@@ -61,7 +54,7 @@ html {
   width: 100%;
   min-height: 100%;
   overflow: hidden;
-  background: blue;
+  /* background: blue; */
   -webkit-transform: translateZ(0);
 }
 
