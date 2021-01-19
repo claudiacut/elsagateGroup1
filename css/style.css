@@ -152,12 +152,17 @@ h6, .h6 {
   width: 315px;
   /* height: 125px;
 	width: 1000px; */
-  background-color: black;
+  /* background-color: black; */
   /* border: 1px solid #efefef; */
   margin: 20px 10px 20px 10px;
   /* padding-top: 7%;
 	padding-bottom: 7%; */
   /* padding: 7% 0 7% 0; */
+}
+
+.font-style-sub {
+	font-family: favorit_probook;
+	font-size: 15px;
 }
 
 #elsa-font {
@@ -168,8 +173,9 @@ h6, .h6 {
 
 .elsa {
   /* background-color: blue; */
-  background-image: url("../elsa.jpg");
-  background-size: cover;
+  /* background-image: url("../elsa.png");
+	width: 30%; */
+  /* background-size: cover; */
 }
 
 .elsa:hover {
@@ -186,8 +192,9 @@ h6, .h6 {
 
 .spider {
   /* background-color: blue; */
-  background-image: url("../spide.png");
-  background-size: cover;
+  /* background-image: url("../spider.png"); */
+
+  /* background-size: cover; */
 }
 
 .spider:hover {
@@ -202,10 +209,14 @@ h6, .h6 {
   color: #76FA5A;
 }
 
-.peppa {
-  /* background-color: blue; */
-  background-image: url("../peppa.jpg");
-  background-size: cover;
+.peppa img {
+	bac
+	/* width: 80%;
+	transform: rotate(20deg); */
+  background-color: #191819;
+  /* background-image: url("../peppa.png"); */
+
+  /* background-size: cover; */
 }
 
 .peppa:hover {
@@ -222,8 +233,9 @@ h6, .h6 {
 
 .mine {
   /* background-color: blue; */
-  background-image: url("../mine.jpg");
-  background-size: cover;
+  /* background-image: url("../mine.png");
+	width: 30%; */
+  /* background-size: cover; */
 }
 
 .mine:hover {
