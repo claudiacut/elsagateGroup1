@@ -210,7 +210,7 @@ h6, .h6 {
 }
 
 .peppa img {
-	bac
+	/* margin-top: 15%; */
 	/* width: 80%;
 	transform: rotate(20deg); */
   background-color: #191819;
@@ -246,6 +246,13 @@ h6, .h6 {
 
 .align-center {
   text-align: center;
+}
+
+#viz {
+	margin-left: 10%;
+}
+
+.storyboard-legend {
 }
 
 /* AGGIUNTE ISI */
@@ -287,6 +294,10 @@ h1 {
        animation-iteration-count: infinite;
        animation-direction: alternate; */
 }
+
+/* #viz {
+	display: block;
+} */
 
 @keyframes textflicker {
   from {
