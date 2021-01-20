@@ -202,7 +202,7 @@ a:hover, a:focus {
 
 .txt-about {
 	padding: 5% 5% 20% 20%;
-  font-size: 20px;
+  font-size: 30px;
   color: white;
   overflow: scroll;
   font-family: 'favorit_probook';
@@ -335,6 +335,7 @@ a:hover, a:focus {
 
 /* testi particolari nelle tende */
 .pop-text {
+font-family: 'favorit_probook_italic';
   position: relative;
   cursor: default;
   white-space: nowrap;
@@ -349,9 +350,6 @@ a:hover, a:focus {
   text-decoration: underline;
 }
 
-.color-tenda {
-  /* text-shadow: -1px -1px 0 #76FA5A, 1px -1px 0 #76FA5A, -1px 1px 0 #76FA5A, 1px 1px 0 #76FA5A; */
-}
 
 .color-info {
   color: #191819;
