@@ -3069,21 +3069,9 @@ figure.vimeo a img, figure.youtube a img {
   background-image: url('../img/map.jpg');
 }
 
-.contact-link {
-  font-size: 15px;
-  line-height: 1.7;
-  letter-spacing: 2px;
-  font-weight: 400;
-  color: #c4c3ca;
-  -webkit-transition: all 250ms linear;
-  transition: all 250ms linear;
+.footer {
+  background-color:#fff;
 }
-
-.contact-link:hover {
-  text-decoration: none;
-  color: #fff;
-}
-
 .footer a {
   position: relative;
   display: inline-block;
@@ -3113,7 +3101,7 @@ figure.vimeo a img, figure.youtube a img {
   bottom: -50px;
 }
 
-.shadow-on-footer {
+/* .shadow-on-footer {
   position: absolute;
   bottom: 0;
   left: -50%;
@@ -3128,7 +3116,7 @@ figure.vimeo a img, figure.youtube a img {
   -webkit-text-fill-color: transparent;
   font-weight: 900;
   z-index: 1;
-}
+} */
 
 /* #Media
 ================================================== */
@@ -3456,6 +3444,17 @@ figure.vimeo a img, figure.youtube a img {
   }
 }
 
+
+/* stickers ad  */
+
+.sticker_ad {
+  position: absolute;
+    transform: scale(0.35) rotate(-18deg);
+    top: 0%;
+    left:64%;
+    z-index: 1001;
+
+}
 
 /* stickers ENTER*/
 
