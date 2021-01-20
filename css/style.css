@@ -3457,6 +3457,13 @@ figure.vimeo a img, figure.youtube a img {
 }
 
 
+/* stickers ENTER*/
+
+
+#enter_st:hover {
+    transform: scale(0.8) rotate(10deg);
+}
+
 /* stickers shadow */
 
 .card-1 {
@@ -3470,6 +3477,41 @@ figure.vimeo a img, figure.youtube a img {
 
   /* box-shadow: 0 0 10px # 595959; */
 }
+
+.card-2 {
+  background-color: 	 #262626;
+  box-shadow: 0 0 50px #595959;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-2:hover {
+  background-color: transparent;
+  /* box-shadow: 0 0 10px # 595959; */
+}
+
+.card-3 {
+  background-color: 	 #262626;
+  box-shadow: 0 0 50px #595959;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-3:hover {
+  background-color: transparent;
+  /* box-shadow: 0 0 10px # 595959; */
+}
+
+.card-4 {
+  background-color: 	 #262626;
+  box-shadow: 0 0 50px #595959;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-4:hover {
+  background-color: transparent;
+  /* box-shadow: 0 0 10px # 595959; */
+}
+
+
 
 
 .biglietto-1 {
@@ -3506,37 +3548,4 @@ figure.vimeo a img, figure.youtube a img {
 
 .biglietto-4:hover {
     transform: scale(0.8) rotate(-25deg);
-}
-
-.card-2 {
-  background-color: 	 #262626;
-  box-shadow: 0 0 50px #595959;
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-}
-
-.card-2:hover {
-  background-color: transparent;
-  /* box-shadow: 0 0 10px # 595959; */
-}
-
-.card-3 {
-  background-color: 	 #262626;
-  box-shadow: 0 0 50px #595959;
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-}
-
-.card-3:hover {
-  background-color: transparent;
-  /* box-shadow: 0 0 10px # 595959; */
-}
-
-.card-4 {
-  background-color: 	 #262626;
-  box-shadow: 0 0 50px #595959;
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-}
-
-.card-4:hover {
-  background-color: transparent;
-  /* box-shadow: 0 0 10px # 595959; */
 }
