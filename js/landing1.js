@@ -142,6 +142,10 @@ function _inheritsLoose(subClass, superClass) {
 // io che faccio casino sul codice PERCHè NON VAIIIIII
 document.getElementById("content").style.animation = "new-argh-my-eyes 10s infinite";
 
+document.getElementById("sticker").style.zIndex = "1001";
+
+document.getElementById("switch").style.zIndex = "1001";
+
 document.getElementById("title-par").style.zIndex = "1";
 title.style.pointerEvents = "none";
 
