@@ -3456,6 +3456,15 @@ figure.vimeo a img, figure.youtube a img {
 
 }
 
+
+.sticker_ab {
+  position: absolute;
+  transform: rotate(15deg);
+  width: 13%;
+  top: 10%;
+  left: 10%;
+}
+
 /* stickers ENTER*/
 
 
