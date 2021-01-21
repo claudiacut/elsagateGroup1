@@ -3558,7 +3558,7 @@ and (max-width: 1605px)
     top: 0%;
     left:64%;
     z-index: 1001;
-    animation: display-none-transition 1s both;
+    animation: display-none-transition 0.5s ease-in both;
     animation-delay: 2s;
 }
 
