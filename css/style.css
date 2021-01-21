@@ -3470,6 +3470,39 @@ and (max-width: 1605px)
   text-transform: uppercase;
 }
 
+
+.ticker-wrap-2 {
+  /* prima era fixed */
+  position: fixed;
+  /* usare px e non % */
+  margin-top: 90px;
+  overflow: hidden;
+  height: 3.2rem;
+  /* padding-bottom: 3rem; */
+  background-color: #fff;
+  box-sizing: content-box;
+  box-shadow: 0 0 50px #595959;
+}
+
+.ticker-wrap-2 .ticker {
+  display: inline-block;
+  height: 1rem;
+  line-height: 4rem;
+  white-space: nowrap;
+  padding-right: 100%;
+  box-sizing: content-box;
+  animation: ticker linear infinite 60s;
+}
+
+.ticker-wrap-2 .ticker__item {
+  display: inline-block;
+  padding: 0 0.2rem;
+  font-size: 2rem;
+  color: #76FA5A;
+  text-transform: uppercase;
+}
+
+
 @keyframes ticker {
   0% {
     transform: translate(0%, 0);
@@ -3620,7 +3653,7 @@ animation: leaves 1s ease-in-out infinite alternate;
     }
 }
 
-
 .help{
-  bottom: 30%;
+  position: relative;
+  bottom: 10%;
 }
