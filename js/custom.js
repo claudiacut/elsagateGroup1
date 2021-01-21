@@ -308,14 +308,14 @@
 				setColumnWidth();
 				container.isotope('reLayout');
 			}
-			container.imagesLoaded(function () {
-				setColumnWidth();
-				container.isotope( {
-					itemSelector : '.portfolio-box',
-					layoutMode : 'masonry',
-					resizable : false
-				} );
-			} );
+			// container.imagesLoaded(function () {
+			// 	setColumnWidth();
+			// 	container.isotope( {
+			// 		itemSelector : '.portfolio-box',
+			// 		layoutMode : 'masonry',
+			// 		resizable : false
+			// 	} );
+			// } );
 			$(window).on('debouncedresize', function () {
 				reArrangeProjects();
 			} );
