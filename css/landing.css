@@ -25,6 +25,18 @@ body {
   /* animation: argh-my-eyes 1s infinite; */
 }
 
+@font-face {
+    font-family: 'staff_wide_testbold';
+    src: url('css/fonts/staffwidetest-bold-webfont.woff2') format('woff2'),
+         url('css/fonts/staffwidetest-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.font-wide {
+  font-family: "Staff Wide Test" !important;
+}
 
 @keyframes argh-my-eyes {
   0% {
@@ -222,6 +234,11 @@ body {
   }
 }
 
+.landingpos {
+  padding: 2% 0 5% 0 !important;
+  position: center;
+}
+
 .grid {
   pointer-events: none;
   position: absolute;
@@ -280,11 +297,11 @@ body {
 
 /* The switch - the box around the slider */
 .switch {
-  margin-left: 48%;
+  margin-bottom: 3%;
+  margin-left: 3%;
   position: relative;
-  top:20%;
+  top: 20%;
   display: inline-block;
-
   width: 50px;
   height: 24px;
   z-index: 200;
@@ -292,6 +309,12 @@ body {
 
 #switch {
   z-index: 200;
+}
+
+.stickerhome {
+  width: 18%;
+  margin-top: 5%;
+  margin-left: 41%;
 }
 
 .label {
