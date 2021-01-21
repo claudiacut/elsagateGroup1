@@ -168,15 +168,11 @@ h6, .h6 {
 }
 
 .font-style-sub {
-	font-family: favorit_probook;
+  color: #fff;
+	font-family: 'favorit_probook';
 	font-size: 15px;
 }
 
-#elsa-font {
-  font-family: 'Cinzel', serif;
-  font-size: 40px;
-  color: #76FA5A;
-}
 
 .elsa {
   /* background-color: blue; */
@@ -772,7 +768,7 @@ a:hover {
 }
 
 .cd-header {
-  /* position: absolute;
+  position: absolute;
   top: 0;
   left: 0;
   background-color: #191819;
@@ -781,7 +777,7 @@ a:hover {
   box-shadow: 2PX 1px 2px #76fa5a;
   height: 100px;
   box-shadow: none; */
-  /* -webkit-transition: all 300ms linear;
+  -webkit-transition: all 300ms linear;
 	-moz-transition: all 300ms linear;
 	-o-transition: all 300ms linear;
 	-ms-transition: all 300ms linear;
@@ -792,7 +788,7 @@ a:hover {
 	-o-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
 	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden; */
+	backface-visibility: hidden;
 }
 
 /* .cd-header.is-fixed {
@@ -2603,14 +2599,26 @@ figure.vimeo a img, figure.youtube a img {
 
 /* #Media
 ================================================== */
-@media (max-width: 1500px) {}
+@media (max-width: 1500px) {
 
-@media (max-width: 1300px) {}
+}
+
+@media (max-width: 1300px) {
+
+}
 
 @media (max-width: 1199px) {
   .swiper-slide {
     width: 15%;
   }
+
+  /* @media only screen
+and (min-width: 1370px)
+and (max-width: 1605px)
+{   .ticker-wrap {
+  margin-top: 130px !important;
+}
+} */
 
   .swiper-slide a {
     margin: 0;
