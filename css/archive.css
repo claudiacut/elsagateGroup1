@@ -123,6 +123,7 @@ body {}
 }
 
 .color-info {
+    background-color: #191819;
     color: black;
     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 
@@ -199,10 +200,10 @@ body {}
   z-index: 100;
 
 }
-
+/* rettangolo numero */
 .popup a:hover	{
 	color: #f00;
-	background-color: black;
+	background-color: #191819;
 	text-indent: 0;
   z-index: 100;
 
@@ -215,16 +216,17 @@ body {}
 	left: 170px;
 	width: 320px;
   padding: 1em 1.0em;
-  background-color: black;
+  background-color: #191819;
+  border: solid 1px #76FA5A;
   margin-left: -120px;
-  border: none;
-  color: yellow;
+  /* border: none; */
+  /* color: yellow; */
   border-radius: 0px;
-  font-family: "favorit_probook";
-  font-size: 14px;
+  /* font-family: "favorit_probook";
+  font-size: 14px; */
   /* text-shadow: 0 1px white; */
   z-index: 100;
-  box-shadow: 2px 2px ;
+  /* box-shadow: 2px 2px ; */
 }
 
 /* panel layout mechanics */
@@ -248,7 +250,17 @@ body {}
   overflow: auto;
   padding: 1em;
 }
-
+.popup h6 {
+  color: white;
+  font-family: "favorit_probook";
+  text-transform: capitalize;
+  font-size: 14px;
+}
+.popup h7 {
+  color: white;
+  font-family: "favorit_probook";
+  font-size: 18px;
+}
 /* simulate panel state control --
 this can also be triggered by a
 class name added to the body tag.
