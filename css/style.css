@@ -25,7 +25,7 @@ body {
   overflow-x: hidden;
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Staff Wide Test';
   src: url('css/fonts/StaffWideTest-Bold.eot');
   src: url('css/fonts/StaffWideTest-Bold.eot?#iefix') format('embedded-opentype'),
@@ -35,7 +35,7 @@ body {
   font-weight: bold;
   font-style: normal;
   font-display: swap;
-}
+} */
 
 @font-face {
   font-family: 'favorit_probold';
@@ -60,7 +60,7 @@ body {
   font-weight: normal;
   font-style: normal;
 }
-
+/*
 @font-face {
     font-family: 'staff_wide_testbold';
     src: url('css/fonts/staffwidetest-bold-webfont.woff2') format('woff2'),
@@ -68,7 +68,29 @@ body {
     font-weight: normal;
     font-style: normal;
 
+} */
+
+/* @font-face {
+    font-family: 'staff_x_wideregular';
+    src: url('fonts/staff_x_wide-regular-webfont.woff2') format('woff2'),
+         url('fonts/staff_x_wide-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+} */
+
+@font-face {
+    font-family: 'Staff X Wide';
+    src: url('fonts/StaffXWide-Regular.eot');
+    src: url('fonts/StaffXWide-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/StaffXWide-Regular.woff2') format('woff2'),
+        url('fonts/StaffXWide-Regular.woff') format('woff'),
+        url('fonts/StaffXWide-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
+
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -675,7 +697,7 @@ a:hover {
 }
 
 .page-title h1 {
-  font-family: 'Staff Wide Test';
+  font-family: 'Staff X Wide' !important;
   position: relative;
   font-size: 70px;
   color: #fff;
@@ -1697,7 +1719,7 @@ QUI DIMENSIONI SLIDER  */
 }
 
 .font-wide {
-  font-family: "Staff Wide Test";
+  font-family: 'Staff X Wide' !important;
 }
 
 #abouttxt {

@@ -26,16 +26,28 @@ body {
 }
 
 @font-face {
+    font-family: 'Staff X Wide';
+    src: url('fonts/StaffXWide-Regular.eot');
+    src: url('fonts/StaffXWide-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/StaffXWide-Regular.woff2') format('woff2'),
+        url('fonts/StaffXWide-Regular.woff') format('woff'),
+        url('fonts/StaffXWide-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* @font-face {
     font-family: 'staff_wide_testbold';
     src: url('css/fonts/staffwidetest-bold-webfont.woff2') format('woff2'),
          url('css/fonts/staffwidetest-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
-}
+} */
 
 .font-wide {
-  font-family: "Staff Wide Test" !important;
+  font-family: 'Staff X Wide' !important;
 }
 
 @keyframes argh-my-eyes {
@@ -313,7 +325,7 @@ body {
 
 .stickerhome {
   width: 18%;
-  margin-top: 5%;
+  margin-top: 12%;
   margin-left: 41%;
 }
 
@@ -475,7 +487,7 @@ input:checked+.slider:before {
 }
 
 .content__title {
-  font-family: 'StaffWideTest', sans-serif;
+
   font-size: 1rem;
 	text-transform: uppercase;
 	margin-bottom: 0;
@@ -486,8 +498,8 @@ input:checked+.slider:before {
 }
 
 a.content__title-sub {
-  font-family: 'StaffWideTest', sans-serif;
-  font-size: 8rem;
+
+  font-size: 7rem;
 	text-transform: uppercase;
   text-decoration: none;
 	margin-bottom: 0;
