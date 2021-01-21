@@ -3260,18 +3260,18 @@ and (max-width: 1605px)
     padding-top: 170px;
   }
 
-  .padding-top-bottom {
+  /* .padding-top-bottom {
     padding-top: 80px;
     padding-bottom: 80px;
-  }
+  } */
 
   .padding-top {
     padding-top: 80px;
   }
 
-  .padding-bottom {
+  /* .padding-bottom {
     padding-bottom: 80px;
-  }
+  } */
 
   .padding-top-bottom-big {
     padding-top: 110px;
@@ -3618,4 +3618,9 @@ animation: leaves 1s ease-in-out infinite alternate;
     100% {
         transform: scale(1);
     }
+}
+
+
+.help{
+  bottom: 30%;
 }
