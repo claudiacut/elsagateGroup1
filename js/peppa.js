@@ -30,3 +30,5 @@ $(function(){
 
 	});
 });
+
+timeout_id = setTimeout(function(){document.getElementById('dissolvenza').style.display="none"}, 5000);
