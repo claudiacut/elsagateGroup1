@@ -217,7 +217,7 @@ body {}
 	width: 320px;
   padding: 1em 1.0em;
   background-color: #191819;
-  border: solid 1px #76FA5A;
+  border: solid 2px blue;
   margin-left: -120px;
   /* border: none; */
   /* color: yellow; */
