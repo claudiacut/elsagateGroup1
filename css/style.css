@@ -242,6 +242,10 @@ h6, .h6 {
   color: #76FA5A;
 }
 
+#dissolvenza {
+  /* display: block; */
+}
+
 .peppa img {
 	/* margin-top: 15%; */
 	/* width: 80%;
