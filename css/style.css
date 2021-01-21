@@ -337,7 +337,7 @@ h1 {
    position: fixed;
    left: 6%;
    padding-top: 6%;
-   z-index: 2000px;
+   z-index: 2000;
 
 }
 
@@ -3558,9 +3558,18 @@ and (max-width: 1605px)
     top: 0%;
     left:64%;
     z-index: 1001;
-
+    animation: display-none-transition 1s both;
+    animation-delay: 2s;
 }
 
+@keyframes display-none-transition {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 
 .sticker_ab {
   position: absolute;
