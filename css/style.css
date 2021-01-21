@@ -3603,3 +3603,19 @@ and (max-width: 1605px)
 .biglietto-4:hover {
     transform: scale(0.8) rotate(-25deg);
 }
+
+
+
+.sticker_archive {
+animation: leaves 1s ease-in-out infinite alternate;
+}
+
+@keyframes leaves {
+    0% {
+        transform: scale(0.8);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
