@@ -106,9 +106,6 @@ h6, .h6 {
   margin-bottom: 1rem;
 }
 
-.mark {
-  color: blue;
-}
 
 ::selection {
   color: #fff;
@@ -133,9 +130,7 @@ h6, .h6 {
 }
 
 
-.here {
-  text-decoration: underline;
-}
+
 
 
 /* .paddingsome {
@@ -778,6 +773,11 @@ a:hover {
   cursor: pointer;
 }
 
+.logo-wrap h6:hover {
+text-decoration: underline;
+text-decoration-color: #76FA5A;
+}
+
 .cd-header {
   position: absolute;
   top: 0;
@@ -842,6 +842,11 @@ a:hover {
   display: inline-block;
   float: right;
   padding: 15px !important;
+}
+
+.padding-element:hover {
+text-decoration: underline;
+text-decoration-color: #76FA5A;
 }
 
 
