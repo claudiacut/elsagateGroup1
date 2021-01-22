@@ -26,28 +26,16 @@ body {
 }
 
 @font-face {
-    font-family: 'Staff X Wide';
-    src: url('fonts/StaffXWide-Regular.eot');
-    src: url('fonts/StaffXWide-Regular.eot?#iefix') format('embedded-opentype'),
-        url('fonts/StaffXWide-Regular.woff2') format('woff2'),
-        url('fonts/StaffXWide-Regular.woff') format('woff'),
-        url('fonts/StaffXWide-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-/* @font-face {
     font-family: 'staff_wide_testbold';
     src: url('css/fonts/staffwidetest-bold-webfont.woff2') format('woff2'),
          url('css/fonts/staffwidetest-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
-} */
+}
 
 .font-wide {
-  font-family: 'Staff X Wide' !important;
+  font-family: "Staff Wide Test" !important;
 }
 
 @keyframes argh-my-eyes {
@@ -133,7 +121,7 @@ body {
   height: 60px;
   margin: -30px 0 0 -30px;
   border-radius: 50%;
-  opacity: 0.4;
+  /* opacity: 0.4; */
   background: var(--color-link);
   animation: loaderAnim 0.7s linear infinite alternate forwards;
 }
@@ -325,7 +313,7 @@ body {
 
 .stickerhome {
   width: 18%;
-  margin-top: 12%;
+  margin-top: 5%;
   margin-left: 41%;
 }
 
@@ -343,19 +331,6 @@ animation: leaves 1s ease-in-out infinite alternate;
     }
 }
 
-.sticker_archive {
-  animation: leaves 1s ease-in-out infinite alternate;
-  }
-
-  @keyframes leaves {
-      0% {
-          transform: scale(0.8);
-      }
-
-      100% {
-          transform: scale(1);
-      }
-  }
 
 
 
@@ -487,7 +462,7 @@ input:checked+.slider:before {
 }
 
 .content__title {
-
+  font-family: 'StaffWideTest', sans-serif;
   font-size: 1rem;
 	text-transform: uppercase;
 	margin-bottom: 0;
@@ -498,8 +473,8 @@ input:checked+.slider:before {
 }
 
 a.content__title-sub {
-
-  font-size: 7rem;
+  font-family: 'StaffWideTest', sans-serif;
+  font-size: 8rem;
 	text-transform: uppercase;
   text-decoration: none;
 	margin-bottom: 0;
@@ -561,7 +536,7 @@ a.content__title-sub {
     position: relative;
     margin: 0 0 0 1rem;
     padding: 0 0 0 1rem;
-    opacity: 0.5;
+    /* opacity: 0.5; */
   }
 
   .frame__demos {

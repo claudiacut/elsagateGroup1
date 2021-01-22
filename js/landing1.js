@@ -6552,7 +6552,10 @@ var Grid = /*#__PURE__*/function () {
     value: function showItems() {
       _gsap.gsap.timeline().set(this.items, {
         scale: 0.7,
-        opacity: 0
+
+        // CAMBIO OPACITA IMMAGINI ALL'INIZIO
+
+        opacity: 1
       }, 0).to(this.items, {
         duration: 2,
         ease: 'Expo.easeOut',
