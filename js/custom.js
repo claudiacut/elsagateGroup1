@@ -449,6 +449,36 @@
 				t1_1.resetMedia();
 			});
 
+      /**************************** effect2 ****************************/
+			var t2 = new MediaRevealer($('trigger-2'));
+			t2.el.addEventListener(evOn, function(ev) {
+				clearTimeout(triggertimeout);
+				triggertimeout = setTimeout(function() {
+					t2.positionMedia();
+					t2.mediaEl.style.opacity = 1;
+				}, triggerdelay);
+			});
+			t2.el.addEventListener(evOff, function(ev) {
+				clearTimeout(triggertimeout);
+				t2.resetMedia();
+			});
+
+
+      /**************************** effect3 ****************************/
+      var t3 = new MediaRevealer($('trigger-3'));
+      t3.el.addEventListener(evOn, function(ev) {
+        clearTimeout(triggertimeout);
+        triggertimeout = setTimeout(function() {
+          t3.positionMedia();
+          t3.mediaEl.style.opacity = 1;
+        }, triggerdelay);
+      });
+      t3.el.addEventListener(evOff, function(ev) {
+        clearTimeout(triggertimeout);
+        t3.resetMedia();
+      });
+
+
 
 			/**************************** effect4 ****************************/
 			var t4 = new MediaRevealer($('trigger-4'));
