@@ -160,9 +160,22 @@ h6, .h6 {
   color: #76FA5A;
 }
 
+.scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
+  /* background-color: red; */
+}
 
+#viz {
 
+  display: inline-block;
+  width: 300%;
+}
 
+/* #vizviz {
+  width: 200%; */
+/* margin-left: 50%; */
+}
 
 /* .paddingsome {
 	margin-bottom: 2%;
