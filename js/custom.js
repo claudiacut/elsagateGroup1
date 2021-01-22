@@ -418,6 +418,8 @@
 				evOn =  'mouseenter',
 				evOff =  'mouseleave';
 
+
+
 			/**************************** effect1 ****************************/
 			var t1 = new MediaRevealer($('trigger-1'));
 			t1.el.addEventListener(evOn, function(ev) {

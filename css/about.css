@@ -280,7 +280,7 @@ a:hover, a:focus {
 /* Individual paragraph colors and blend modes */
 .content__paragraph--c1 {
   color: #191819;
-  mix-blend-mode: overlay;
+  mix-blend-mode: none;
 }
 
 #trigger-1:hover {
@@ -290,12 +290,12 @@ a:hover, a:focus {
 
 .content__paragraph--c4 {
   color: #fb6868;
-  mix-blend-mode: hard-light;
+  mix-blend-mode: none;
 }
 
 .content__paragraph--c7 {
   color: #e68869;
-  mix-blend-mode: color-dodge;
+  mix-blend-mode: none;
 }
 
 .paragraph-color {
