@@ -161,6 +161,19 @@ h6, .h6 {
   color: #76FA5A;
 }
 
+.lil-container{
+  width: 200px;
+  height: 400px;
+  position: absolute;
+  background-color: #191819;
+  z-index: 1000;
+  padding-top: 2%;
+}
+
+.pt {
+  /* padding-top: 40%; */
+}
+
 .scrollmenu {
   overflow: auto;
   white-space: nowrap;
