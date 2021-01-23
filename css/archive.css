@@ -4,23 +4,18 @@
 
 body {}
 
-  .h2{
+.h2 {
   font-family: ;
   font-size: 80px;
-  }
-
-
-.padding-ar {
-
 }
 
-  .filters {
+.padding-ar {}
 
-  }
+.filters {}
 
 /* ---- button ---- */
 .button {
-  display: inline-block;
+  /* display: inline-block; */
   padding: 0em 1.0em;
   background-color: white;
   border: none;
@@ -74,9 +69,12 @@ body {}
 }
 
 .grid {
-  max-width: 2000px;
-  margin-top: 10%;
-/*  margin-right: 10%;*/
+  margin-top: 1%;
+  box-shadow: 0 0 10px #4d4d4d;
+  /* height: 450px !important;
+  overflow: auto; */
+  overflow:scroll;
+  /*  margin-right: 10%;*/
 }
 
 /* clear fix */
@@ -88,12 +86,12 @@ body {}
 
 /* ui group */
 .ui-group {
-  display: inline-block;
+  /* display: inline-block; */
   margin-right: 10px;
 }
 
 .ui-group h3 {
-  display: inline-block;
+  display: block;
   margin-right: 0.2em;
   font-size: 18px;
   margin-top: 1em;
@@ -101,7 +99,7 @@ body {}
 }
 
 .ui-group .button-group {
-  display: inline-block;
+  /* display: inline-block; */
   margin-right: 10px;
 }
 
@@ -109,21 +107,18 @@ body {}
 .color-shape {
   margin: 2%;
   width: 240px;
-  height: 155px;
-
+  height: 135px;
   float: right;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.content__paragraph {
-  color: white;
-}
+.content__paragraph {}
 
 /* informazioni che appaiono nel pop-up */
 .color-info {
-    background-color: #191819;
-    color: #76FA5A;
+  background-color: #191819;
+  color: #76FA5A;
 }
 
 /* .color-shape.round {
@@ -133,10 +128,7 @@ body {}
 /* .color-shape.big.round {
   border-radius: 0px;
 } */
-
-
-  /* PERSONAGGI  IMMAGINI */
-
+/* PERSONAGGI  IMMAGINI */
 .mine {
   /* background-color: white; */
   background-size: cover;
@@ -161,52 +153,56 @@ body {}
   background-color: rgba(0,0,0,0.5);
   background-blend-mode: darken;
 } */
-
-
 /* CARATTERISTICHE NUMERO + POP UP */
 .popup {
-position: relative;
+  position: relative;
 }
-
-
 
 /* rettangolo numero */
 .popup a {
-	/* display: block; */
+  /* display: block; */
   margin-top: 30px;
   background-color: #191819;
   border: solid 2px #191819;
-	width: 10px;
-	line-height: 250px;
-
+  width: 10px;
+  line-height: 310px;
   margin-top: 200px;
-	padding-left: 1px;
+  padding-left: 1px;
   padding-right: 220px;
   padding-top: 1px;
-
-	font-size: 1em;
+  font-size: 1em;
 }
 
 .popup a span {
-display: none;
+  display: none;
+}
+
+.numeri {
+  color: #76FA5A;
+}
+
+.numeri:hover {
+  color: #76FA5A;
+  text-decoration: underline;
 }
 
 /* rettangolo numero */
 /* come cambia in hover */
-.popup a:hover	{
-  line-height: 250px;
-  /* padding-right: 218px; */
+.popup a:hover h8 {
+  padding-right: 218px;
+  font-family: 'favorit_probook_italic';
+  text-decoration: underline;
 }
 
 /* caratteristiche rettangolo pop-up infos */
 .popup a:hover span {
-	display: block;
-	position: absolute;
+  display: block;
+  position: absolute;
   /* qui per posizionarlo quando appare */
   line-height: 25px;
-	top: 140px;
-	left: 120px;
-	width: 420px;
+  top: 170px;
+  left: 120px;
+  width: 420px;
   padding: 1em 1.0em;
   background-color: #191819;
   border: solid 2px #76FA5A;
@@ -215,10 +211,6 @@ display: none;
   z-index: 1001;
 }
 
-
-
-
-
 .popup h6 {
   color: #76FA5A;
   font-family: "favorit_probook_italic";
@@ -226,8 +218,14 @@ display: none;
   font-size: 14px;
   margin: 0;
 }
+
 .popup h7 {
   color: #76FA5A;
   font-family: "favorit_probook";
+  font-size: 20px;
+}
+
+h8 {
+  font-family: 'favorit_probook_italic';
   font-size: 20px;
 }
