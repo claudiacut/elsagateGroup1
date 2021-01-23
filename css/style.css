@@ -3588,7 +3588,7 @@ and (max-width: 1605px)
     left:64%;
     z-index: 1001;
     animation: display-none-transition 0.5s ease-in both;
-    animation-delay: 4s;
+    animation-delay: 12s;
 }
 
 @keyframes display-none-transition {
