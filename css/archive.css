@@ -88,7 +88,7 @@ body {}
 
 /* ui group */
 .ui-group {
-  /* display: inline-block; */
+  display: inline-block;
   margin-right: 10px;
 }
 
@@ -109,7 +109,7 @@ body {}
 .color-shape {
   margin: 2%;
   width: 240px;
-  height: 135px;
+  height: 155px;
 
   float: right;
   background-size: contain;
@@ -166,48 +166,57 @@ body {}
 /* CARATTERISTICHE NUMERO + POP UP */
 .popup {
 position: relative;
-
 }
+
+
 
 /* rettangolo numero */
 .popup a {
-	position: relative;
-	display: block;
-  background-color: blue;
+	/* display: block; */
+  margin-top: 30px;
+  background-color: #191819;
+  border: solid 2px #191819;
 	width: 10px;
-	line-height: 25px;
-	padding: 0px 22px;
+	line-height: 250px;
+
+  margin-top: 200px;
+	padding-left: 1px;
+  padding-right: 220px;
+  padding-top: 1px;
+
 	font-size: 1em;
 }
 
 .popup a span {
-	display: none;
+display: none;
 }
 
 /* rettangolo numero */
 /* come cambia in hover */
 .popup a:hover	{
-	color: #76FA5A;
-	background-color: #76FA5A;
-	text-indent: 0;
-  z-index: 100;
-  bottom: 0px;
+  line-height: 250px;
+  /* padding-right: 218px; */
 }
 
 /* caratteristiche rettangolo pop-up infos */
 .popup a:hover span {
 	display: block;
 	position: absolute;
-	top: 0px;
-	left: 170px;
-	width: 320px;
+  /* qui per posizionarlo quando appare */
+  line-height: 25px;
+	top: 140px;
+	left: 120px;
+	width: 420px;
   padding: 1em 1.0em;
   background-color: #191819;
   border: solid 2px #76FA5A;
   margin-left: -120px;
   border-radius: 0px;
-  z-index: 100;
+  z-index: 1001;
 }
+
+
+
 
 
 .popup h6 {
