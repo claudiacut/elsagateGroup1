@@ -198,10 +198,12 @@ h6, .h6 {
   width: 300%;
 }
 
-/* #vizviz {
-  width: 200%; */
-/* margin-left: 50%; */
+#vizelsa {
+  margin-left: 11%;
+  display: inline-block;
+  width: 300%;
 }
+
 
 /* .paddingsome {
 	margin-bottom: 2%;
@@ -380,9 +382,7 @@ h1 {
 
 }
 
-/* #viz {
-	display: block;
-} */
+
 
 @keyframes textflicker {
   from {
