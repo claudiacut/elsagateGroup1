@@ -3593,6 +3593,7 @@ and (max-width: 1605px)
   width: 13%;
   top: 10%;
   left: 10%;
+  cursor: pointer;
 }
 
 /* stickers ENTER*/
@@ -3600,6 +3601,7 @@ and (max-width: 1605px)
 
 #enter_st:hover {
     transform: scale(0.8) rotate(10deg);
+    cursor: pointer;
 }
 
 /* stickers shadow */
