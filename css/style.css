@@ -174,18 +174,6 @@ h6, .h6 {
   /* padding-top: 40%; */
 }
 
-.container-pers {
-  width: 100%;
-    padding-right: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.txtp {
-  font-size: 9px;
-  margin-top: -20px;
-}
-
 .scrollmenu {
   overflow: auto;
   white-space: nowrap;
@@ -198,9 +186,15 @@ h6, .h6 {
   width: 300%;
 }
 
-/* #vizviz {
-  width: 200%; */
-/* margin-left: 50%; */
+#vizelsa {
+  margin-left: 11%;
+  display: inline-block;
+  width: 300%;
+}
+
+.txtp {
+  margin-top: -20px;
+  font-size: 9px;
 }
 
 /* .paddingsome {
@@ -372,17 +366,16 @@ h1 {
 }
 
 .back {
-   width: 10%;
-   /* position: fixed; */
-   left: 6%;
-   padding-top: 8%;
+   width: 4%;
+   position: absolute;
+   /* transform: rotate(10deg); */
+   left: 10%;
+   top: 3%;
    z-index: 2000;
 
 }
 
-/* #viz {
-	display: block;
-} */
+
 
 @keyframes textflicker {
   from {
@@ -710,7 +703,7 @@ a:hover {
 }
 
 .padding-bottom-big {
-  padding-bottom: 30px;
+  padding-bottom: 140px;
 }
 
 .padding-top-bottom-small {
@@ -3319,11 +3312,7 @@ and (max-width: 1605px)
   }
 
   .padding-page-top {
-    padding-top: 80px !important;
-  }
-
-  .padding-lit {
-    padding-top: 90px;
+    padding-top: 170px;
   }
 
   /* .padding-top-bottom {
@@ -3617,7 +3606,6 @@ and (max-width: 1605px)
   width: 13%;
   top: 10%;
   left: 10%;
-  cursor: pointer;
 }
 
 /* stickers ENTER*/
@@ -3625,7 +3613,6 @@ and (max-width: 1605px)
 
 #enter_st:hover {
     transform: scale(0.8) rotate(10deg);
-    cursor: pointer;
 }
 
 /* stickers shadow */
