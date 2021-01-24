@@ -284,22 +284,17 @@ a:hover, a:focus {
 /* Individual paragraph colors and blend modes */
 .content__paragraph--c1 {
   color: #191819;
-  mix-blend-mode: none;
-}
-
-#trigger-1:hover {
-  color: white;
-  text-decoration: none;
+  mix-blend-mode: overlay;
 }
 
 .content__paragraph--c4 {
-  color: #fb6868;
-  mix-blend-mode: none;
+  color: #f2f2f2;
+  mix-blend-mode: overlay;
 }
 
 .content__paragraph--c7 {
-  color: #e68869;
-  mix-blend-mode: none;
+  color: #f2f2f2;
+  mix-blend-mode: overlay;
 }
 
 .paragraph-color {
@@ -462,4 +457,10 @@ font-family: 'favorit_probook_italic';
 
 .fix {
   position: fixed;
+}
+
+
+#trigger-1:hover {
+  color: white;
+  text-decoration: none;
 }
