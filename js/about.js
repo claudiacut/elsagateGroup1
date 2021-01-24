@@ -1,6 +1,9 @@
 
 ;(function(window) {
 
+
+
+
 	function BufferLoader(context, urlList, callback) {
 		this.context = context;
 		this.urlList = urlList;
@@ -31,42 +34,45 @@ this.mediaEl.style.width = w ? w : null;
 		this.mediaEl.style.height = h ? h : null;
 	}
 
-MediaRevealer.prototype.positionMedia = function() {
-		var elOffset = this.el.getBoundingClientRect(),
-			contentOffset = this.contentEl.getBoundingClientRect();
 
-		this.mediaEl.style.top = parseFloat((elOffset.top + this.el.offsetHeight/2) - contentOffset.top - this.mediaEl.offsetHeight/2) + 'px';
-		this.mediaEl.style.left = parseFloat((elOffset.left + this.el.offsetWidth/2) - contentOffset.left - this.mediaEl.offsetWidth/2) + 'px';
-	};
+  MediaRevealer.prototype.positionMedia = function() {
+  		var elOffset = this.el.getBoundingClientRect(),
+  			contentOffset = this.contentEl.getBoundingClientRect();
 
-	MediaRevealer.prototype.resetMedia = function() {
-		this.mediaEl.style.WebkitTransform = this.mediaEl.style.transform = 'none';
-		this.mediaEl.style.opacity = 0;
-	};
+  		this.mediaEl.style.top = parseFloat((elOffset.top + this.el.offsetHeight/2) - contentOffset.top - this.mediaEl.offsetHeight/2) + 'px';
+  		this.mediaEl.style.left = parseFloat((elOffset.left + this.el.offsetWidth/2) - contentOffset.left - this.mediaEl.offsetWidth/2) + 'px';
+  	};
 
-	function init() {
-			initEvents();
-	}
+  	MediaRevealer.prototype.resetMedia = function() {
+  		this.mediaEl.style.WebkitTransform = this.mediaEl.style.transform = 'none';
+  		this.mediaEl.style.opacity = 0;
+  	};
 
-	function initEvents() {
+  	function init() {
+  			initEvents();
+  	}
 
-			evOn =  'mouseenter',
-			evOff =  'mouseleave';
+  	function initEvents() {
+
+  			evOn =  'mouseenter',
+  			evOff =  'mouseleave';
+
+
+
 
       /**************************** effect1 ****************************/
-			var t1 = new MediaRevealer($('trigger-1'));
-			t1.el.addEventListener(evOn, function(ev) {
-				clearTimeout(triggertimeout);
-				triggertimeout = setTimeout(function() {
-					t1.positionMedia();
-					t1.mediaEl.style.opacity = 1;
-					// t1.mediaEl.style.zIndex = 1;
-				}, triggerdelay);
-			});
-			t1.el.addEventListener(evOff, function(ev) {
-				clearTimeout(triggertimeout);
-				t1.resetMedia();
-			});
+      var t1 = new MediaRevealer($('trigger-1'));
+		t1.el.addEventListener(evOn, function(ev) {
+			clearTimeout(triggertimeout);
+			triggertimeout = setTimeout(function() {
+				t1.positionMedia();
+				t1.mediaEl.style.opacity = 1;
+			}, triggerdelay);
+		});
+		t1.el.addEventListener(evOff, function(ev) {
+			clearTimeout(triggertimeout);
+			t1.resetMedia();
+		});
 
 			/**************************** effect1_1 ****************************/
 			var t1_1 = new MediaRevealer($('trigger-1_1'));
@@ -113,30 +119,42 @@ MediaRevealer.prototype.positionMedia = function() {
 
 
 
-			/**************************** effect4 ****************************/
-			var t4 = new MediaRevealer($('trigger-4'));
-			t4.el.addEventListener(evOn, function(ev) {
-				clearTimeout(triggertimeout);
-				triggertimeout = setTimeout(function() {
-					t4.positionMedia();
-					t4.mediaEl.style.opacity = 1;
-					t4.mediaEl.style.WebkitTransform = t4.mediaEl.style.transform = 'rotate3d(0,0,1,-20deg)';
-				}, triggerdelay);
-			});
-			t4.el.addEventListener(evOff, function(ev) {
-				clearTimeout(triggertimeout);
-				t4.resetMedia();
-			});
-}
+      /**************************** effect4 ****************************/
+  		var t4 = new MediaRevealer($('trigger-4'));
+  		t4.el.addEventListener(evOn, function(ev) {
+  			clearTimeout(triggertimeout);
+  			triggertimeout = setTimeout(function() {
+  				t4.positionMedia();
+  				t4.mediaEl.style.opacity = 1;
+  				t4.mediaEl.style.WebkitTransform = t4.mediaEl.style.transform = 'rotate3d(0,0,1,-20deg)';
+  			}, triggerdelay);
+  		});
+  		t4.el.addEventListener(evOff, function(ev) {
+  			clearTimeout(triggertimeout);
+  			t4.resetMedia();
+  		});
+
+      /**************************** effect6 ****************************/
+      var t6 = new MediaRevealer($('trigger-6'));
+      t6.el.addEventListener(evOn, function(ev) {
+        clearTimeout(triggertimeout);
+        triggertimeout = setTimeout(function() {
+          t6.positionMedia();
+          t6.mediaEl.style.opacity = 1;
+        }, triggerdelay);
+      });
+      t6.el.addEventListener(evOff, function(ev) {
+        clearTimeout(triggertimeout);
+        t6.resetMedia();
+      });
 
 
-	// setTimeouts for the mouseenter events.
-	var triggertimeout, triggerdelay = 50;
+  }
+
+  	// setTimeouts for the mouseenter events.
+  	var triggertimeout, triggerdelay = 50;
 
 
+  	init();
 
-	init();
-
-
-
-})(window);
+  })(window);
