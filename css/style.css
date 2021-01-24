@@ -165,7 +165,8 @@ h6, .h6 {
   width: 200px;
   height: 400px;
   position: absolute;
-  background-color: #191819;
+  /* background-color: #191819; */
+  background-color: transparent;
   z-index: 1000;
   padding-top: 2%;
 }
@@ -176,28 +177,48 @@ h6, .h6 {
 }
 
 .lil-container .media{
-  color: red;
-  top: 10%;
+  color: white;
+  margin-top: 150px;
+  font-size: 24px;
 }
 
 .lil-container .photo{
-  color: red;
+  color: white;
   top: 10%;
+  font-size: 24px;
+}
+
+.lil-container .original{
+  color: white;
+  top: 10%;
+  font-size: 14px;
+}
+
+.lil-container .problematic{
+  color: white;
+  top: 10%;
+  margin-top: 75px;
+  font-size: 14px;
+
 }
 
 .lil-container .channel{
-  color: red;
+  color: white;
   top: 10%;
+  font-size: 14px;
+
 }
 
-.lil-container .issue{
-  color: red;
-  top: 10%;
-}
+/* .lil-container .issue{
+  color: white;
+  margin-top: 30px;
+} */
 
 .lil-container .source{
-  color: blue;
-  top: 10%;
+  color: white;
+  margin-top: -5px;
+  font-size: 24px;
+
 }
 
 
@@ -221,9 +242,9 @@ h6, .h6 {
 }
 
 #vizpeppa {
-
+  margin-left: 11%;
   display: inline-block;
-  width: 150%;
+  width: 270%;
 }
 
 #vizelsa {
