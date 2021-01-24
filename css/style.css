@@ -177,6 +177,8 @@ h6, .h6 {
 .scrollmenu {
   overflow: auto;
   white-space: nowrap;
+  height: auto;
+  /* height: 400px; */
   /* background-color: red; */
 }
 
