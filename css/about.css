@@ -352,6 +352,7 @@ font-family: 'favorit_probook_italic';
   -khtml-user-select: none;
   color: #76FA5A;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 
