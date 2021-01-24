@@ -117,6 +117,22 @@ MediaRevealer.prototype.positionMedia = function() {
 			clearTimeout(triggertimeout);
 			t4_1.resetMedia();
 		});
+
+		/**************************** effect4_2 ****************************/
+		var t4_2 = new MediaRevealer($('trigger-4_2'));
+		t4_2.el.addEventListener(evOn, function(ev) {
+			clearTimeout(triggertimeout);
+			triggertimeout = setTimeout(function() {
+				t4_2.positionMedia();
+				t4_2.mediaEl.style.opacity = 1;
+				t4_2.mediaEl.style.WebkitTransform = t4_1.mediaEl.style.transform = 'rotate3d(0,0,1,-20deg)';
+			}, triggerdelay);
+		});
+		t4_2.el.addEventListener(evOff, function(ev) {
+			clearTimeout(triggertimeout);
+			t4_2.resetMedia();
+		});
+
 }
 
 	// setTimeouts for the mouseenter events.
