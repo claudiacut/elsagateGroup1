@@ -503,7 +503,7 @@
             var self = this,
                 elems = self.$element.find('img'),
                 len   = elems.length,
-                blank = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==";
+                blank = "";
 
             elems.bind('load.imgloaded',function(){
                 if (--len <= 0 && this.src !== blank || $(this).not(':visible')){

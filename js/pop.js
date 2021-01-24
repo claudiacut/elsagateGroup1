@@ -63,6 +63,7 @@ MediaRevealer.prototype.positionMedia = function() {
 			triggertimeout = setTimeout(function() {
 				t1.positionMedia();
 				t1.mediaEl.style.opacity = 1;
+					t1.mediaEl.style.zIndex = -10;
 			}, triggerdelay);
 		});
 		t1.el.addEventListener(evOff, function(ev) {
@@ -79,6 +80,7 @@ MediaRevealer.prototype.positionMedia = function() {
 			triggertimeout = setTimeout(function() {
 				t1_1.positionMedia();
 				t1_1.mediaEl.style.opacity = 1;
+				t1_1.mediaEl.style.zIndex = -10;
 			}, triggerdelay);
 		});
 		t1_1.el.addEventListener(evOff, function(ev) {
@@ -95,7 +97,7 @@ MediaRevealer.prototype.positionMedia = function() {
 			triggertimeout = setTimeout(function() {
 				t4.positionMedia();
 				t4.mediaEl.style.opacity = 1;
-				t4.mediaEl.style.WebkitTransform = t4.mediaEl.style.transform = 'rotate3d(0,0,1,-20deg)';
+				t4.mediaEl.style.zIndex = -10;
 			}, triggerdelay);
 		});
 		t4.el.addEventListener(evOff, function(ev) {
@@ -110,7 +112,7 @@ MediaRevealer.prototype.positionMedia = function() {
 			triggertimeout = setTimeout(function() {
 				t4_1.positionMedia();
 				t4_1.mediaEl.style.opacity = 1;
-				t4_1.mediaEl.style.WebkitTransform = t4_1.mediaEl.style.transform = 'rotate3d(0,0,1,-20deg)';
+				t4_1.mediaEl.style.zIndex = -10;
 			}, triggerdelay);
 		});
 		t4_1.el.addEventListener(evOff, function(ev) {
@@ -125,7 +127,6 @@ MediaRevealer.prototype.positionMedia = function() {
 			triggertimeout = setTimeout(function() {
 				t4_2.positionMedia();
 				t4_2.mediaEl.style.opacity = 1;
-				t4_2.mediaEl.style.WebkitTransform = t4_1.mediaEl.style.transform = 'rotate3d(0,0,1,-20deg)';
 			}, triggerdelay);
 		});
 		t4_2.el.addEventListener(evOff, function(ev) {

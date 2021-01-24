@@ -284,12 +284,12 @@ a:hover, a:focus {
 /* Individual paragraph colors and blend modes */
 .content__paragraph--c1 {
   color: #191819;
-  mix-blend-mode: overlay;
+
 }
 
 .content__paragraph--c4 {
   color: #f2f2f2;
-  mix-blend-mode: overlay;
+
 }
 
 .content__paragraph--c7 {
