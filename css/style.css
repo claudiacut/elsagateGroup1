@@ -170,6 +170,38 @@ h6, .h6 {
   padding-top: 2%;
 }
 
+
+.lil-container p{
+  /* color: red; */
+}
+
+.lil-container .media{
+  color: red;
+  top: 10%;
+}
+
+.lil-container .photo{
+  color: red;
+  top: 10%;
+}
+
+.lil-container .channel{
+  color: red;
+  top: 10%;
+}
+
+.lil-container .issue{
+  color: red;
+  top: 10%;
+}
+
+.lil-container .source{
+  color: blue;
+  top: 10%;
+}
+
+
+
 .pt {
   /* padding-top: 40%; */
 }
