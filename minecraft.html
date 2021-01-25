@@ -123,73 +123,74 @@
 					</div>
 					<br>
 
-					<!-- General Description! - Media - attenzione all'ordine dei js-->
-					<div class="content content--blended">
+					<div class="container">
+						<!-- <h3 class="ch-description"> Storyboard </h3> -->
+						<h5 class="ch-description"> Click to enable a filter </h5>
+						<!-- filtri viz  -->
+						<div class="button-group js-radio-button-group" data-filter-group="color">
 
-
-						<!-- Media 1 ok-->
-						<div data-pop-media="media1" class="pop-media" style="background-image: url(img/slime.gif);">
-							<div class="pop-media__overlay pop-media__overlay--c1"></div>
+							<div id="cn1" class="cont-img">
+								<img id="img1" src="./img/stviolence.svg" style="width:100%">
+								<div id="btn1" class="btn">VIOLENCE</div>
+							</div>
+							<div id="cn2" class="cont-img">
+							 <img id="img2" src="./img/stgore.svg" style="width:100%">
+							 <button id="btn2" class="btn">GORE</button>
+							</div>
+							<div id="cn3" class="cont-img">
+								<img id="img3" src="./img/stsexual.svg" style="width:100%">
+								<button id="btn3" class="btn">SEXUAL</button>
+							</div>
+							<div id="cn4" class="cont-img">
+								<img id="img4" src="./img/sttoilet.svg" style="width:100%">
+								<button id="btn4" class="btn">TOILET</button>
+							</div>
+							<div id="cn5" class="cont-img">
+								<img id="img5" src="./img/stdistortion.svg" style="width:100%">
+								<button id="btn5" class="btn">DISTORTION</button>
+							</div>
 						</div>
 
-						<!-- Media 4 ok-->
-						<div data-pop-media="media4" class="pop-media" style="background-image: url(img/hypno.gif);"></div>
 
-					 <!-- Media 1_1 ok-->
-						<div data-pop-media="media1_1" class="pop-media" style="background-image: url(img/slime.gif);">
-							<div class="pop-media__overlay pop-media__overlay--c1"></div>
-						</div>
-
-						<!-- Media 4_1 -->
-						<div data-pop-media="media4_1" class="pop-media" style="background-image: url(img/algo.gif);"></div>
-
-
-
-						<!-- Paragraphs -->
-						<h3 class="content__paragraph">Much of the topography of North Dakota can be traced to the effects of Wisconsin-age glaciation, particularly in the north and east. Large portions of these <span
-								id="trigger-2_1" class="pop-text" data-pop-text-out data-pop-media="media1">glaciated</span> areas are peppered by countless ponds and lakes. A frightening number have been drained; <span id="" class="pop-text"
-								data-pop-media="media4">farmed land</span>, but also retired croplands, domestic hayfields, fence rows, wood lots (referred to as tree claims), shelterbelts, orchards, and farmyards. While
-							many of these areas are almost devoid of wildlife, others provide suitable habitat for a number
-							of species. This large lake has vegetation around the perimeter, so few ducks <span id="" class="pop-text" data-pop-media="media4_1">farmed land</span> or marsh species actually nest,
-							but some use the area from spring through fall. You may expect lots of grebes (especially Western), American White Pelicans, Double-crested Cormorants, and Ring-billed
-							<span id="trigger-2" class="pop-text" data-pop-text-out data-pop-media="media4">gang</span> and Franklin’s Gulls. </h3>
-
+						<br>
+						<br>
+						<h5 class="ch-description"> Scroll horizontally to see all the elements </h5>
 					</div>
-					<br>
-				</div>
-			</div>
+
 
 			<!-- inizio storyboard & viz  -->
 			<div class="container">
-				 <h3 class="ch-description"> Storyboard </h3>
-				 <br>
-				 <h4 class="ch-description"> Scroll horizontally to see all the elements </h4>
+				<h3 class="ch-description animsition-link"> Storyboard </h3>
+				<br>
+				<h4 class="ch-description animsition-link"> Scroll horizontally to see all the elements </h4>
+				<br>
 			</div>
 
 			<div class="container-pers scrollmenu">
-			<div class="flex column lil-container pr-5">
-			 <p class="flex column justify-content-left pl-5"> PHOTOGRAMS </p>
-			 <br><br><br><br>
-			 <p class="flex column justify-content-left pl-5"> MEDIA </p>
-			 <br>
-			 <p class="flex column justify-content-left pl-5"> YOUTUBE SOURCE </p>
-			 <p class="txtp flex column justify-content-left pl-5"> video title | channel name </p>
-			 <br><br>
-				 <p class="flex column justify-content-left pl-5"> ISSUE </p>
-			</div>
+				<div class="flex column lil-container pr-5">
+					<p class="flex column justify-content-left pl-5 photo"> FRAMES </p>
+					<p class="txtp flex column justify-content-left pl-5 original"> ORIGINAL </p>
+					<p class="txtp flex column justify-content-left pl-5 problematic"> PROBLEMATIC </p>
 
-			 <div id="vizpeppa">
-			</div>
-			 </div>
-
-			<br><br><br><br>
-
-		</div>
-
-		<!-- STICKER ARCHIVIO -->
-				<div class=" justify-content-right align-self-center">
-					<a href="archive.html"><img class="sticker_enter justify-content-right align-self-center" src="../img/toarchive.svg" style="width: 12%; margin-left: 75%;"><a>
+					<p class="flex column justify-content-left pl-5 media"> MEDIA </p>
+					<br>
+					<p class="flex column justify-content-left pl-5 source"> YOUTUBE SOURCE </p>
+					<p class="txtp flex column justify-content-left pl-5 channel"> VIDEO TITLE AND CHANNEL NAME </p>
+					<br><br>
+					<!-- <p class="flex column justify-content-left pl-5 issue"> ISSUE </p> -->
 				</div>
+
+				<div id="vizpeppa">
+				</div>
+			</div>
+
+
+			<!-- STICKER ARCHIVIO  -->
+			<div class="container">
+				<div class=" justify-content-right align-self-center">
+					<a href="archive.html"><img class="justify-content-right align-self-center sticker_archive" src="img/toarchive.svg" style="width: 12%; margin-left: 75%;"><a>
+				</div>
+			</div>
 
 				<div class="ticker-wrap-2 help">
 				 <div class="ticker">
@@ -249,14 +250,15 @@
 
 	<!-- JAVASCRIPT
     ================================================== -->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/popper.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/plugins.js"></script>
-	<script src="js/minecraft.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.10.0/rellax.min.js"></script>
-	<script src="js/custom.js"></script>
-	<script src="js/pop.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/plugins.js"></script>
+		<script src="js/custom.js"></script>
+		<script src="js/peppa.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.10.0/rellax.min.js"></script>
+		<script src="https://d3js.org/d3.v6.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.14.0/js-yaml.min.js" integrity="sha512-ia9gcZkLHA+lkNST5XlseHz/No5++YBneMsDp1IZRJSbi1YqQvBeskJuG1kR+PH1w7E0bFgEZegcj0EwpXQnww==" crossorigin="anonymous"></script>
 	<!-- End Document
 ================================================== -->
 </body>
