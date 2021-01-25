@@ -423,7 +423,7 @@ h1 {
   position: absolute;
   /* transform: rotate(10deg); */
   left: 50%;
-  bottom: 7%;
+  bottom: 12%;
   z-index: 2000;
 }
 
@@ -3567,8 +3567,7 @@ and (max-width: 1605px)
 .ticker-wrap-2 {
   /* prima era fixed */
   position: fixed;
-  /* usare px e non % */
-  margin-top: 90px;
+  margin-top: 15%;
   overflow: hidden;
   height: 3.2rem;
   /* padding-bottom: 3rem; */
