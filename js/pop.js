@@ -89,7 +89,6 @@ MediaRevealer.prototype.positionMedia = function() {
 		});
 
 
-
 		/**************************** effect4 ****************************/
 		var t4 = new MediaRevealer($('trigger-4'));
 		t4.el.addEventListener(evOn, function(ev) {
@@ -133,6 +132,38 @@ MediaRevealer.prototype.positionMedia = function() {
 			clearTimeout(triggertimeout);
 			t4_2.resetMedia();
 		});
+
+
+		/**************************** effec2_2 ****************************/
+		var t2 = new MediaRevealer($('trigger-2'));
+		t2.el.addEventListener(evOn, function(ev) {
+			clearTimeout(triggertimeout);
+			triggertimeout = setTimeout(function() {
+				t2.positionMedia();
+				t2.mediaEl.style.opacity = 1;
+			}, triggerdelay);
+		});
+		t2.el.addEventListener(evOff, function(ev) {
+			clearTimeout(triggertimeout);
+			t2.resetMedia();
+		});
+
+
+		/**************************** effec2_2 ****************************/
+		var t2_2 = new MediaRevealer($('trigger-2_2'));
+		t2_2.el.addEventListener(evOn, function(ev) {
+			clearTimeout(triggertimeout);
+			triggertimeout = setTimeout(function() {
+				t2_2.positionMedia();
+				t2_2.mediaEl.style.opacity = 1;
+			}, triggerdelay);
+		});
+		t2_2.el.addEventListener(evOff, function(ev) {
+			clearTimeout(triggertimeout);
+			t2_2.resetMedia();
+		});
+
+
 
 }
 
