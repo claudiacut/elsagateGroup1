@@ -3693,8 +3693,8 @@ and (max-width: 1605px)
 
 /* stickers shadow */
 .card-1 {
-  background-color: #262626;
-  box-shadow: 0 0 50px #595959;
+  /* background-color: #262626; */
+  /* box-shadow: 0 0 50px #595959; */
   transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
 }
 
@@ -3704,8 +3704,8 @@ and (max-width: 1605px)
 }
 
 .card-2 {
-  background-color: #262626;
-  box-shadow: 0 0 50px #595959;
+  /* background-color: #262626; */
+  /* box-shadow: 0 0 50px #595959; */
   transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
 }
 
@@ -3715,8 +3715,8 @@ and (max-width: 1605px)
 }
 
 .card-3 {
-  background-color: #262626;
-  box-shadow: 0 0 50px #595959;
+  /* background-color: #262626; */
+  /* box-shadow: 0 0 50px #595959; */
   transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
 }
 
@@ -3726,8 +3726,8 @@ and (max-width: 1605px)
 }
 
 .card-4 {
-  background-color: #262626;
-  box-shadow: 0 0 50px #595959;
+  /* background-color: #262626; */
+  /* box-shadow: 0 0 50px #595959; */
   transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
 }
 
