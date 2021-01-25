@@ -418,13 +418,12 @@ h1 {
   z-index: 2000;
 }
 
-
 .arrow {
   width: 4%;
   position: absolute;
   /* transform: rotate(10deg); */
   left: 50%;
-bottom: 10%;
+  bottom: 7%;
   z-index: 2000;
 }
 
@@ -3732,7 +3731,11 @@ and (max-width: 1605px)
 }
 
 .sticker_archive {
+  position: absolute;
   animation: leaves 1s ease-in-out infinite alternate;
+  width: 10%;
+  margin-left: 65%;
+  bottom: 28%;
 }
 
 @keyframes leaves {
@@ -3765,9 +3768,7 @@ and (max-width: 1605px)
 }
 
 /* BOTTONI VIZ */
-.button-group {
-
-}
+.button-group {}
 
 .cont-img {
   position: relative;
@@ -3775,7 +3776,6 @@ and (max-width: 1605px)
   max-width: 80px;
   display: inline-block;
   margin: 5%;
-
 }
 
 .cont-img img {
