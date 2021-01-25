@@ -3755,7 +3755,9 @@ and (max-width: 1605px)
 }
 
 /* BOTTONI VIZ */
-.button-group {}
+.button-group {
+
+}
 
 .cont-img {
   position: relative;
@@ -3763,7 +3765,7 @@ and (max-width: 1605px)
   max-width: 80px;
   display: inline-block;
   margin: 5%;
-  /* float:left; */
+
 }
 
 .cont-img img {
