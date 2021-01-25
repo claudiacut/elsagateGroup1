@@ -423,7 +423,7 @@ h1 {
   position: absolute;
   /* transform: rotate(10deg); */
   left: 50%;
-  bottom: 12%;
+  bottom: 13.5%;
   z-index: 2000;
 }
 
@@ -3734,7 +3734,7 @@ and (max-width: 1605px)
   animation: leaves 1s ease-in-out infinite alternate;
   width: 10%;
   margin-left: 65%;
-  bottom: 28%;
+  bottom: 32%;
 }
 
 @keyframes leaves {
