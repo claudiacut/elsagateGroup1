@@ -418,6 +418,16 @@ h1 {
   z-index: 2000;
 }
 
+
+.back-1 {
+  width: 4%;
+  position: absolute;
+  /* transform: rotate(10deg); */
+  left: 50%;
+bottom: 10%;
+  z-index: 2000;
+}
+
 @keyframes textflicker {
   from {
     text-shadow: 1px 0 0 #76FA5A, -2px 0 0 #75fa69;
