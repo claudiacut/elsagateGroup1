@@ -167,10 +167,6 @@ h6, .h6 {
   padding-top: 2%;
 }
 
-.lil-container p {
-  /* color: red; */
-}
-
 .lil-container .media {
   color: white;
   margin-top: 170px;
@@ -202,10 +198,6 @@ h6, .h6 {
   font-size: 14px;
 }
 
-/* .lil-container .issue{
-  color: white;
-  margin-top: 30px;
-} */
 .lil-container .source {
   color: white;
   margin-top: 10px;
@@ -3257,11 +3249,62 @@ figure.vimeo a img, figure.youtube a img {
 ================================================== */
 @media (max-width: 1500px) {}
 
-@media (max-width: 1300px) {}
+@media (max-width: 1300px) {
+  .lil-container {
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    background-color: transparent;
+    z-index: 1000;
+    padding-top: 2%;
+  }
+
+  .lil-container .media {
+    color: white;
+    margin-top: 132px !important;
+    font-size: 18px !important;
+  }
+
+  .lil-container .photo {
+    color: white;
+    margin-top: -25px;
+    font-size: 18px;
+  }
+
+  .lil-container .original {
+    color: white;
+    top: 10%;
+    font-size: 9px;
+  }
+
+  .lil-container .problematic {
+    color: white;
+    top: 10%;
+    margin-top: 79px;
+    font-size: 9px;
+  }
+
+  .lil-container .channel {
+    color: white;
+    top: 10%;
+    font-size: 9px;
+  }
+
+  .lil-container .source {
+    color: white;
+    margin-top: 1px;
+    font-size: 18px;
+  }
+
+}
 
 @media (max-width: 1199px) {
   .swiper-slide {
     width: 15%;
+  }
+
+  @media (min-width: 2500px & max-width: 2800px) {
+
   }
 
   /* @media only screen
