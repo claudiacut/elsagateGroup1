@@ -178,13 +178,13 @@ h6, .h6 {
 
 .lil-container .media{
   color: white;
-  margin-top: 150px;
+  margin-top: 170px;
   font-size: 24px;
 }
 
 .lil-container .photo{
   color: white;
-  top: 10%;
+  margin-top: -25px;
   font-size: 24px;
 }
 
@@ -197,7 +197,7 @@ h6, .h6 {
 .lil-container .problematic{
   color: white;
   top: 10%;
-  margin-top: 75px;
+  margin-top: 95px;
   font-size: 14px;
 
 }
@@ -216,7 +216,7 @@ h6, .h6 {
 
 .lil-container .source{
   color: white;
-  margin-top: -5px;
+  margin-top: 10px;
   font-size: 24px;
 
 }
@@ -242,9 +242,9 @@ h6, .h6 {
 }
 
 #vizpeppa {
-  margin-left: 11%;
+  margin-left: 16.5%;
   display: inline-block;
-  width: 270%;
+  width: 290%;
 }
 
 #vizelsa {
