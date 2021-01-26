@@ -3250,6 +3250,11 @@ figure.vimeo a img, figure.youtube a img {
 @media (max-width: 1500px) {}
 
 @media (max-width: 1300px) {
+
+.ticker-wrap {
+  margin-top: 90px;
+}
+
   .lil-container {
     width: 200px;
     height: 400px;
@@ -3580,7 +3585,7 @@ and (max-width: 1605px)
   /* prima era fixed */
   position: fixed;
   /* usare px e non % */
-  margin-top: 90px;
+  margin-top: 110px;
   overflow: hidden;
   height: 3.2rem;
   /* padding-bottom: 3rem; */
