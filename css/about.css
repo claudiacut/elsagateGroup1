@@ -25,7 +25,8 @@ a:hover, a:focus {
 }
 
 .menu2 {
-  position: relative;
+  /* per avere l'adesivo che non sborda, usare relative */
+  /* position: relative; */
   max-height: 100%;
   overflow-y:auto
 }
@@ -42,7 +43,8 @@ a:hover, a:focus {
 }
 
 .menu3 {
-  height: 100%;
+  /* position: relative; */
+  max-height: 100%;
   overflow-y:auto
 }
 
@@ -58,7 +60,8 @@ a:hover, a:focus {
 }
 
 .menu4 {
-  height: 100%;
+  position: relative;
+  max-height: 100%;
   overflow-y:auto
 }
 
@@ -74,7 +77,8 @@ a:hover, a:focus {
 }
 
 .menu5 {
-  height: 100%;
+  position: relative;
+  max-height: 100%;
   overflow-y:auto
 }
 
@@ -472,4 +476,16 @@ font-family: 'favorit_probook_italic';
 #trigger-1:hover {
   color: white;
   text-decoration: none;
+}
+
+
+
+/* stickers about*/
+
+.sticker_ab {
+  position: absolute;
+  transform: rotate(15deg);
+  width: 14%;
+  top: -5%;
+  left: -5%;
 }
