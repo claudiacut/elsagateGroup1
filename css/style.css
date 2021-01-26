@@ -228,9 +228,15 @@ h6, .h6 {
 }
 
 #vizelsa {
-  margin-left: 11%;
+  margin-left: 13%;
   display: inline-block;
   width: 300%;
+}
+
+#vizspider {
+  margin-left: 17%;
+  display: inline-block;
+  width: 258%;
 }
 
 .txtp {
@@ -3307,6 +3313,9 @@ figure.vimeo a img, figure.youtube a img {
 
   }
 
+  /* .arrow {
+    bottom: 1% !important;
+  } */
   /* @media only screen
 and (min-width: 1370px)
 and (max-width: 1605px)
