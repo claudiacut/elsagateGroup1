@@ -424,6 +424,7 @@ font-family: 'favorit_probook_italic';
   width: 14%;
   top: -5%;
   left: -5%;
+  z-index: 2;
 }
 
 .sticker_ab_1 {
@@ -432,6 +433,7 @@ font-family: 'favorit_probook_italic';
   width: 14%;
   top: 20%;
   left: 3%;
+    z-index: 2;
 }
 
 
