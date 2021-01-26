@@ -447,9 +447,9 @@ font-family: 'favorit_probook_italic';
 
 .sticker_ab {
   position: absolute;
-  transform: rotate(15deg);
+  transform: rotate(8deg);
   width: 14%;
-  top: -5%;
+  top: -1%;
   left: -5%;
   z-index: 2;
   cursor: pointer;
