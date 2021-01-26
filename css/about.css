@@ -217,21 +217,22 @@ a:hover, a:focus {
 
 .title-about {
 	padding: 5% 5% 5% 20%;
-  font-size: 3em;
+  font-size: 4em;
   font-family: 'Staff X Wide' !important;
 }
 
 .subtitle-about {
   padding: 0% 5% 2% 20%;
-  font-size: 2.5em;
-  font-family: 'favorit_probook' !important;
+  font-size: 3em;
+  font-family: 'favorit_probook_italic' !important;
 }
 
 .txt-about {
-	padding: 0% 5% 20% 20%;
+	padding: 0% 5% 5% 20%;
   font-size: 2rem;
   color: white;
   font-family: 'favorit_probook';
+  line-height: 1.3;
 }
 
 .p-about {
