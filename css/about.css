@@ -329,6 +329,22 @@ font-family: 'favorit_probook_italic';
   cursor: pointer;
 }
 
+.pop-text-1 {
+font-family: 'favorit_probook_italic';
+  position: relative;
+  cursor: default;
+  white-space: nowrap;
+  word-spacing: -0.1em;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
 
 .color-info {
   color: #191819;
