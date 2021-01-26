@@ -3907,6 +3907,7 @@ top: 20%;
 
 }
 
+
 .cont-img {
   position: relative;
   width: 100%;
@@ -3919,6 +3920,10 @@ top: 20%;
   width: 100%;
   height: auto;
   transition: all 0.5s linear 0s;
+}
+
+.b-off {
+  opacity: 0.5;
 }
 
 .btn {
