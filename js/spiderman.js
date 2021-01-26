@@ -1,6 +1,6 @@
 $(function(){
 
-	$("#viz").load('peppa.svg',function(response){
+	$("#vizspider").load('spiderman.svg',function(response){
 
 		$(this).addClass("svgLoaded");
 
