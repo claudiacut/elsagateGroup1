@@ -1,3 +1,9 @@
+
+
+// var bt1 = document.getElementId("cn1");
+
+
+
 $(function(){
 
 	$("#vizspider").load('spiderman.svg',function(response){
@@ -5,40 +11,66 @@ $(function(){
 		$(this).addClass("svgLoaded");
 
     // animazioni
+//
+// var sexual = document.getElementId("sex");
+//
+//  $( "bt1" ).on( "click", function() {
+//   $( "sexual" ).style('opacity',0.3);
+// });
 
-		const sex = d3.selectAll('#sex');
-    const gore = d3.selectAll('#gore');
-		const distortion = d3.selectAll('#distortion');
+		//
+		// const sexual = d3.selectAll('#sexual');
+    // const gore = d3.selectAll('#gore');
+		// const violence = d3.selectAll('#violence');
+		// const toilet = d3.selectAll('#toilet');
+		// const pregnancy = d3.selectAll('#pregnancy');
+		// const distortion = d3.selectAll('#distortion');
+		// const originale = d3.selectAll('#originale');
+		// const fisso = d3.selectAll('#fisso');
+		//
+		//
+    // cn1.on("click", function(){
+		// 	gore.style('opacity',0.3);
+	  //   pregnancy.style('opacity',0.3);
+		// 	toilet.style('opacity',0.3);
+		// 	sexual.style('opacity',0.3);
+		// 	distortion.style('opacity',0.3);
+		// 	violence.transition().duration(2).ease(d3.easeLinear).style('opacity',1);
+		//
+		// });
 
-		sex.on('click', function(){
-   gore.style('opacity',0.3);
-   distortion.style('opacity',0.3);
-  	// «this» refers to hovering element
-      d3.select(this).transition().duration(2).ease(d3.easeLinear).style('opacity',1);
-    });
+		// sexual.on('click', function(){
+   // gore.style('opacity',0.3);
+   // distortion.style('opacity',0.3);
+  	// // «this» refers to hovering element
+   //    d3.select(this).transition().duration(2).ease(d3.easeLinear).style('opacity',1);
+   //  });
+	 //
+		// gore.on('click', function(){
+   // sexual.style('opacity',0.3);
+   // distortion.style('opacity',0.3);
+  	// // «this» refers to hovering element
+   //    d3.select(this).transition().duration(2).ease(d3.easeLinear).style('opacity',1);
+   //  });
+	 //
+		// distortion.on('click', function(){
+   // gore.style('opacity',0.3);
+   // sexual.style('opacity',0.3);
+  	// // «this» refers to hovering element
+   //    d3.select(this).transition().duration(2).ease(d3.easeLinear).style('opacity',1);
+   //  });
+	 //
+   //  d3.select('#sfondo').on('click', function(){
+   //    sex.transition().duration(1).ease(d3.easeLinear).style('opacity',1);
+		// 	gore.transition().duration(1).ease(d3.easeLinear).style('opacity',1);
+		// 	distortion.transition().duration(1).ease(d3.easeLinear).style('opacity',1);
+   //  });
 
-		gore.on('click', function(){
-   sex.style('opacity',0.3);
-   distortion.style('opacity',0.3);
-  	// «this» refers to hovering element
-      d3.select(this).transition().duration(2).ease(d3.easeLinear).style('opacity',1);
-    });
-
-		distortion.on('click', function(){
-   gore.style('opacity',0.3);
-   sex.style('opacity',0.3);
-  	// «this» refers to hovering element
-      d3.select(this).transition().duration(2).ease(d3.easeLinear).style('opacity',1);
-    });
-
-    d3.select('#sfondo').on('click', function(){
-      sex.transition().duration(1).ease(d3.easeLinear).style('opacity',1);
-			gore.transition().duration(1).ease(d3.easeLinear).style('opacity',1);
-			distortion.transition().duration(1).ease(d3.easeLinear).style('opacity',1);
-    });
+		// fine funzione
 
 			});
 
 });
+
 
 timeout_id = setTimeout(function(){document.getElementById('dissolvenza').style.display="none"}, 5000);
