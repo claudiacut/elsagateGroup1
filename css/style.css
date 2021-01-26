@@ -3250,11 +3250,6 @@ figure.vimeo a img, figure.youtube a img {
 @media (max-width: 1500px) {}
 
 @media (max-width: 1300px) {
-
-.ticker-wrap {
-  margin-top: 90px;
-}
-
   .lil-container {
     width: 200px;
     height: 400px;
@@ -3585,7 +3580,7 @@ and (max-width: 1605px)
   /* prima era fixed */
   position: fixed;
   /* usare px e non % */
-  margin-top: 110px;
+  margin-top: 90px;
   overflow: hidden;
   height: 3.2rem;
   /* padding-bottom: 3rem; */
@@ -3683,13 +3678,7 @@ and (max-width: 1605px)
   }
 }
 
-.sticker_ab {
-  position: absolute;
-  transform: rotate(15deg);
-  width: 13%;
-  top: 10%;
-  left: 10%;
-}
+
 
 /* stickers ENTER*/
 #enter_st:hover {

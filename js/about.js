@@ -67,17 +67,15 @@ s1.addEventListener("click", function(){
 // });
 
 
-
-s2_1.addEventListener("click", function(){
-     c2.style.transform = "translate(0%, 0%)"
-     c2.style.zIndex = "20";
-});
-
 s2.addEventListener("click", function(){
      c2.style.transform = "translate(40%, -20%)"
      c2.style.zIndex = "100";
 });
 
+s2_1.addEventListener("click", function(){
+     c2.style.transform = "translate(0%, 0%)"
+     c2.style.zIndex = "20";
+});
 
 
 
@@ -93,12 +91,14 @@ s3_1.addEventListener("click", function(){
 
 
 
-s4_1.addEventListener("click", function(){
-     c4.style.transform = "translate(0%, 0%)"
-     c4.style.zIndex = "0";
-});
-
 s4.addEventListener("click", function(){
      c4.style.transform = "translate(0%, 0%)"
      c4.style.zIndex = "100";
+      console.log("miao");
+});
+
+s4_1.addEventListener("click", function(){
+     c4.style.transform = "translate(0%, 0%)"
+     c4.style.zIndex = "1";
+      console.log("ooo");
 });
