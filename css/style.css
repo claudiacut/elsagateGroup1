@@ -3894,14 +3894,16 @@ top: 20%;
 /* FINE CSS TENDA */
 
 /* BOTTONI VIZ */
-.button-group {}
+.button-group {
+
+}
 
 .cont-img {
   position: relative;
   width: 100%;
   max-width: 80px;
   display: inline-block;
-  margin: 5%;
+  margin: 5% 4% 0 4%;
 }
 
 .cont-img img {
@@ -3989,6 +3991,18 @@ top: 20%;
 }
 
 #cn5:hover>#btn5 {
+  color: #fff;
+  background-color: #191819;
+}
+
+#cn6:hover>#img6 {
+  animation-name: rotate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#cn6:hover>#btn6 {
   color: #fff;
   background-color: #191819;
 }
