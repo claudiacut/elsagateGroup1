@@ -425,15 +425,16 @@ font-family: 'favorit_probook_italic';
   top: -5%;
   left: -5%;
   z-index: 2;
+  cursor: pointer;
 }
 
 .sticker_ab_1 {
   position: absolute;
-  transform: rotate(15deg);
-  width: 14%;
-  top: 20%;
-  left: 3%;
-    z-index: 2;
+  width: 3%;
+  top: 11.5%;
+  right: 90%;
+  z-index: 2;
+  cursor: pointer;
 }
 
 
