@@ -71,11 +71,14 @@ $(function(){
    //    d3.select(this).transition().duration(2).ease(d3.easeLinear).style('opacity',1);
    //  });
 	 //
-   //  d3.select('#sfondo').on('click', function(){
-   //    sex.transition().duration(1).ease(d3.easeLinear).style('opacity',1);
-		// 	gore.transition().duration(1).ease(d3.easeLinear).style('opacity',1);
-		// 	distortion.transition().duration(1).ease(d3.easeLinear).style('opacity',1);
-   //  });
+    d3.select('#sfondo').on('click', function(){
+			gore.style('opacity',1);
+			pregnancy.style('opacity',1);
+			toilet.style('opacity',1);
+			sexual.style('opacity',1);
+			distortion.style('opacity',1);
+			originale.style('opacity',1);
+    });
 
 		// fine funzione
 
