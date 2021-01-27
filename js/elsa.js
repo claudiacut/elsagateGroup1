@@ -4,6 +4,7 @@ $(function(){
 
 		$(this).addClass("svgLoaded");
 
+
     // animazioni
 
 		const sex = d3.selectAll('#sex');
