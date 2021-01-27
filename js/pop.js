@@ -171,58 +171,7 @@ MediaRevealer.prototype.positionMedia = function() {
 	var triggertimeout, triggerdelay = 50;
 
 
-
-// STICKERS ABOUT
-
-
-	s1_1.addEventListener("click", function(){
-	     c1.style.transform = "translate(-0%, 0%)";
-	});
-
-	s1.addEventListener("click", function(){
-	     c1.style.transform = "translate(45%, -30%)"
-	});
-
-
-
-	s2.addEventListener("click", function(){
-	     c2.style.transform = "translate(30%, -20%)";
-	     c2.style.zIndex = "100";
-	});
-
-	s2_1.addEventListener("click", function(){
-	     c2.style.transform = "translate(0%, 0%)";
-	     c2.style.zIndex = "20";
-	});
-
-
-
-	s3.addEventListener("click", function(){
-	     c3.style.transform = "translate(15%, -10%)";
-	     c3.style.zIndex = "100";
-	});
-
-	s3_1.addEventListener("click", function(){
-	     c3.style.transform = "translate(0%, 0%)"
-	     c3.style.zIndex = "10";
-	});
-
-
-
-	s4.addEventListener("click", function(){
-	   c4.style.zIndex = "100";
-	      console.log("miao");
-
-	});
-
-	s4_1.addEventListener("click", function(){
-	     c4.style.zIndex = "1";
-	      console.log("ooo");
-	});
-
-
 	init();
-
 
 
 })(window);
