@@ -14,7 +14,7 @@
 // var s3_1 = document.getElementById("s3_1");
 //
 //
-// var c4 = document.getElementById("c4");
+var c4 = document.getElementById("c4");
 // var s4 = document.getElementById("s4");
 // var s4_1 = document.getElementById("s4_1");
 
@@ -30,11 +30,11 @@
 
 
 s1_1.addEventListener("click", function(){
-     c1.style.transform = "translate(-0%, 0%)"
+     c1.style.transform = "translate(-0%, 0%)";
 });
 
 s1.addEventListener("click", function(){
-     c1.style.transform = "translate(60%, -30%)"
+     c1.style.transform = "translate(45%, -30%)"
 });
 
 // c1.addEventListener("click", function(){
@@ -68,19 +68,19 @@ s1.addEventListener("click", function(){
 
 
 s2.addEventListener("click", function(){
-     c2.style.transform = "translate(40%, -20%)"
+     c2.style.transform = "translate(30%, -20%)";
      c2.style.zIndex = "100";
 });
 
 s2_1.addEventListener("click", function(){
-     c2.style.transform = "translate(0%, 0%)"
+     c2.style.transform = "translate(0%, 0%)";
      c2.style.zIndex = "20";
 });
 
 
 
 s3.addEventListener("click", function(){
-     c3.style.transform = "translate(20%, -10%)"
+     c3.style.transform = "translate(15%, -10%)";
      c3.style.zIndex = "100";
 });
 
@@ -92,13 +92,12 @@ s3_1.addEventListener("click", function(){
 
 
 s4.addEventListener("click", function(){
-     c4.style.transform = "translate(0%, 0%)"
-     c4.style.zIndex = "100";
+   c4.style.zIndex = "100";
       console.log("miao");
+
 });
 
 s4_1.addEventListener("click", function(){
-     c4.style.transform = "translate(0%, 0%)"
      c4.style.zIndex = "1";
       console.log("ooo");
 });
