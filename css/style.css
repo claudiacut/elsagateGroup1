@@ -217,6 +217,10 @@ h6, .h6 {
   /* background-color: red; */
 }
 
+.hide::-webkit-scrollbar {
+  display: none;
+}
+
 #viz {
   display: inline-block;
   width: 300%;
