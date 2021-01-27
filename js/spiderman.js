@@ -16,7 +16,7 @@ $(function(){
 		const fisso = d3.selectAll('#fisso');
 
 		//
-		//
+		//bottone violence
     d3.select("#cn1").on("click", function(){
 			gore.style('opacity',0.3);
 	    pregnancy.style('opacity',0.3);
@@ -25,6 +25,17 @@ $(function(){
 			distortion.style('opacity',0.3);
 			originale.style('opacity',0.3);
 			violence.transition().duration(2).ease(d3.easeLinear).style('opacity',1);
+		});
+
+   //bottone gore
+		d3.select("#cn2").on("click", function(){
+			gore.transition().duration(2).ease(d3.easeLinear).style('opacity',1);
+			pregnancy.style('opacity',0.3);
+			toilet.style('opacity',0.3);
+			sexual.style('opacity',0.3);
+			distortion.style('opacity',0.3);
+			originale.style('opacity',0.3);
+			gore.style('opacity',0.3);
 		});
 
 
