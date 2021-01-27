@@ -126,6 +126,7 @@ MediaRevealer.prototype.positionMedia = function() {
 			triggertimeout = setTimeout(function() {
 				t4_2.positionMedia();
 				t4_2.mediaEl.style.opacity = 1;
+					t4_2.mediaEl.style.zIndex = -10;
 			}, triggerdelay);
 		});
 		t4_2.el.addEventListener(evOff, function(ev) {
@@ -141,6 +142,7 @@ MediaRevealer.prototype.positionMedia = function() {
 			triggertimeout = setTimeout(function() {
 				t2.positionMedia();
 				t2.mediaEl.style.opacity = 1;
+					t2.mediaEl.style.zIndex = -10;
 			}, triggerdelay);
 		});
 		t2.el.addEventListener(evOff, function(ev) {
@@ -156,6 +158,7 @@ MediaRevealer.prototype.positionMedia = function() {
 			triggertimeout = setTimeout(function() {
 				t2_2.positionMedia();
 				t2_2.mediaEl.style.opacity = 1;
+					t2_2.mediaEl.style.zIndex = -10;
 			}, triggerdelay);
 		});
 		t2_2.el.addEventListener(evOff, function(ev) {
