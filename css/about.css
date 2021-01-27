@@ -287,8 +287,9 @@ font-family: 'favorit_probook_italic';
   cursor: default;
   white-space: nowrap;
   word-spacing: -0.1em;
-  color: #76FA5A;
-  text-decoration: underline;
+  background-color: #76FA5A;
+  color: #191819;
+  text-decoration: none;
   cursor: pointer;
 }
 
@@ -298,8 +299,8 @@ font-family: 'favorit_probook_italic';
   cursor: default;
   white-space: nowrap;
   word-spacing: -0.1em;
-  background-color: #76FA5A;
-  color: #191819;
+  background-color: blue;
+  color: #f2f2f2;
   text-decoration: none;
   cursor: pointer;
 }
@@ -311,7 +312,11 @@ font-family: 'favorit_probook_italic';
 
 /* cambiamento testo senza immagine  */
 
-
+.ab-img {
+  display: block;
+      margin-left: 40%;
+      margin-right: 50%;
+}
 
 
 /* prova  pop up */
