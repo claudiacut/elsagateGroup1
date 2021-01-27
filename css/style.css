@@ -165,11 +165,12 @@ h6, .h6 {
   background-color: transparent;
   z-index: 1000;
   padding-top: 2%;
+
 }
 
 .lil-container .media {
   color: white;
-  margin-top: 170px;
+  margin-top: 140px;
   font-size: 24px;
 }
 
@@ -188,19 +189,19 @@ h6, .h6 {
 .lil-container .problematic {
   color: white;
   top: 10%;
-  margin-top: 95px;
+  margin-top: 77px;
   font-size: 14px;
 }
 
 .lil-container .channel {
   color: white;
-  top: 10%;
+  top: 7%;
   font-size: 14px;
 }
 
 .lil-container .source {
   color: white;
-  margin-top: 10px;
+  margin-top: 0;
   font-size: 24px;
 }
 
