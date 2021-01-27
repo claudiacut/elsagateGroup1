@@ -224,7 +224,7 @@ h6, .h6 {
 #vizpeppa {
   margin-left: 16.5%;
   display: inline-block;
-  width: 290%;
+  width: 293%;
 }
 
 #vizelsa {
@@ -237,7 +237,15 @@ h6, .h6 {
   margin-left: 17%;
   display: inline-block;
   width: 258%;
+
 }
+
+#vizmine {
+  margin-left: 16.5%;
+  display: inline-block;
+  width: 320%;
+}
+
 
 .txtp {
   margin-top: -20px;
