@@ -3276,9 +3276,8 @@ figure.vimeo a img, figure.youtube a img {
 } */
 /* #Media
 ================================================== */
-@media (max-width: 1500px) {}
+@media (max-width: 1500px) {
 
-@media (max-width: 1300px) {
   .lil-container {
     width: 200px;
     height: 400px;
@@ -3290,7 +3289,7 @@ figure.vimeo a img, figure.youtube a img {
 
   .lil-container .media {
     color: white;
-    margin-top: 132px !important;
+    margin-top: 62px !important;
     font-size: 18px !important;
   }
 
@@ -3324,6 +3323,11 @@ figure.vimeo a img, figure.youtube a img {
     margin-top: 1px;
     font-size: 18px;
   }
+
+
+}
+
+@media (max-width: 1300px) {
 
 }
 
