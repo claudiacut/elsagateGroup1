@@ -431,32 +431,37 @@ h1 {
   z-index: 2000;
 }
 
-  /* PER SARA - INIZIO */
 
+/* position ok! */
 .arrow-e {
   width: 4%;
   position: absolute;
   /* transform: rotate(10deg); */
+  right: 50%;
   left: 50%;
-  bottom: 13.5%;
+  bottom: 11%;
   z-index: 2000;
 }
 
+/* position ok! */
 .arrow-s {
   width: 4%;
   position: absolute;
   /* transform: rotate(10deg); */
+  right: 50%;
   left: 50%;
-  bottom: 13.5%;
+  bottom: 11.3%;
   z-index: 2000;
 }
 
+/* position ok! */
 .arrow-p {
   width: 4%;
   position: absolute;
   /* transform: rotate(10deg); */
+  right: 50%;
   left: 50%;
-  bottom: 13.5%;
+  bottom: 13.1%;
   z-index: 2000;
 }
 
@@ -464,8 +469,9 @@ h1 {
   width: 4%;
   position: absolute;
   /* transform: rotate(10deg); */
+  right: 50%;
   left: 50%;
-  bottom: 13.5%;
+  bottom: 16.9%;
   z-index: 2000;
 }
 
