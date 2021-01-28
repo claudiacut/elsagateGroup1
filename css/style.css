@@ -465,6 +465,7 @@ h1 {
   z-index: 2000;
 }
 
+/* position ok! */
 .arrow-m {
   width: 4%;
   position: absolute;
@@ -474,8 +475,6 @@ h1 {
   bottom: 16.9%;
   z-index: 2000;
 }
-
-  /* PER SARA - FINE */
 
 .arrow-1 {
   width: 4%;
@@ -3785,16 +3784,52 @@ and (max-width: 1605px)
 }
 
 /* stickers ad  */
-.sticker_ad {
+.sticker_ad-e {
   position: absolute;
   transform: scale(0.35) rotate(-18deg);
-  top: 8%;
+  top: 0%;
   width: 70%;
-  left: 34%;
+  left: 38%;
   z-index: 2001;
   animation: display-none-transition 0.5s ease-in both;
   animation-delay: 12s;
 }
+
+.sticker_ad-s {
+  position: absolute;
+  transform: scale(0.35) rotate(-18deg);
+  top: 0%;
+  width: 70%;
+  left: 38%;
+  z-index: 2001;
+  animation: display-none-transition 0.5s ease-in both;
+  animation-delay: 12s;
+}
+
+.sticker_ad-p {
+  position: absolute;
+  transform: scale(0.35) rotate(-18deg);
+  top: 0%;
+  width: 70%;
+  left: 38%;
+  z-index: 2001;
+  animation: display-none-transition 0.5s ease-in both;
+  animation-delay: 12s;
+}
+
+.sticker_ad-m {
+  position: absolute;
+  transform: scale(0.35) rotate(-18deg);
+  top: 0%;
+  width: 70%;
+  left: 38%;
+  z-index: 2001;
+  animation: display-none-transition 0.5s ease-in both;
+  animation-delay: 12s;
+}
+
+
+
 
 @keyframes display-none-transition {
   0% {
