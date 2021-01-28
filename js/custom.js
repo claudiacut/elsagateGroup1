@@ -354,5 +354,8 @@
 		};
 	} )(jQuery);
 
-
   })(jQuery);
+
+  d3.select(".biglietto-1").on("hover", function(){
+    d3.select(".font-style-sub").style("color","000");
+  });
