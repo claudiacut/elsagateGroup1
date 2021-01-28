@@ -87,6 +87,9 @@ d3.select("#cn4").on("click", function(){
 		gore.style('opacity',0.3);
 	});
 
+
+
+    //deselezione su sfondo
     d3.select('#sfondo').on('click', function(){
 			gore.style('opacity',1);
 			pregnancy.style('opacity',1);
@@ -95,6 +98,16 @@ d3.select("#cn4").on("click", function(){
 			distortion.style('opacity',1);
 			originale.style('opacity',1);
     });
+
+
+
+		// document.getElementById('scrollmen').onclick = function(e) {
+		//   if(e.target != document.getElementById('vizza')) {
+		//       console.log('You clicked outside');
+		//   } else {
+		//       console.log('You clicked inside');
+		//   }
+		// }
 
 		// fine funzione
 
