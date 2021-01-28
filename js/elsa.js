@@ -19,40 +19,30 @@ $(function() {
 
     //bottone violence
     d3.select("#cn1").on("click", function() {
+			violence.style('opacity', 1);
       gore.style('opacity', 0);
       pregnancy.style('opacity', 0);
       toilet.style('opacity', 0);
       sexual.style('opacity', 0);
       distortion.style('opacity', 0);
       originale.style('opacity', 0);
-      violence.transition().duration(2).ease(d3.easeLinear).style('opacity', 1);
 
       //cambio colore bottone
       d3.select("#btn1").style("color", "#f2f2f2");
       d3.select("#btn1").style("background-color", "#191819");
-
-     //si resetta tutto con il click fuori dal bottone 
-			$(document).click((event) => {
-  if (!$(event.target).closest('#cn1').length) {
-    // the click occured outside '#element'
-		gore.style('opacity', 1);
-		d3.select("#btn1").style("color", "#191819");
-      d3.select("#btn1").style("background-color", "#f2f2f2");
-  }
-});
 
     });
 
 
     //bottone gore
     d3.select("#cn2").on("click", function() {
-      gore.transition().duration(2).ease(d3.easeLinear).style('opacity', 1);
-      pregnancy.style('opacity', 0.3);
-      toilet.style('opacity', 0.3);
-      sexual.style('opacity', 0.3);
-      distortion.style('opacity', 0.3);
-      originale.style('opacity', 0.3);
-      gore.style('opacity', 0.3);
+      gore.style('opacity', 1);
+      pregnancy.style('opacity', 0);
+      toilet.style('opacity', 0);
+      sexual.style('opacity', 0);
+      distortion.style('opacity', 0);
+      originale.style('opacity', 0);
+      gore.style('opacity', 0);
 
       //cambio colore bottone
       d3.select("#btn2").style("color", "#f2f2f2");
@@ -64,102 +54,107 @@ $(function() {
 
     //bottone sexual
     d3.select("#cn3").on("click", function() {
-      sexual.transition().duration(2).ease(d3.easeLinear).style('opacity', 1);
-      pregnancy.style('opacity', 0.3);
-      toilet.style('opacity', 0.3);
-      violence.style('opacity', 0.3);
-      distortion.style('opacity', 0.3);
-      originale.style('opacity', 0.3);
-      gore.style('opacity', 0.3);
+      sexual.style('opacity', 1);
+      pregnancy.style('opacity', 0);
+      toilet.style('opacity', 0);
+      violence.style('opacity', 0);
+      distortion.style('opacity', 0);
+      originale.style('opacity', 0);
+      gore.style('opacity', 0);
 
       //cambio colore bottone
       d3.select("#btn3").style("color", "#f2f2f2");
       d3.select("#btn3").style("background-color", "#191819");
+
     });
 
 
     //bottone toilet
     d3.select("#cn4").on("click", function() {
-      toilet.transition().duration(2).ease(d3.easeLinear).style('opacity', 1);
-      pregnancy.style('opacity', 0.3);
-      violence.style('opacity', 0.3);
-      sexual.style('opacity', 0.3);
-      distortion.style('opacity', 0.3);
-      originale.style('opacity', 0.3);
-      gore.style('opacity', 0.3);
+      toilet.style('opacity', 1);
+      pregnancy.style('opacity', 0);
+      violence.style('opacity', 0);
+      sexual.style('opacity', 0);
+      distortion.style('opacity', 0);
+      originale.style('opacity', 0);
+      gore.style('opacity', 0);
 
       //cambio colore bottone
       d3.select("#btn4").style("color", "#f2f2f2");
       d3.select("#btn4").style("background-color", "#191819");
+
     });
 
 
     //bottone distortion
     d3.select("#cn5").on("click", function() {
-      gore.style('opacity', 0.3);
-      pregnancy.style('opacity', 0.3);
-      toilet.style('opacity', 0.3);
-      sexual.style('opacity', 0.3);
-      distortion.transition().duration(2).ease(d3.easeLinear).style('opacity', 1);
-      originale.style('opacity', 0.3);
-      violence.style('opacity', 0.3);
+      gore.style('opacity', 0);
+      pregnancy.style('opacity', 0);
+      toilet.style('opacity', 0);
+      sexual.style('opacity', 0);
+      distortion.style('opacity', 1);
+      originale.style('opacity', 0);
+      violence.style('opacity', 0);
 
       //cambio colore bottone
       d3.select("#btn5").style("color", "#f2f2f2");
       d3.select("#btn5").style("background-color", "#191819");
+
     });
 
 
 
     //bottone pregnancy
     d3.select("#cn6").on("click", function() {
-      pregnancy.transition().duration(2).ease(d3.easeLinear).style('opacity', 1);
-      violence.style('opacity', 0.3);
-      toilet.style('opacity', 0.3);
-      sexual.style('opacity', 0.3);
-      distortion.style('opacity', 0.3);
-      originale.style('opacity', 0.3);
-      gore.style('opacity', 0.3);
-
-			//cambio colore bottone
-			d3.select("#btn6").style("color", "#f2f2f2");
-			d3.select("#btn6").style("background-color", "#191819");
-    });
-
-
-
-    //deselezione su sfondo
-    d3.select('#sfondo').on('click', function() {
-      gore.style('opacity', 1);
       pregnancy.style('opacity', 1);
-      toilet.style('opacity', 1);
-      sexual.style('opacity', 1);
-      distortion.style('opacity', 1);
-      originale.style('opacity', 1);
+      violence.style('opacity', 0);
+      toilet.style('opacity', 0);
+      sexual.style('opacity', 0);
+      distortion.style('opacity', 0);
+      originale.style('opacity', 0);
+      gore.style('opacity', 0);
 
-      //reset colore bottone
-      d3.select("#btn1").style("color", "#191819");
-      d3.select("#btn1").style("background-color", "#f2f2f2");
+      //cambio colore bottone
+      d3.select("#btn6").style("color", "#f2f2f2");
+      d3.select("#btn6").style("background-color", "#191819");
 
-      d3.select("#btn2").style("color", "#191819");
-      d3.select("#btn2").style("background-color", "#f2f2f2");
-
-      d3.select("#btn3").style("color", "#191819");
-      d3.select("#btn3").style("background-color", "#f2f2f2");
-
-			d3.select("#btn4").style("color", "#191819");
-			d3.select("#btn4").style("background-color", "#f2f2f2");
-
-			d3.select("#btn5").style("color", "#191819");
-			d3.select("#btn5").style("background-color", "#f2f2f2");
-
-			d3.select("#btn6").style("color", "#191819");
-			d3.select("#btn6").style("background-color", "#f2f2f2");
     });
 
 
 
 
+		//si resetta tutto con il click fuori dal bottone
+		$(document).click((event) => {
+			if (!$(event.target).closest('.btn').length) {
+				// the click occured outside '#element'
+				console.log("hello");
+				gore.style('opacity', 1);
+				sexual.style('opacity', 1);
+				toilet.style('opacity', 1);
+				pregnancy.style('opacity', 1);
+				distortion.style('opacity', 1);
+				originale.style('opacity', 1);
+
+				d3.select("#btn1").style("color", "#191819");
+				d3.select("#btn1").style("background-color", "#f2f2f2");
+
+				d3.select("#btn2").style("color", "#191819");
+				d3.select("#btn2").style("background-color", "#f2f2f2");
+
+				d3.select("#btn3").style("color", "#191819");
+				d3.select("#btn3").style("background-color", "#f2f2f2");
+
+				d3.select("#btn4").style("color", "#191819");
+				d3.select("#btn4").style("background-color", "#f2f2f2");
+
+				d3.select("#btn5").style("color", "#191819");
+				d3.select("#btn5").style("background-color", "#f2f2f2");
+
+				d3.select("#btn6").style("color", "#191819");
+				d3.select("#btn6").style("background-color", "#f2f2f2");
+
+			}
+			});
 
     // fine funzione
 
