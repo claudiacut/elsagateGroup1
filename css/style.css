@@ -3361,6 +3361,8 @@ figure.vimeo a img, figure.youtube a img {
     font-size: 21px;
   }
 
+  /* PER SARA - INIZIO */
+
   .arrow-e {
     bottom: 11%;
   }
@@ -3376,6 +3378,40 @@ figure.vimeo a img, figure.youtube a img {
 .arrow-m {
   bottom: 17%;
 }
+
+.sticker_archive-e {
+  position: absolute;
+  animation: leaves 1s ease-in-out infinite alternate;
+  width: 10%;
+  margin-left: 72% !important;
+  bottom: 24% !important;
+}
+
+.sticker_archive-s {
+  position: absolute;
+  animation: leaves 1s ease-in-out infinite alternate;
+  width: 10%;
+  margin-left: 72% !important;
+  bottom: 25% !important;
+}
+
+.sticker_archive-p {
+  position: absolute;
+  animation: leaves 1s ease-in-out infinite alternate;
+  width: 10%;
+  margin-left: 72% !important;
+  bottom: 29% !important;
+}
+
+.sticker_archive-m {
+  position: absolute;
+  animation: leaves 1s ease-in-out infinite alternate;
+  width: 10%;
+  margin-left: 72% !important;
+  bottom: 32%;
+}
+
+/* PER SARA - FINE */
 
 }
 
