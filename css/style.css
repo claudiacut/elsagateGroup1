@@ -439,50 +439,45 @@ h1 {
   z-index: 2000;
 }
 
+  /* PER SARA - INIZIO */
 
-/* position ok! */
 .arrow-e {
   width: 4%;
   position: absolute;
   /* transform: rotate(10deg); */
-  right: 50%;
   left: 50%;
-  bottom: 11%;
+  bottom: 13.5%;
   z-index: 2000;
 }
 
-/* position ok! */
 .arrow-s {
   width: 4%;
   position: absolute;
   /* transform: rotate(10deg); */
-  right: 50%;
   left: 50%;
-  bottom: 11.3%;
+  bottom: 13.5%;
   z-index: 2000;
 }
 
-/* position ok! */
 .arrow-p {
   width: 4%;
   position: absolute;
   /* transform: rotate(10deg); */
-  right: 50%;
   left: 50%;
-  bottom: 16.7%;
+  bottom: 13.5%;
   z-index: 2000;
 }
 
-/* position ok! */
 .arrow-m {
   width: 4%;
   position: absolute;
   /* transform: rotate(10deg); */
-  right: 50%;
   left: 50%;
-  bottom: 16.9%;
+  bottom: 13.5%;
   z-index: 2000;
 }
+
+  /* PER SARA - FINE */
 
 .arrow-1 {
   width: 4%;
@@ -3391,7 +3386,7 @@ figure.vimeo a img, figure.youtube a img {
 }
 
 .arrow-m {
-  bottom: 17%;
+  bottom: 13%;
 }
 
 .sticker_archive-e {
@@ -3423,7 +3418,7 @@ figure.vimeo a img, figure.youtube a img {
   animation: leaves 1s ease-in-out infinite alternate;
   width: 10%;
   margin-left: 72% !important;
-  bottom: 32%;
+  bottom: 29% !important;
 }
 
 
@@ -3796,52 +3791,16 @@ and (max-width: 1605px)
 }
 
 /* stickers ad  */
-.sticker_ad-e {
+.sticker_ad {
   position: absolute;
   transform: scale(0.35) rotate(-18deg);
-  top: 0%;
+  top: 8%;
   width: 70%;
-  left: 38%;
+  left: 34%;
   z-index: 2001;
   animation: display-none-transition 0.5s ease-in both;
   animation-delay: 12s;
 }
-
-.sticker_ad-s {
-  position: absolute;
-  transform: scale(0.35) rotate(-18deg);
-  top: 0%;
-  width: 70%;
-  left: 38%;
-  z-index: 2001;
-  animation: display-none-transition 0.5s ease-in both;
-  animation-delay: 12s;
-}
-
-.sticker_ad-p {
-  position: absolute;
-  transform: scale(0.35) rotate(-18deg);
-  top: 0%;
-  width: 70%;
-  left: 38%;
-  z-index: 2001;
-  animation: display-none-transition 0.5s ease-in both;
-  animation-delay: 12s;
-}
-
-.sticker_ad-m {
-  position: absolute;
-  transform: scale(0.35) rotate(-18deg);
-  top: 0%;
-  width: 70%;
-  left: 38%;
-  z-index: 2001;
-  animation: display-none-transition 0.5s ease-in both;
-  animation-delay: 12s;
-}
-
-
-
 
 @keyframes display-none-transition {
   0% {
@@ -3864,7 +3823,7 @@ and (max-width: 1605px)
 .card-1 {
   /* background-color: #262626; */
   /* box-shadow: 0 0 50px #595959; */
-  left: 10%;
+mar
   transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
 }
 
@@ -3947,46 +3906,41 @@ and (max-width: 1605px)
   transform: scale(0.8) rotate(-25deg);
 }
 
+  /* PER SARA - INIZIO */
 
-
-
-/* position ok! */
 .sticker_archive-e {
   position: absolute;
   animation: leaves 1s ease-in-out infinite alternate;
   width: 10%;
-  margin-left: 69.8%;
-  bottom: 27%;
+  margin-left: 65%;
+  bottom: 32%;
 }
 
-/* position ok! */
 .sticker_archive-s {
   position: absolute;
   animation: leaves 1s ease-in-out infinite alternate;
   width: 10%;
-  margin-left: 70%;
-  bottom: 27.8%;
+  margin-left: 65%;
+  bottom: 32%;
 }
 
-/* position ok! */
 .sticker_archive-p {
   position: absolute;
   animation: leaves 1s ease-in-out infinite alternate;
   width: 10%;
-  margin-left: 69.4%;
+  margin-left: 65%;
   bottom: 32%;
 }
 
-/* position ok! */
 .sticker_archive-m {
   position: absolute;
   animation: leaves 1s ease-in-out infinite alternate;
   width: 10%;
-  margin-left: 69.9%;
-  bottom: 35.1%;
+  margin-left: 65%;
+  bottom: 32%;
 }
 
-
+  /* PER SARA - FINE */
 
 @keyframes leaves {
   0% {
