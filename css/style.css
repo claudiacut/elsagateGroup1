@@ -317,6 +317,7 @@ h6, .h6 {
   background-color: #f2f2f2;
 }
 
+
 #dissolvenza {
   /* display: block; */
 }
@@ -3332,6 +3333,12 @@ figure.vimeo a img, figure.youtube a img {
   font-weight: 900;
   z-index: 1;
 } */
+
+.footer-dim {
+  max-width: 270px;
+  margin: auto;
+}
+
 /* #Media
 ================================================== */
 @media (max-width: 1500px) {
