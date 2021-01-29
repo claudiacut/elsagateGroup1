@@ -3713,7 +3713,7 @@ and (max-width: 1605px)
   /* prima era fixed */
   position: fixed;
   /* usare px e non % */
-  margin-top: 90px;
+  margin-top: 8%;
   overflow: hidden;
   height: 3.2rem;
   /* padding-bottom: 3rem; */
@@ -4057,6 +4057,10 @@ top: 20%;
 .intro {
  font-size: 3em;
  color: black;
+}
+
+#color-new {
+  color: white !important;
 }
 
 /* FINE CSS TENDA */
