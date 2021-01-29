@@ -430,15 +430,43 @@ h1 {
        animation-direction: alternate; */
 }
 
-.back {
-  width: 4%;
+/* .back {
+  width: 10% !important;
   position: absolute;
-  /* transform: rotate(10deg); */
+  transform: rotate(10deg);
   left: 10%;
   top: 3%;
   z-index: 2000;
+} */
+
+.back {
+  position: absolute;
+  top: 3%;
+  left: 10%;
+  /* opacity: 0;*/
+  /* visibility: hidden; */
+  transform: rotate(-90deg);
+  width: 10px;
+  height: 40px;
+  z-index: 251;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 10px 40px;
+  cursor: pointer;
+  
+  /* transform: translateY(-15px); */
+  -webkit-transition: all 250ms linear;
+  transition: all 250ms linear;
+  border-style: none !important;
 }
 
+.back:hover {
+  left: 8%;
+}
+
+/* .scroll-to-top:hover {
+  bottom: 7%;
+} */
 
 /* position ok! */
 .arrow-e {
@@ -619,7 +647,7 @@ a:hover {
 ================================================== */
 .scroll-to-top {
   position: fixed;
-  bottom: 210px;
+  bottom: 4%;
   right: 36px;
   opacity: 0;
   visibility: hidden;
@@ -637,7 +665,7 @@ a:hover {
 }
 
 .scroll-to-top:hover {
-  bottom: 212px;
+  bottom: 7%;
 }
 
 .scroll-to-top.active-arrow {
@@ -3523,11 +3551,11 @@ and (max-width: 1605px)
 
   .scroll-to-top {
     right: 22px;
-    bottom: 180px;
+    bottom: 1%;
   }
 
   .scroll-to-top:hover {
-    bottom: 182px;
+    bottom: 3%;
   }
 
   .page-title h1 {
