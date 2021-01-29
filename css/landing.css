@@ -561,3 +561,9 @@ div.ex1 {
 	font-size: 30px;
 
 }
+
+
+.tired-1 {
+  background-image: url("../img/static.gif");
+  mix-blend-mode:  multiply;
+}
