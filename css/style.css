@@ -3339,6 +3339,16 @@ figure.vimeo a img, figure.youtube a img {
   margin: auto;
 }
 
+.footer-dim-spider {
+  max-width: 236px;
+  margin: auto;
+}
+
+.footer-dim-mine {
+  max-width: 308px;
+  margin: auto;
+}
+
 /* #Media
 ================================================== */
 @media (max-width: 1500px) {
@@ -3435,7 +3445,7 @@ figure.vimeo a img, figure.youtube a img {
   animation: leaves 1s ease-in-out infinite alternate;
   width: 10%;
   margin-left: 72% !important;
-  bottom: 25% !important;
+  bottom: 24% !important;
 }
 
 .sticker_archive-p {
@@ -3443,7 +3453,7 @@ figure.vimeo a img, figure.youtube a img {
   animation: leaves 1s ease-in-out infinite alternate;
   width: 10%;
   margin-left: 72% !important;
-  bottom: 29% !important;
+  bottom: 24% !important;
 }
 
 .sticker_archive-m {
@@ -3451,7 +3461,7 @@ figure.vimeo a img, figure.youtube a img {
   animation: leaves 1s ease-in-out infinite alternate;
   width: 10%;
   margin-left: 72% !important;
-  bottom: 32%;
+  bottom: 24% !important;
 }
 
 
@@ -3996,8 +4006,8 @@ and (max-width: 1605px)
   position: absolute;
   animation: leaves 1s ease-in-out infinite alternate;
   width: 10%;
-  margin-left: 70%;
-  bottom: 27.8%;
+  margin-left: 69.8%;
+  bottom: 27%;
 }
 
 /* position ok! */
@@ -4005,8 +4015,8 @@ and (max-width: 1605px)
   position: absolute;
   animation: leaves 1s ease-in-out infinite alternate;
   width: 10%;
-  margin-left: 69.4%;
-  bottom: 32%;
+  margin-left: 69.8%;
+  bottom: 27%;
 }
 
 /* position ok! */
