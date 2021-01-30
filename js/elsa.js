@@ -19,7 +19,7 @@ $(function() {
 
     //bottone violence
     d3.select("#cn1").on("click", function() {
-			violence.style('opacity', 1);
+      violence.style('opacity', 1);
       gore.style('opacity', 0);
       pregnancy.style('opacity', 0);
       toilet.style('opacity', 0);
@@ -123,38 +123,49 @@ $(function() {
 
 
 
-		//si resetta tutto con il click fuori dal bottone
-		$(document).click((event) => {
-			if (!$(event.target).closest('.btn').length) {
-				// the click occured outside '#element'
-				console.log("hello");
-				gore.style('opacity', 1);
-				sexual.style('opacity', 1);
-				toilet.style('opacity', 1);
-				pregnancy.style('opacity', 1);
-				distortion.style('opacity', 1);
-				originale.style('opacity', 1);
+    //si resetta tutto con il click fuori dal bottone
+    $(document).click((event) => {
+      if (!$(event.target).closest('.btn').length) {
+        // the click occured outside '#element'
+        console.log("hello");
+        gore.style('opacity', 1);
+        sexual.style('opacity', 1);
+        toilet.style('opacity', 1);
+        pregnancy.style('opacity', 1);
+        distortion.style('opacity', 1);
+        originale.style('opacity', 1);
 
-				d3.select("#btn1").style("color", "#191819");
-				d3.select("#btn1").style("background-color", "#f2f2f2");
+        d3.select("#btn1").style("color", "#191819");
+        d3.select("#btn1").style("background-color", "#f2f2f2");
 
-				d3.select("#btn2").style("color", "#191819");
-				d3.select("#btn2").style("background-color", "#f2f2f2");
+        d3.select("#btn2").style("color", "#191819");
+        d3.select("#btn2").style("background-color", "#f2f2f2");
 
-				d3.select("#btn3").style("color", "#191819");
-				d3.select("#btn3").style("background-color", "#f2f2f2");
+        d3.select("#btn3").style("color", "#191819");
+        d3.select("#btn3").style("background-color", "#f2f2f2");
 
-				d3.select("#btn4").style("color", "#191819");
-				d3.select("#btn4").style("background-color", "#f2f2f2");
+        d3.select("#btn4").style("color", "#191819");
+        d3.select("#btn4").style("background-color", "#f2f2f2");
 
-				d3.select("#btn5").style("color", "#191819");
-				d3.select("#btn5").style("background-color", "#f2f2f2");
+        d3.select("#btn5").style("color", "#191819");
+        d3.select("#btn5").style("background-color", "#f2f2f2");
 
-				d3.select("#btn6").style("color", "#191819");
-				d3.select("#btn6").style("background-color", "#f2f2f2");
+        d3.select("#btn6").style("color", "#191819");
+        d3.select("#btn6").style("background-color", "#f2f2f2");
 
-			}
-			});
+      }
+
+// prova
+      $(document).click((event) => {
+        if (!$(event.target).closest('.btn1').length) {
+          // the click occured outside '#element'
+          d3.select("#btn1").style("color", "#191819");
+          d3.select("#btn1").style("background-color", "#f2f2f2");
+        }
+      });
+
+
+    });
 
     // fine funzione
 
