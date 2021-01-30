@@ -323,6 +323,34 @@ a:hover, a:focus {
   background-size: auto 220%;
 }
 
+.pop-text-3 {
+  font-family: 'favorit_probook_italic';
+  position: relative;
+  cursor: default;
+  white-space: nowrap;
+  word-spacing: -0.1em;
+  color: #0023F5;
+  text-decoration: none;
+  cursor: pointer;
+  background-position-y: -0%;
+  background-image: linear-gradient(transparent 52%, #0023F5 50%);
+  transition: background 500ms ease;
+  background-size: 1%;
+  background-size: auto 175%;
+}
+
+.pop-text-3:hover {
+  color: #fff;
+  font-family: 'favorit_probook_italic';
+  position: relative;
+  cursor: default;
+  white-space: nowrap;
+  word-spacing: -0.1em;
+  text-decoration: none;
+  cursor: pointer;
+  background-position-y: 100%;
+}
+
 .pop-text-2:hover {
   color: #191819;
   font-family: 'favorit_probook_italic';
