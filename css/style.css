@@ -472,7 +472,7 @@ h1 {
   /* transform: rotate(10deg); */
   right: 50%;
   left: 50%;
-  bottom: 11.3%;
+  bottom: 11%;
   z-index: 2000;
   cursor:auto;
 }
@@ -484,7 +484,7 @@ h1 {
   /* transform: rotate(10deg); */
   right: 50%;
   left: 50%;
-  bottom: 16.7%;
+  bottom: 11%;
   z-index: 2000;
   cursor:auto;
 }
