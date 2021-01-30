@@ -239,12 +239,10 @@ h6, .h6 {
 }
 
 
-
 #vizspider {
-  margin-left: 17%;
+  margin-left: 16.5%;
   display: inline-block;
   width: 252%;
-
 }
 
 #vizmine {
@@ -464,6 +462,7 @@ h1 {
   left: 50%;
   bottom: 11%;
   z-index: 2000;
+  cursor:auto;
 }
 
 /* position ok! */
@@ -475,6 +474,7 @@ h1 {
   left: 50%;
   bottom: 11.3%;
   z-index: 2000;
+  cursor:auto;
 }
 
 /* position ok! */
@@ -486,6 +486,7 @@ h1 {
   left: 50%;
   bottom: 16.7%;
   z-index: 2000;
+  cursor:auto;
 }
 
 /* position ok! */
@@ -497,6 +498,7 @@ h1 {
   left: 50%;
   bottom: 11%;
   z-index: 2000;
+  cursor:auto;
 }
 
 .arrow-1 {
@@ -4059,6 +4061,14 @@ and (max-width: 1605px)
   font-size: 1.7em;
   color: white;
   line-height: 1.3;
+}
+
+.ch-description {
+ text-transform: none;
+ color: #f2f2f2;
+ font-size: 1.5em;
+ font-style: italic;
+ margin-bottom: -1%;
 }
 
 /* INIZIO CSS TENDA */
