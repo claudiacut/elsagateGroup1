@@ -236,3 +236,31 @@ h8 {
   font-family: 'favorit_probook_italic';
   font-size: 20px;
 }
+
+.pop-text-1 {
+  font-family: 'favorit_probook_italic';
+  position: relative;
+  cursor: default;
+  white-space: nowrap;
+  word-spacing: -0.1em;
+  color: #76FA5A;
+  text-decoration: none;
+  cursor: pointer;
+  background-position-y: -0%;
+  background-image: linear-gradient(transparent 52%, #76FA5A 50%);
+  transition: background 500ms ease;
+  background-size: 1%;
+  background-size: auto 175%;
+}
+
+.pop-text-1:hover {
+  color: #191819;
+  font-family: 'favorit_probook_italic';
+  position: relative;
+  cursor: default;
+  white-space: nowrap;
+  word-spacing: -0.1em;
+  text-decoration: none;
+  cursor: pointer;
+  background-position-y: 100%;
+}
