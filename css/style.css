@@ -20,7 +20,7 @@ body {
   /* font-weight: 300; */
   font-size: 15px;
   line-height: 1.7;
-  color: white;
+  color: #f2f2f2;
   background-color: #191819;
   overflow-x: hidden;
 }
@@ -102,7 +102,7 @@ h1, .h1 {
   font-family: "Staff Wide Test"sans-serif;
   font-size: 3.1rem;
   /* font-weight: 600; */
-  color: white;
+  color: #f2f2f2;
 }
 
 h2, .h2 {
@@ -169,38 +169,38 @@ h6, .h6 {
 }
 
 .lil-container .media {
-  color: white;
+  color: #f2f2f2;
   margin-top: 105%;
   font-size: 24px;
 }
 
 .lil-container .photo {
-  color: white;
+  color: #f2f2f2;
   margin-top: -15%;
   font-size: 24px;
 }
 
 .lil-container .original {
-  color: white;
+  color: #f2f2f2;
   top: 0%;
   font-size: 14px;
 }
 
 .lil-container .problematic {
-  color: white;
+  color: #f2f2f2;
   top: 10%;
   margin-top: 60%;
   font-size: 14px;
 }
 
 .lil-container .channel {
-  color: white;
+  color: #f2f2f2;
   top: 7%;
   font-size: 14px;
 }
 
 .lil-container .source {
-  color: white;
+  color: #f2f2f2;
   margin-top: 0%;
   font-size: 24px;
 }
@@ -211,7 +211,7 @@ h6, .h6 {
 
 .scrollmenu {
   overflow: auto;
-  white-space: nowrap;
+  #f2f2f2-space: nowrap;
   /* height: 390px; */
   /* height: 400px; */
   /* background-color: red; */
@@ -261,7 +261,7 @@ h6, .h6 {
 
 /* menu home */
 .style-menu {
-  border: 0.3px solid white;
+  border: 0.3px solid #f2f2f2;
   height: 571px;
   width: 383px;
   margin: 20px 15px 20px 15px;
@@ -464,6 +464,7 @@ h1 {
   left: 50%;
   bottom: 11%;
   z-index: 2000;
+  cursor: auto;
 }
 
 /* position ok! */
@@ -475,6 +476,7 @@ h1 {
   left: 50%;
   bottom: 11.3%;
   z-index: 2000;
+  cursor: auto;
 }
 
 /* position ok! */
@@ -486,6 +488,7 @@ h1 {
   left: 50%;
   bottom: 16.7%;
   z-index: 2000;
+  cursor: auto;
 }
 
 /* position ok! */
@@ -497,6 +500,7 @@ h1 {
   left: 50%;
   bottom: 11%;
   z-index: 2000;
+  cursor: auto;
 }
 
 .arrow-1 {
@@ -717,7 +721,7 @@ a:hover {
   max-width: 80%;
 }
 
-.background-white {
+.background-#f2f2f2 {
   background-color: #f2f2f2fff;
 }
 
@@ -754,7 +758,7 @@ a:hover {
   color: #000000;
 }
 
-.color-white {
+.color-#f2f2f2 {
   color: #f2f2f2fff;
 }
 
@@ -1509,7 +1513,7 @@ QUI DIMENSIONI SLIDER  */
   padding: 30px;
   position: relative;
   font-size: 15px;
-  color: white;
+  color: #f2f2f2;
 }
 
 /* Scrollbar */
@@ -1887,7 +1891,7 @@ QUI DIMENSIONI SLIDER  */
 }
 
 #abouttxt {
-  color: white;
+  color: #f2f2f2;
   padding: 4%;
 }
 
@@ -1900,10 +1904,10 @@ QUI DIMENSIONI SLIDER  */
 }
 
 .txtanimations {
-  color: white;
+  color: #f2f2f2;
   font-size: 38px;
   transition: 0.5s;
-  white-space: nowrap;
+  #f2f2f2-space: nowrap;
   overflow: hidden;
   font-family: "Staff Wide Test";
 }
@@ -3115,7 +3119,7 @@ figure.vimeo a img, figure.youtube a img {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  white-space: nowrap;
+  #f2f2f2-space: nowrap;
   width: auto;
 }
 
@@ -3381,38 +3385,38 @@ figure.vimeo a img, figure.youtube a img {
   }
 
   .lil-container .media {
-    color: white;
+    color: #f2f2f2;
     margin-top: 93% !important;
     font-size: 21px !important;
   }
 
   .lil-container .photo {
-    color: white;
+    color: #f2f2f2;
     margin-top: -25px;
     font-size: 21px;
   }
 
   .lil-container .original {
-    color: white;
+    color: #f2f2f2;
     top: 10%;
     font-size: 11px;
   }
 
   .lil-container .problematic {
-    color: white;
+    color: #f2f2f2;
     top: 10%;
     margin-top: 79px;
     font-size: 11px;
   }
 
   .lil-container .channel {
-    color: white;
+    color: #f2f2f2;
     top: 10%;
     font-size: 11px;
   }
 
   .lil-container .source {
-    color: white;
+    color: #f2f2f2;
     margin-top: 1px;
     font-size: 21px;
   }
@@ -3770,7 +3774,7 @@ and (max-width: 1605px)
   display: inline-block;
   height: 1rem;
   line-height: 4rem;
-  white-space: nowrap;
+  #f2f2f2-space: nowrap;
   padding-right: 100%;
   box-sizing: content-box;
   animation: ticker linear infinite 60s;
@@ -3800,7 +3804,7 @@ and (max-width: 1605px)
   display: inline-block;
   height: 1rem;
   line-height: 4rem;
-  white-space: nowrap;
+  #f2f2f2-space: nowrap;
   padding-right: 100%;
   box-sizing: content-box;
   animation: ticker linear infinite 60s;
@@ -4050,23 +4054,23 @@ and (max-width: 1605px)
   font-family: 'favorit_probook';
   padding-bottom: 5%;
   font-size: 2.5em;
-  color: white;
+  color: #f2f2f2;
   line-height: 1.3;
 }
 
 .ch-min {
   font-family: 'favorit_probook';
   font-size: 1.7em;
-  color: white;
+  color: #f2f2f2;
   line-height: 1.3;
 }
 
 .ch-description {
  text-transform: none;
- color: #f2f2f2;
- font-size: 1.5em;
- font-style: italic;
+ font-size: 1.7em;
+ /* font-style: italic; */
  margin-bottom: -1%;
+ color: #f2f2f2;
 }
 
 /* INIZIO CSS TENDA */
@@ -4157,7 +4161,7 @@ top: 20%;
 }
 
 #color-new {
-  color: white !important;
+  color: #f2f2f2 !important;
 }
 
 /* FINE CSS TENDA */
