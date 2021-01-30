@@ -250,6 +250,7 @@ a:hover, a:focus {
   background-position: 50% 50%;
   background-size: cover;
   filter: hue-rotate(-0.25turn);
+  mix-blend-mode: difference;
 }
 
 /* testi particolari nelle tende */

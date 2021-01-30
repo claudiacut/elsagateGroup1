@@ -464,6 +464,7 @@ h1 {
   left: 50%;
   bottom: 11%;
   z-index: 2000;
+  cursor:auto;
 }
 
 /* position ok! */
@@ -475,6 +476,7 @@ h1 {
   left: 50%;
   bottom: 11.3%;
   z-index: 2000;
+  cursor:auto;
 }
 
 /* position ok! */
@@ -486,6 +488,7 @@ h1 {
   left: 50%;
   bottom: 16.7%;
   z-index: 2000;
+  cursor:auto;
 }
 
 /* position ok! */
@@ -497,6 +500,7 @@ h1 {
   left: 50%;
   bottom: 11%;
   z-index: 2000;
+  cursor:auto;
 }
 
 .arrow-1 {
