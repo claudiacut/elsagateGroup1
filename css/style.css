@@ -4061,6 +4061,14 @@ and (max-width: 1605px)
   line-height: 1.3;
 }
 
+.ch-description {
+ text-transform: none;
+ color: #f2f2f2;
+ font-size: 1.5em;
+ font-style: italic;
+ margin-bottom: -1%;
+}
+
 /* INIZIO CSS TENDA */
 
 .curtains>li {

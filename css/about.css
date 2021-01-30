@@ -249,6 +249,7 @@ a:hover, a:focus {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
+  filter: hue-rotate(-0.25turn);
 }
 
 /* testi particolari nelle tende */
@@ -273,6 +274,8 @@ a:hover, a:focus {
   text-decoration: none;
   cursor: pointer;
 }
+
+
 
 .pop-text-1 {
   font-family: 'favorit_probook_italic';
