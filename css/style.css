@@ -1040,6 +1040,7 @@ a:hover {
   display: inline-block;
   float: right;
   padding: 15px !important;
+  z-index: 3000 !important;
 }
 
 .padding-element:hover {
