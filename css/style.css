@@ -472,7 +472,7 @@ h1 {
   /* transform: rotate(10deg); */
   right: 50%;
   left: 50%;
-  bottom: 11.3%;
+  bottom: 11%;
   z-index: 2000;
   cursor:auto;
 }
@@ -484,7 +484,7 @@ h1 {
   /* transform: rotate(10deg); */
   right: 50%;
   left: 50%;
-  bottom: 16.7%;
+  bottom: 11%;
   z-index: 2000;
   cursor:auto;
 }
@@ -4001,7 +4001,7 @@ and (max-width: 1605px)
   animation: leaves 1s ease-in-out infinite alternate;
   width: 10%;
   margin-left: 69.8%;
-  bottom: 27%;
+  bottom: 27.8%;
 }
 
 /* position ok! */
@@ -4010,7 +4010,7 @@ and (max-width: 1605px)
   animation: leaves 1s ease-in-out infinite alternate;
   width: 10%;
   margin-left: 69.8%;
-  bottom: 27%;
+  bottom: 27.8%;
 }
 
 /* position ok! */
@@ -4019,7 +4019,7 @@ and (max-width: 1605px)
   animation: leaves 1s ease-in-out infinite alternate;
   width: 10%;
   margin-left: 69.8%;
-  bottom: 27%;
+  bottom: 28.1%;
 }
 
 /* position ok! */
@@ -4028,7 +4028,7 @@ and (max-width: 1605px)
   animation: leaves 1s ease-in-out infinite alternate;
   width: 10%;
   margin-left: 69.8%;
-  bottom: 27%;
+  bottom: 28%;
 }
 
 
