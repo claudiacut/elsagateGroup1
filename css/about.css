@@ -343,6 +343,13 @@ a:hover, a:focus {
   margin-right: 50%;
 }
 
+#protocol {
+  display: block;
+  width: 80%;
+  margin-left: 25%;
+  margin-right: 50%;
+}
+
 /* prova  pop up */
 .popup {}
 
