@@ -273,6 +273,14 @@ h6, .h6 {
   font-size: 1.7em;
   line-height: 1em;
   margin-bottom: -16%;
+/* effetto con hover - base */
+  text-decoration: none;
+  cursor: pointer;
+  background-position-y: -0%;
+  background-image: linear-gradient(transparent 52%, #f2f2f2 50%);
+  transition: background 500ms ease;
+  background-size: 1%;
+  background-size: auto 200%;
 }
 
 /* .font-style-sub:hover {
@@ -295,7 +303,9 @@ h6, .h6 {
 
 .elsa:hover > .font-style-sub {
   color: #191819 !important;
-  background-color: #f2f2f2;
+/* effetto con hover - base */
+  white-space: nowrap;
+  background-position-y: 100%;
 }
 
 .spider {
@@ -312,7 +322,9 @@ h6, .h6 {
 
 .spider:hover > .font-style-sub {
   color: #191819 !important;
-  background-color: #f2f2f2;
+/* effetto con hover - base */
+  white-space: nowrap;
+  background-position-y: 100%;
 }
 
 
@@ -338,7 +350,9 @@ h6, .h6 {
 
 .peppa:hover > .font-style-sub {
   color: #191819 !important;
-  background-color: #f2f2f2;
+/* effetto con hover - base */
+  white-space: nowrap;
+  background-position-y: 100%;
 }
 
 #mine-font {
@@ -362,7 +376,9 @@ h6, .h6 {
 
 .mine:hover > .font-style-sub {
   color: #191819 !important;
-  background-color: #f2f2f2;
+/* effetto con hover - base */
+  white-space: nowrap;
+  background-position-y: 100%;
 }
 
 .align-center {
