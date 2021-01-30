@@ -495,7 +495,7 @@ h1 {
   /* transform: rotate(10deg); */
   right: 50%;
   left: 50%;
-  bottom: 16.9%;
+  bottom: 11%;
   z-index: 2000;
 }
 
@@ -4014,8 +4014,8 @@ and (max-width: 1605px)
   position: absolute;
   animation: leaves 1s ease-in-out infinite alternate;
   width: 10%;
-  margin-left: 69.9%;
-  bottom: 35.1%;
+  margin-left: 69.8%;
+  bottom: 27%;
 }
 
 
