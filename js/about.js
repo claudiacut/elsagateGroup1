@@ -136,9 +136,6 @@ function loop() {
     scroll(loop);
 }
 
-// Call the loop for the first time
-loop();
-
 // Helper function from: http://stackoverflow.com/a/7557433/274826
 function isElementInViewport(el) {
   // special bonus for those using jQuery
@@ -157,6 +154,11 @@ function isElementInViewport(el) {
       rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
   );
 }
+
+// Call the loop for the first time
+loop();
+
+
 
 
 
