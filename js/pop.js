@@ -22,7 +22,7 @@
 
 
 
-	function MediaRevealer(el) {
+	function MediaRevealer(el) { 
 		this.el = el;
 		this.contentEl = findAncestor(this.el, 'content');
 		this.mediaEl = this.contentEl.querySelector('.pop-media[data-pop-media="' + this.el.getAttribute('data-pop-media') + '"]');
