@@ -31,12 +31,18 @@
 
 s1_1.addEventListener("click", function() {
   c1.style.transform = "translate(-0%, 0%)";
-  $('body, html, #t1').animate({scrollTop: 0, behavior: 'smooth'}, 200);
+  $('body, html, #t1').animate({scrollTop: 0, behavior: 'smooth'}, 1200);
 });
 
 s1.addEventListener("click", function() {
   c1.style.transform = "translate(45%, -30%)";
+$('#t1').addClass('start-scrolling')
 });
+
+
+
+
+
 
 // c1.addEventListener("click", function(){
 //      c1.style.transform = "translate(60%, -30%)"
@@ -71,12 +77,13 @@ s1.addEventListener("click", function() {
 s2.addEventListener("click", function() {
   c2.style.transform = "translate(30%, -20%)";
   c2.style.zIndex = "100";
+  $('#t2').addClass('start-scrolling')
 });
 
 s2_1.addEventListener("click", function() {
   c2.style.transform = "translate(0%, 0%)";
   c2.style.zIndex = "20";
-  $('body, html, #t2').animate({scrollTop: 0, behavior: 'smooth'}, 200);
+  $('body, html, #t2').animate({scrollTop: 0, behavior: 'smooth'}, 1200);
 });
 
 
@@ -84,12 +91,13 @@ s2_1.addEventListener("click", function() {
 s3.addEventListener("click", function() {
   c3.style.transform = "translate(15%, -10%)";
   c3.style.zIndex = "100";
+  $('#t3').addClass('start-scrolling')
 });
 
 s3_1.addEventListener("click", function() {
   c3.style.transform = "translate(0%, 0%)"
   c3.style.zIndex = "10";
-  $('body, html, #t3').animate({scrollTop: 0, behavior: 'smooth'}, 200);
+  $('body, html, #t3').animate({scrollTop: 0, behavior: 'smooth'}, 1200);
 });
 
 
@@ -97,13 +105,14 @@ s3_1.addEventListener("click", function() {
 s4.addEventListener("click", function() {
   c4.style.zIndex = "100";
   console.log("miao");
+  $('#t4').addClass('start-scrolling')
 
 });
 
 s4_1.addEventListener("click", function() {
   c4.style.zIndex = "1";
   console.log("ooo");
-  $('body, html, #t4').animate({scrollTop: 0, behavior: 'smooth'}, 200);
+  $('body, html, #t4').animate({scrollTop: 0, behavior: 'smooth'}, 1200);
 });
 
 
@@ -114,6 +123,6 @@ s4_1.addEventListener("click", function() {
 //   if (!$(event.target).closest('#c1').length) {
 //     // the click occured outside '#element' --> detect click outside!
 //     console.log("hello");
-//     $('body, html, #t1').animate({scrollTop: 0}, 200);
+//     $('body, html, #t1').animate({scrollTop: 0}, 1200);
 //   }
 // });
