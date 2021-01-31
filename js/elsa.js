@@ -1,6 +1,6 @@
 $(function() {
 
-  $("#vizelsa").load('elsa1.svg', function(response) {
+  $("#vizelsa").load('elsa.svg', function(response) {
 
     $(this).addClass("svgLoaded");
 
