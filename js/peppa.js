@@ -42,7 +42,7 @@ $(function(){
     //   sexual.style('opacity', 0);
     //   distortion.style('opacity', 0);
     //   originale.style('opacity', 0);
-    //   gore.style('opacity', 0);
+    //   violence.style('opacity', 0);
 		//
     //   //cambio colore bottone
     //   d3.select("#btn2").style("color", "#f2f2f2");
@@ -229,7 +229,7 @@ $(function(){
         }
       });
 
-			
+
 			});
 
     // fine funzione

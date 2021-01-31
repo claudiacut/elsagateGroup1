@@ -203,64 +203,64 @@ document.getElementById('switch_id').addEventListener("change", function(){
     lol.style.display  = 'block'; //aggiungere sempre block
     nope.style.display  = 'none';
     // lol.style.animation = "box-shad 0.5s infinite";
-    lol.style.filter  = 'hue-rotate(-0.25turn)';
+    // lol.style.filter  = 'hue-rotate(-0.25turn)';
     // lol.style.mixBlendMode  = 'difference';
 
     lol2.style.display  = 'block';
     nope2.style.display  = 'none';
     // lol2.style.animation = "box-shad 0.5s infinite";
-    lol2.style.filter  = 'hue-rotate(-0.25turn)';
+    // lol2.style.filter  = 'hue-rotate(-0.25turn)';
 
 
     lol3.style.display  = 'block';
     nope3.style.display  = 'none';
     // lol3.style.animation = "box-shad 0.5s infinite";
-    lol3.style.filter  = 'hue-rotate(-0.25turn)';
+    // lol3.style.filter  = 'hue-rotate(-0.25turn)';
 
     lol4.style.display  = 'block';
     nope4.style.display  = 'none';
     // lol4.style.animation = "box-shad 0.5s infinite";
-    lol4.style.filter  = 'hue-rotate(-0.25turn)';
+    // lol4.style.filter  = 'hue-rotate(-0.25turn)';
 
     lol5.style.display  = 'block';
     nope5.style.display  = 'none';
     // lol5.style.animation = "box-shad 0.5s infinite";
-    lol5.style.filter  = 'hue-rotate(-0.25turn)';
+    // lol5.style.filter  = 'hue-rotate(-0.25turn)';
 
     lol6.style.display  = 'block';
     nope6.style.display  = 'none';
     // lol6.style.animation = "box-shad 0.5s infinite";
-    lol6.style.filter  = 'hue-rotate(-0.25turn)';
+    // lol6.style.filter  = 'hue-rotate(-0.25turn)';
 
     lol7.style.display  = 'block';
     nope7.style.display  = 'none';
     // lol7.style.animation = "box-shad 0.5s infinite";
-    lol7.style.filter  = 'hue-rotate(-0.25turn)';
+    // lol7.style.filter  = 'hue-rotate(-0.25turn)';
 
     lol8.style.display  = 'block';
     nope8.style.display  = 'none';
     // lol8.style.animation = "box-shad 0.5s infinite";
-    lol8.style.filter  = 'hue-rotate(-0.25turn)';
+    // lol8.style.filter  = 'hue-rotate(-0.25turn)';
 
     lol9.style.display  = 'block';
     nope9.style.display  = 'none';
     // lol9.style.animation = "box-shad 0.5s infinite";
-    lol9.style.filter  = 'hue-rotate(-0.25turn)';
+    // lol9.style.filter  = 'hue-rotate(-0.25turn)';
 
     lol10.style.display  = 'block';
     nope10.style.display  = 'none';
     // lol10.style.animation = "box-shad 0.5s infinite";
-    lol10.style.filter  = 'hue-rotate(-0.25turn)';
+    // lol10.style.filter  = 'hue-rotate(-0.25turn)';
 
     lol11.style.display  = 'block';
     nope11.style.display  = 'none';
     // lol11.style.animation = "box-shad 0.5s infinite";
-    lol11.style.filter  = 'hue-rotate(-0.25turn)';
+    // lol11.style.filter  = 'hue-rotate(-0.25turn)';
 
     lol12.style.display  = 'block';
     nope12.style.display  = 'none';
     // lol12.style.animation = "box-shad 0.5s infinite";
-    lol12.style.filter  = 'hue-rotate(-0.25turn)';
+    // lol12.style.filter  = 'hue-rotate(-0.25turn)';
 
     document.getElementById("on").style.display = "block";
     document.getElementById("off").style.display = "none";
@@ -6516,8 +6516,8 @@ var GridItem = /*#__PURE__*/function () {
 
       //limiti di movimento!
 
-      var xstart = (0, _utils.getRandomNumber)(800, 1300);
-      var ystart = (0, _utils.getRandomNumber)(800, 1300); // infinite loop
+      var xstart = (0, _utils.getRandomNumber)(800, 900);
+      var ystart = (0, _utils.getRandomNumber)(800, 900); // infinite loop
 
       var render = function render() {
         // Calculate the amount to move.
@@ -6525,8 +6525,8 @@ var GridItem = /*#__PURE__*/function () {
         // Translation values will be in the range of [-start, start] for a cursor movement from 0 to the window's width/height
 
         //spostamento thumbnails! + velocitàà
-        translationVals.tx = (0, _utils.lerp)(translationVals.tx, (0, _utils.map)(mousepos.x, 0, winsize.width, -xstart, xstart), 0.01);
-        translationVals.ty = (0, _utils.lerp)(translationVals.ty, (0, _utils.map)(mousepos.y, 0, winsize.height, -ystart, ystart), 0.01);
+        translationVals.tx = (0, _utils.lerp)(translationVals.tx, (0, _utils.map)(mousepos.x, 0, winsize.width, -xstart, xstart), 0.03);
+        translationVals.ty = (0, _utils.lerp)(translationVals.ty, (0, _utils.map)(mousepos.y, 0, winsize.height, -ystart, ystart), 0.03);
 
         _gsap.gsap.set(_this.DOM.el, {
           x: translationVals.tx,
