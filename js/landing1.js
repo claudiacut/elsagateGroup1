@@ -202,11 +202,15 @@ document.getElementById('switch_id').addEventListener("change", function(){
 
     lol.style.display  = 'block'; //aggiungere sempre block
     nope.style.display  = 'none';
-    lol.style.animation = "box-shad 0.5s infinite";
+    // lol.style.animation = "box-shad 0.5s infinite";
+    lol.style.filter  = 'hue-rotate(-0.25turn)';
+    lol.style.mixBlendMode  = 'difference';
 
     lol2.style.display  = 'block';
     nope2.style.display  = 'none';
-    lol2.style.animation = "box-shad 0.5s infinite";
+    // lol2.style.animation = "box-shad 0.5s infinite";
+    lol2.style.filter  = 'hue-rotate(-0.25turn)';
+    lol2.style.mixBlendMode  = 'difference';
 
     lol3.style.display  = 'block';
     nope3.style.display  = 'none';
