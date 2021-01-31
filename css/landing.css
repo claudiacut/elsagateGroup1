@@ -295,8 +295,8 @@ body {
   position: relative;
   top: 20%;
   display: inline-block;
-  width: 50px;
-  height: 24px;
+  width: 54px;
+  height: 28px;
   z-index: 200;
 }
 
@@ -358,8 +358,8 @@ animation: leaves 1s ease-in-out infinite alternate;
 .slider:before {
   position: absolute;
   content: "";
-  height: 16px;
-  width: 16px;
+  height: 20px;
+  width: 20px;
   left: 4px;
   bottom: 4px;
   background-color: #000000;
@@ -443,7 +443,7 @@ input:checked+.slider:before {
 }
 
 .content__title {
-  font-size: 10px;
+  font-size: 15px;
 	text-transform: uppercase;
 	margin-bottom: 0;
 	line-height: 1.35;
