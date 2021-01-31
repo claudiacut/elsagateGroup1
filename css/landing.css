@@ -193,7 +193,7 @@ body {
   animation: argh-my-eyes 1s infinite;
 }
 
-.tired {
+.effect {
 
   animation: blinker 2s linear  infinite;
 
@@ -213,7 +213,7 @@ body {
 
   50% {
     background-color: rgba(255,255,255,0.9);
-    background-blend-mode: exclusion;
+    background-blend-mode: difference;
   }
 
   75% {
@@ -563,7 +563,7 @@ div.ex1 {
 }
 
 
-.tired-1 {
+.effect-1 {
   background-image: url("../img/static.gif");
   mix-blend-mode:  multiply;
 }
