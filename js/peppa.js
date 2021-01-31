@@ -153,6 +153,83 @@ $(function(){
 				d3.select("#btn6").style("background-color", "#f2f2f2");
 
 			}
+
+
+
+			// previene la doppia selezione dei pulsanti (perchè non è cumulativa!)
+      // btn1
+      $(document).click((event) => {
+        if (!$(event.target).closest('#btn1').length) {
+          // the click occured outside '#element'
+          d3.select("#btn1").style("color", "#191819");
+          d3.select("#btn1").style("background-color", "#f2f2f2");
+        } else {
+          // d3.select("#btn1").style("color", "#f2f2f2");
+          // d3.select("#btn1").style("background-color", "#191819");
+        }
+      });
+
+      // btn2
+      $(document).click((event) => {
+        if (!$(event.target).closest('#btn2').length) {
+          // the click occured outside '#element'
+          d3.select("#btn2").style("color", "#191819");
+          d3.select("#btn2").style("background-color", "#f2f2f2");
+        } else {
+          // d3.select("#btn2").style("color", "#f2f2f2");
+          // d3.select("#btn2").style("background-color", "#191819");
+        }
+      });
+
+      // btn3
+      $(document).click((event) => {
+        if (!$(event.target).closest('#btn3').length) {
+          // the click occured outside '#element'
+          d3.select("#btn3").style("color", "#191819");
+          d3.select("#btn3").style("background-color", "#f2f2f2");
+        } else {
+          // d3.select("#btn2").style("color", "#f2f2f2");
+          // d3.select("#btn2").style("background-color", "#191819");
+        }
+      });
+
+      // btn4
+      $(document).click((event) => {
+        if (!$(event.target).closest('#btn4').length) {
+          // the click occured outside '#element'
+          d3.select("#btn4").style("color", "#191819");
+          d3.select("#btn4").style("background-color", "#f2f2f2");
+        } else {
+          // d3.select("#btn2").style("color", "#f2f2f2");
+          // d3.select("#btn2").style("background-color", "#191819");
+        }
+      });
+
+      // btn5
+      $(document).click((event) => {
+        if (!$(event.target).closest('#btn5').length) {
+          // the click occured outside '#element'
+          d3.select("#btn5").style("color", "#191819");
+          d3.select("#btn5").style("background-color", "#f2f2f2");
+        } else {
+          // d3.select("#btn2").style("color", "#f2f2f2");
+          // d3.select("#btn2").style("background-color", "#191819");
+        }
+      });
+
+      // btn6
+      $(document).click((event) => {
+        if (!$(event.target).closest('#btn6').length) {
+          // the click occured outside '#element'
+          d3.select("#btn6").style("color", "#191819");
+          d3.select("#btn6").style("background-color", "#f2f2f2");
+        } else {
+          // d3.select("#btn2").style("color", "#f2f2f2");
+          // d3.select("#btn2").style("background-color", "#191819");
+        }
+      });
+
+			
 			});
 
     // fine funzione
