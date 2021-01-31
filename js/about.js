@@ -31,7 +31,7 @@
 
 s1_1.addEventListener("click", function() {
   c1.style.transform = "translate(-0%, 0%)";
-  $('body, html, #t1').animate({scrollTop: 0}, 200);
+  $('body, html, #t1').animate({scrollTop: 0, behavior: 'smooth'}, 200);
 });
 
 s1.addEventListener("click", function() {
@@ -76,7 +76,7 @@ s2.addEventListener("click", function() {
 s2_1.addEventListener("click", function() {
   c2.style.transform = "translate(0%, 0%)";
   c2.style.zIndex = "20";
-  $('body, html, #t2').animate({scrollTop: 0}, 200);
+  $('body, html, #t2').animate({scrollTop: 0, behavior: 'smooth'}, 200);
 });
 
 
@@ -89,7 +89,7 @@ s3.addEventListener("click", function() {
 s3_1.addEventListener("click", function() {
   c3.style.transform = "translate(0%, 0%)"
   c3.style.zIndex = "10";
-  $('body, html, #t3').animate({scrollTop: 0}, 200);
+  $('body, html, #t3').animate({scrollTop: 0, behavior: 'smooth'}, 200);
 });
 
 
@@ -103,7 +103,7 @@ s4.addEventListener("click", function() {
 s4_1.addEventListener("click", function() {
   c4.style.zIndex = "1";
   console.log("ooo");
-  $('body, html, #t4').animate({scrollTop: 0}, 200);
+  $('body, html, #t4').animate({scrollTop: 0, behavior: 'smooth'}, 200);
 });
 
 
