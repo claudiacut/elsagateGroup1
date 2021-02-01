@@ -83,14 +83,12 @@ body {}
 
 
 .grid {
-  right: -12%;
-  margin-top: 2%;
+  margin-top: 1%;
   /* box-shadow: 0 0 10px #4d4d4d; */
   /* height: 450px !important;
   overflow: auto; */
   overflow:scroll;
   height: 600px !important;
-
   /*  margin-right: 10%;*/
 }
 
@@ -125,10 +123,7 @@ body {}
 }
 
 .box-a {
-/* left: -14%; */
 width: 40rem;
-padding-right: 10%;
-padding-left: 2%;
 
 }
 
@@ -139,9 +134,9 @@ padding-left: 2%;
 
 /* color-shape = grandezza dell'involucro dove sta la forma (thumbnail) */
 .color-shape {
-  margin: 1%;
-  width: 220px;
-  height: 115px;
+  margin: 2%;
+  width: 240px;
+  height: 135px;
   float: right;
   background-size: contain;
   background-repeat: no-repeat;
