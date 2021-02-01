@@ -370,8 +370,11 @@ a:hover, a:focus {
   display: block;
   padding-top: 5%;
   padding-bottom: 5%;
-  margin-right: 50% !important;
-  margin-left: 50% !important;
+margin-left: 40%;
+}
+
+#diverso {
+margin-left: 25%;
 }
 
 #protocol {
