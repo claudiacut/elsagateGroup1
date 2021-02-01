@@ -83,7 +83,7 @@
   overflow: auto; */
   overflow: scroll;
 
-  height: 780px !important;
+  height: 600px !important;
   /*  margin-right: 10%;*/
 }
 
@@ -172,9 +172,9 @@
 }
 
 .offline {
-  background-color: rgb(0, 0, 255, 0.6);
+  background-color: rgba(0,0,0,0.5);
   background-blend-mode: darken;
-  /* filter: blur(4px); */
+  filter: blur(4px);
 }
 /* CARATTERISTICHE NUMERO + POP UP */
 .popup {
