@@ -22,7 +22,7 @@
 
 
 
-	function MediaRevealer(el) {
+	function MediaRevealer(el) { 
 		this.el = el;
 		this.contentEl = findAncestor(this.el, 'content');
 		this.mediaEl = this.contentEl.querySelector('.pop-media[data-pop-media="' + this.el.getAttribute('data-pop-media') + '"]');
@@ -164,22 +164,6 @@ MediaRevealer.prototype.positionMedia = function() {
 		t2_2.el.addEventListener(evOff, function(ev) {
 			clearTimeout(triggertimeout);
 			t2_2.resetMedia();
-		});
-
-
-		/**************************** effec3 ****************************/
-		var t3 = new MediaRevealer($('trigger-3'));
-		t3.el.addEventListener(evOn, function(ev) {
-			clearTimeout(triggertimeout);
-			triggertimeout = setTimeout(function() {
-				t3.positionMedia();
-				t3.mediaEl.style.opacity = 1;
-					t3.mediaEl.style.zIndex = -10;
-			}, triggerdelay);
-		});
-		t3.el.addEventListener(evOff, function(ev) {
-			clearTimeout(triggertimeout);
-			t3.resetMedia();
 		});
 
 
