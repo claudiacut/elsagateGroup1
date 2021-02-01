@@ -81,6 +81,7 @@ a:hover, a:focus {
   transition: all 0.5s;
   box-shadow: 0 0 10px #191819;
   z-index: 1;
+  
 }
 
 .menu5 {

@@ -3834,6 +3834,40 @@ and (max-width: 1605px)
   text-transform: uppercase;
 }
 
+
+/* PROVA TESTI TIPO TELEGIORNALE - arch  */
+.ticker-wrap-3 {
+  /* prima era fixed */
+  position: fixed;
+  /* usare px e non % */
+  margin-top: 6%;
+  margin-bottom: 10%;
+  overflow: hidden;
+  height: 3.2rem;
+  /* padding-bottom: 3rem; */
+  background-color: #76FA5A;
+  box-sizing: content-box;
+  box-shadow: 0 0 50px #595959;
+}
+
+.ticker-wrap-3 .ticker {
+  display: inline-block;
+  height: 1rem;
+  line-height: 4rem;
+  white-space: nowrap;
+  padding-right: 100%;
+  box-sizing: content-box;
+  animation: ticker linear infinite 60s;
+}
+
+.ticker-wrap-3 .ticker__item {
+  display: inline-block;
+  padding: 0 0.2rem;
+  font-size: 2rem;
+  color: black;
+  text-transform: uppercase;
+}
+
 @keyframes ticker {
   0% {
     transform: translate(0%, 0);

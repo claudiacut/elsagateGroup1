@@ -171,3 +171,8 @@ loop();
 //     $('body, html, #t1').animate({scrollTop: 0}, 1200);
 //   }
 // });
+
+$('html, body').css({
+    overflow: 'hidden',
+    height: '100%'
+});
