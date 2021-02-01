@@ -164,9 +164,17 @@ a:hover, a:focus {
   font-size: 1em;
 }
 
-#provapd {
+.provapd {
   width: 70%;
   margin-left: 20% !important;
+}
+
+.padddd{
+  margin-left: 0% !important;
+}
+
+.padddd-2{
+  margin-left: 19% !important;
 }
 
 .subtitle-about-b {
