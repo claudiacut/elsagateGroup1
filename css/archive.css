@@ -195,6 +195,7 @@ body {}
 .numeri:hover {
   color: #76FA5A;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 /* rettangolo numero */
