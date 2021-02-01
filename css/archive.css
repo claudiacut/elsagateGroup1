@@ -18,7 +18,7 @@ body {}
   /* display: inline-block; */
   padding: 0em 1.0em;
   background-color: white;
-  border: 3px solid #191819;
+  border: none;
   color: blue;
   border-radius: 0;
   font-family: 'favorit_probook';
@@ -58,7 +58,6 @@ body {}
   border-radius: 0;
   margin-left: 0%;
   margin-right: 1px;
-  width: 120px;
 }
 
 /* se li vogliamo stondati */
