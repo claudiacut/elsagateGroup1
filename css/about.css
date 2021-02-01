@@ -164,6 +164,11 @@ a:hover, a:focus {
   font-size: 1em;
 }
 
+#provapd {
+  width: 70%;
+  margin-left: 20% !important;
+}
+
 .subtitle-about-b {
   padding: 2% 5% 2% 20%;
   font-size: 3em;
