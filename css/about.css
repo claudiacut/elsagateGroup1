@@ -177,6 +177,10 @@ a:hover, a:focus {
   margin-left: 19% !important;
 }
 
+.pad2 {
+  margin-left: 16% !important;
+}
+
 .subtitle-about-b {
   padding: 2% 5% 2% 20%;
   font-size: 3em;
@@ -534,4 +538,19 @@ margin-left: 25%;
 .inline-photo.is-visible {
   opacity: 1;
   transform: rotateZ(-0deg);
+}
+
+
+.hey {
+  animation: hey 1s ease-in-out infinite alternate;
+}
+
+@keyframes hey {
+  0% {
+    transform: scale(1) rotate(8deg);
+  }
+
+  100% {
+    transform: scale(0.8) rotate(8deg);
+  }
 }
