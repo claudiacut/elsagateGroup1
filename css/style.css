@@ -470,6 +470,13 @@ h1 {
 } */
 
 /* position ok! */
+
+.txtt {
+  font-family: "favorit_probook";
+  margin: 0 !important;
+  
+}
+
 .arrow-e {
   width: 4%;
   position: absolute;
