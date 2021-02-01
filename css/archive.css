@@ -82,6 +82,7 @@
   /* height: 450px !important;
   overflow: auto; */
   overflow: scroll;
+
   height: 600px !important;
   /*  margin-right: 10%;*/
 }
@@ -177,6 +178,7 @@
 /* CARATTERISTICHE NUMERO + POP UP */
 .popup {
   position: relative;
+
 }
 
 /* rettangolo numero */
@@ -193,10 +195,12 @@
   padding-right: 220px;
   padding-top: 1px;
   font-size: 1em;
+    z-index: 4001 !important;
 }
 
 .popup a span {
   display: none;
+    z-index: 4001 !important;
 }
 
 
@@ -234,8 +238,7 @@
   border: solid 2px #F2F2F2;
   margin-left: -120px;
   border-radius: 0px;
-  z-index: 4001;
-  background-image: url(griglia.svg) !important;
+  z-index: 4001 !important;
 }
 
 
@@ -285,4 +288,8 @@ h8 {
   text-decoration: none;
   cursor: pointer;
   background-position-y: 100%;
+}
+
+#section-2{
+  overflow: hidden !important;
 }
