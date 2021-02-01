@@ -199,18 +199,13 @@
   display: none;
 }
 
-.photo {
-    background-image: url('http://www.thinksnaps.com/wp-content/uploads/2014/07/images-background.jpg');
-    background-size: 300px;
-    background-repeat: no-repeat;
-}
 
 .numeri {
-  color: #76FA5A;
+  color: #F2F2F2;
 }
 
 .numeri:hover {
-  color: #76FA5A;
+  color: #F2F2F2;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -236,16 +231,17 @@
   background-color: #191819;
   /* background-image: url(griglia.svg); */
   /* background-size: cover; */
-  border: solid 2px #76FA5A;
+  border: solid 2px #F2F2F2;
   margin-left: -120px;
   border-radius: 0px;
-  z-index: 1001;
+  z-index: 4001;
+  background-image: url(griglia.svg) !important;
 }
 
 
 
 .popup h6 {
-  color: #76FA5A;
+  color: #F2F2F2;
   font-family: "favorit_probook_italic";
   text-transform: uppercase;
   font-size: 14px;
@@ -253,7 +249,7 @@
 }
 
 .popup h7 {
-  color: #76FA5A;
+  color: #F2F2F2;
   font-family: "favorit_probook";
   font-size: 20px;
 }
