@@ -83,7 +83,7 @@
   overflow: auto; */
   overflow: scroll;
 
-  height: 600px !important;
+  height: 780px !important;
   /*  margin-right: 10%;*/
 }
 
@@ -292,4 +292,15 @@ h8 {
 
 #section-2{
   overflow: hidden !important;
+}
+
+
+.sticker_reddit {
+  position: absolute;
+  /* animation: leaves 1s ease-in-out infinite alternate; */
+
+  width: 13%;
+  left: 80% !important;
+  top: 79% !important;
+  cursor:pointer;
 }

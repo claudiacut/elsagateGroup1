@@ -1,5 +1,4 @@
 // external js: isotope.pkgd.js
-
 // init Isotope
 var $grid = $('.grid').isotope({
   itemSelector: '.color-shape'
