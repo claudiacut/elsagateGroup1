@@ -567,3 +567,6 @@ div.ex1 {
   background-image: url("../img/static.gif");
   mix-blend-mode:  multiply;
 }
+
+#enter{
+width: auto;} 
