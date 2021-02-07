@@ -474,11 +474,11 @@ h1 {
 .txtt {
   font-family: "favorit_probook";
   margin: 0 !important;
-  
+
 }
 
 .arrow-e {
-  width: 4%;
+  width: 15%;
   position: absolute;
   /* transform: rotate(10deg); */
   right: 50%;
@@ -490,7 +490,7 @@ h1 {
 
 /* position ok! */
 .arrow-s {
-  width: 4%;
+  width: 15%;
   position: absolute;
   /* transform: rotate(10deg); */
   right: 50%;
@@ -502,7 +502,7 @@ h1 {
 
 /* position ok! */
 .arrow-p {
-  width: 4%;
+  width: 15%;
   position: absolute;
   /* transform: rotate(10deg); */
   right: 50%;
@@ -514,7 +514,7 @@ h1 {
 
 /* position ok! */
 .arrow-m {
-  width: 4%;
+  width: 15%;
   position: absolute;
   /* transform: rotate(10deg); */
   right: 50%;
