@@ -165,7 +165,6 @@ h6, .h6 {
   background-color: transparent;
   z-index: 1000;
   padding-top: 2%;
-
 }
 
 .lil-container .media {
@@ -238,7 +237,6 @@ h6, .h6 {
   width: 350%;
 }
 
-
 #vizspider {
   margin-left: 16.5%;
   display: inline-block;
@@ -251,7 +249,6 @@ h6, .h6 {
   width: 309%;
 }
 
-
 .txtp {
   margin-top: -20px;
   font-size: 9px;
@@ -263,7 +260,6 @@ h6, .h6 {
   height: 571px;
   width: 383px;
   margin: 20px 15px 20px 15px;
-
 }
 
 .font-style-sub {
@@ -273,7 +269,7 @@ h6, .h6 {
   font-size: 1.7em;
   line-height: 1em;
   margin-bottom: -16%;
-/* effetto con hover - base */
+  /* effetto con hover - base */
   text-decoration: none;
   cursor: pointer;
   background-position-y: -0%;
@@ -287,7 +283,6 @@ h6, .h6 {
   color: #191819 !important;
   background-image: linear-gradient(transparent 50%, #76FA5A 50%) !important;
 } */
-
 .elsa {
   /* background-color: blue; */
   /* background-image: url("../elsa.png");
@@ -301,9 +296,9 @@ h6, .h6 {
   background-size: cover;
 }
 
-.elsa:hover > .font-style-sub {
+.elsa:hover>.font-style-sub {
   color: #191819 !important;
-/* effetto con hover - base */
+  /* effetto con hover - base */
   white-space: nowrap;
   background-position-y: 100%;
 }
@@ -320,13 +315,12 @@ h6, .h6 {
   background-size: cover;
 }
 
-.spider:hover > .font-style-sub {
+.spider:hover>.font-style-sub {
   color: #191819 !important;
-/* effetto con hover - base */
+  /* effetto con hover - base */
   white-space: nowrap;
   background-position-y: 100%;
 }
-
 
 #dissolvenza {
   /* display: block; */
@@ -347,10 +341,9 @@ h6, .h6 {
   background-size: cover;
 }
 
-
-.peppa:hover > .font-style-sub {
+.peppa:hover>.font-style-sub {
   color: #191819 !important;
-/* effetto con hover - base */
+  /* effetto con hover - base */
   white-space: nowrap;
   background-position-y: 100%;
 }
@@ -374,9 +367,9 @@ h6, .h6 {
   background-size: cover;
 }
 
-.mine:hover > .font-style-sub {
+.mine:hover>.font-style-sub {
   color: #191819 !important;
-/* effetto con hover - base */
+  /* effetto con hover - base */
   white-space: nowrap;
   background-position-y: 100%;
 }
@@ -439,7 +432,6 @@ h1 {
   top: 3%;
   z-index: 2000;
 } */
-
 .back {
   position: absolute;
   top: 3%;
@@ -454,7 +446,6 @@ h1 {
   background-position: top center;
   background-size: 10px 40px;
   cursor: pointer;
-
   /* transform: translateY(-15px); */
   -webkit-transition: all 250ms linear;
   transition: all 250ms linear;
@@ -468,60 +459,19 @@ h1 {
 /* .scroll-to-top:hover {
   bottom: 7%;
 } */
-
 /* position ok! */
-
 .txtt {
   font-family: "favorit_probook";
   margin: 0 !important;
-
 }
 
 .arrow-e {
   width: 15%;
   position: absolute;
-  /* transform: rotate(10deg); */
-  right: 50%;
-  left: 50%;
+  left: 43%;
   bottom: 11%;
   z-index: 2000;
-  cursor:auto;
-}
-
-/* position ok! */
-.arrow-s {
-  width: 15%;
-  position: absolute;
-  /* transform: rotate(10deg); */
-  right: 50%;
-  left: 50%;
-  bottom: 11%;
-  z-index: 2000;
-  cursor:auto;
-}
-
-/* position ok! */
-.arrow-p {
-  width: 15%;
-  position: absolute;
-  /* transform: rotate(10deg); */
-  right: 50%;
-  left: 50%;
-  bottom: 11%;
-  z-index: 2000;
-  cursor:auto;
-}
-
-/* position ok! */
-.arrow-m {
-  width: 15%;
-  position: absolute;
-  /* transform: rotate(10deg); */
-  right: 50%;
-  left: 50%;
-  bottom: 11%;
-  z-index: 2000;
-  cursor:auto;
+  cursor: auto;
 }
 
 .arrow-1 {
@@ -532,6 +482,7 @@ h1 {
   bottom: 11.5%;
   z-index: 2000;
 }
+
 @keyframes textflicker {
   from {
     text-shadow: 1px 0 0 #76FA5A, -2px 0 0 #75fa69;
@@ -916,7 +867,6 @@ a:hover {
   height: 3px;
   background-color: ##f2f2f2;
 } */
-
 .page-title-small p {
   position: relative;
   font-size: 18px;
@@ -1002,46 +952,49 @@ a:hover {
 }
 
 .cd-header {
-	position: absolute;
-	top: 0;
-	left: 0;
-	background: rgba(20, 21, 26, 0.96);
-	width: 100%;
-	z-index: 2002;
-	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-	height: 100px;
-	background: transparent;
-	box-shadow: none;
-	-webkit-transition: all 300ms linear;
-	-moz-transition: all 300ms linear;
-	-o-transition: all 300ms linear;
-	-ms-transition: all 300ms linear;
-	transition: all 300ms linear;
-	-webkit-transform: translate3d(0, 0, 0);
-	-moz-transform: translate3d(0, 0, 0);
-	-ms-transform: translate3d(0, 0, 0);
-	-o-transform: translate3d(0, 0, 0);
-	transform: translate3d(0, 0, 0);
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(20, 21, 26, 0.96);
+  width: 100%;
+  z-index: 2002;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  height: 100px;
+  background: transparent;
+  box-shadow: none;
+  -webkit-transition: all 300ms linear;
+  -moz-transition: all 300ms linear;
+  -o-transition: all 300ms linear;
+  -ms-transition: all 300ms linear;
+  transition: all 300ms linear;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
+
 .cd-header.is-fixed {
-	position: fixed;
-	top: -100px;
-	background-color: rgba(20, 21, 26, 0.96);
-	-webkit-transition: -webkit-transform 0.3s;
-	-moz-transition: -moz-transform 0.3s;
-	transition: transform 0.3s;
+  position: fixed;
+  top: -100px;
+  background-color: rgba(20, 21, 26, 0.96);
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  transition: transform 0.3s;
 }
+
 .cd-header.is-visible {
-	-webkit-transform: translate3d(0, 100%, 0);
-	-moz-transform: translate3d(0, 100%, 0);
-	-ms-transform: translate3d(0, 100%, 0);
-	-o-transform: translate3d(0, 100%, 0);
-	transform: translate3d(0, 100%, 0);
+  -webkit-transform: translate3d(0, 100%, 0);
+  -moz-transform: translate3d(0, 100%, 0);
+  -ms-transform: translate3d(0, 100%, 0);
+  -o-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
 }
+
 .cd-header.menu-is-open {
-	background-color: rgba(21, 21, 21, 0);
+  background-color: rgba(21, 21, 21, 0);
 }
 
 .roba {
@@ -3360,7 +3313,6 @@ figure.vimeo a img, figure.youtube a img {
   font-weight: 900;
   z-index: 1;
 } */
-
 .footer-dim {
   max-width: 270px;
   margin: auto;
@@ -3379,21 +3331,19 @@ figure.vimeo a img, figure.youtube a img {
 /* #Media
 ================================================== */
 @media (max-width: 1500px) {
-
   .style-menu {
     height: 470px !important;
     width: 315px !important;
-    }
+  }
 
   .font-style-sub {
     font-size: 16px !important;
     margin-bottom: -15% !important;
-
   }
 
   .intro {
-   font-size: 2.7em !important;
-   color: black;
+    font-size: 2.7em !important;
+    color: black;
   }
 
   .lil-container {
@@ -3451,62 +3401,55 @@ figure.vimeo a img, figure.youtube a img {
     bottom: 11%;
   }
 
-.arrow-p {
-  bottom: 13%;
+  .arrow-p {
+    bottom: 13%;
+  }
+
+  .arrow-m {
+    bottom: 17%;
+  }
+
+  .sticker_archive-e {
+    position: absolute;
+    animation: leaves 1s ease-in-out infinite alternate;
+    width: 10%;
+    margin-left: 72% !important;
+    bottom: 24% !important;
+  }
+
+  .sticker_archive-s {
+    position: absolute;
+    animation: leaves 1s ease-in-out infinite alternate;
+    width: 10%;
+    margin-left: 72% !important;
+    bottom: 24% !important;
+  }
+
+  .sticker_archive-p {
+    position: absolute;
+    animation: leaves 1s ease-in-out infinite alternate;
+    width: 10%;
+    margin-left: 72% !important;
+    bottom: 24% !important;
+  }
+
+  .sticker_archive-m {
+    position: absolute;
+    animation: leaves 1s ease-in-out infinite alternate;
+    width: 10%;
+    margin-left: 72% !important;
+    bottom: 24% !important;
+  }
 }
 
-.arrow-m {
-  bottom: 17%;
-}
-
-.sticker_archive-e {
-  position: absolute;
-  animation: leaves 1s ease-in-out infinite alternate;
-  width: 10%;
-  margin-left: 72% !important;
-  bottom: 24% !important;
-}
-
-.sticker_archive-s {
-  position: absolute;
-  animation: leaves 1s ease-in-out infinite alternate;
-  width: 10%;
-  margin-left: 72% !important;
-  bottom: 24% !important;
-}
-
-.sticker_archive-p {
-  position: absolute;
-  animation: leaves 1s ease-in-out infinite alternate;
-  width: 10%;
-  margin-left: 72% !important;
-  bottom: 24% !important;
-}
-
-.sticker_archive-m {
-  position: absolute;
-  animation: leaves 1s ease-in-out infinite alternate;
-  width: 10%;
-  margin-left: 72% !important;
-  bottom: 24% !important;
-}
-
-
-}
-
-@media (max-width: 1300px) {
-
-}
+@media (max-width: 1300px) {}
 
 @media (max-width: 1199px) {
   .swiper-slide {
     width: 15%;
   }
 
-  @media (min-width: 2500px & max-width: 2800px) {
-
-
-  }
+  @media (min-width: 2500px & max-width: 2800px) {}
 
   /* .arrow {
     bottom: 1% !important;
@@ -3841,7 +3784,6 @@ and (max-width: 1605px)
   text-transform: uppercase;
 }
 
-
 /* PROVA TESTI TIPO TELEGIORNALE - arch  */
 .ticker-wrap-3 {
   /* prima era fixed */
@@ -3898,6 +3840,7 @@ and (max-width: 1605px)
 /* stickers ad  */
 .sticker_ad-e {
   position: absolute;
+  width: 90%;
   transform: scale(0.35) rotate(-18deg);
   top: 0%;
   width: 70%;
@@ -3909,6 +3852,7 @@ and (max-width: 1605px)
 
 .sticker_ad-s {
   position: absolute;
+  width: 90%;
   transform: scale(0.35) rotate(-18deg);
   top: 0%;
   width: 70%;
@@ -3920,6 +3864,7 @@ and (max-width: 1605px)
 
 .sticker_ad-p {
   position: absolute;
+  width: 90%;
   transform: scale(0.35) rotate(-18deg);
   top: 0%;
   width: 70%;
@@ -3931,6 +3876,7 @@ and (max-width: 1605px)
 
 .sticker_ad-m {
   position: absolute;
+  width: 90%;
   transform: scale(0.35) rotate(-18deg);
   top: 0%;
   width: 70%;
@@ -3939,9 +3885,6 @@ and (max-width: 1605px)
   animation: display-none-transition 0.5s ease-in both;
   animation-delay: 12s;
 }
-
-
-
 
 @keyframes display-none-transition {
   0% {
@@ -3952,8 +3895,6 @@ and (max-width: 1605px)
     opacity: 0;
   }
 }
-
-
 
 /* stickers ENTER*/
 #enter_st:hover {
@@ -4016,7 +3957,6 @@ and (max-width: 1605px)
   padding-bottom: 30%;
 }
 
-
 .biglietto-1:hover {
   transform: scale(0.8) rotate(25deg);
 }
@@ -4050,9 +3990,6 @@ and (max-width: 1605px)
 .biglietto-4:hover {
   transform: scale(0.8) rotate(-25deg);
 }
-
-
-
 
 /* position ok! */
 .sticker_archive-e {
@@ -4090,8 +4027,6 @@ and (max-width: 1605px)
   bottom: 28%;
 }
 
-
-
 @keyframes leaves {
   0% {
     transform: scale(0.8);
@@ -4123,15 +4058,14 @@ and (max-width: 1605px)
 }
 
 .ch-description {
- text-transform: none;
- color: #f2f2f2;
- font-size: 1.5em;
- font-style: italic;
- margin-bottom: -1%;
+  text-transform: none;
+  color: #f2f2f2;
+  font-size: 1.5em;
+  font-style: italic;
+  margin-bottom: -1%;
 }
 
 /* INIZIO CSS TENDA */
-
 .curtains>li {
   box-shadow: 0 0 12px #666;
 }
@@ -4156,7 +4090,6 @@ and (max-width: 1605px)
   font-style: normal;
 }
 
-
 .cover {
   background-color: #0023f5;
 }
@@ -4164,7 +4097,6 @@ and (max-width: 1605px)
 #section-1 {
   background: #f2f2f2;
 }
-
 
 html {
   height: 100%;
@@ -4176,8 +4108,6 @@ html {
   z-index: 100;
   position: relative;
 }
-
-
 
 .curtains>li {
   z-index: 100;
@@ -4199,22 +4129,19 @@ html {
   z-index: 100;
 }
 
-
-
 .tenda {
-position: fixed;
-top: 20%;
- left: 5%;
- right:5%;
+  position: fixed;
+  top: 20%;
+  left: 5%;
+  right: 5%;
   font-family: 'favorit_probook';
   color: #191819;
   font-size: 3em;
-
 }
 
 .intro {
- font-size: 3.5em;
- color: #f2f2f2;
+  font-size: 3.5em;
+  color: #f2f2f2;
 }
 
 #color-new {
@@ -4222,12 +4149,8 @@ top: 20%;
 }
 
 /* FINE CSS TENDA */
-
 /* BOTTONI VIZ */
-.button-group {
-
-}
-
+.button-group {}
 
 .cont-img {
   position: relative;
@@ -4348,13 +4271,11 @@ top: 20%;
   }
 }
 
-
 .b-off {
   opacity: 0.5;
 }
 
 .b-off:hover>#img1 {
-
   animation: none !important;
 }
 
@@ -4364,7 +4285,6 @@ top: 20%;
 }
 
 .b-off:hover>#img2 {
-
   animation: none !important;
 }
 
@@ -4374,7 +4294,6 @@ top: 20%;
 }
 
 .b-off:hover>#img3 {
-
   animation: none !important;
 }
 
@@ -4384,7 +4303,6 @@ top: 20%;
 }
 
 .b-off:hover>#img4 {
-
   animation: none !important;
 }
 
@@ -4394,7 +4312,6 @@ top: 20%;
 }
 
 .b-off:hover>#img5 {
-
   animation: none !important;
 }
 
@@ -4412,7 +4329,7 @@ top: 20%;
   color: #191819 !important;
 }
 
-.about_sticker{
+.about_sticker {
   position: absolute;
   width: 15%;
   transform: rotate(20deg);
