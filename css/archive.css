@@ -186,8 +186,8 @@
 .popup a {
   /* display: block; */
   margin-top: 30px;
-  background-color: #191819;
-  border: solid 2px #191819;
+  background-color: transparent;
+  border: transparent ;
   background-image: url(griglia.svg);
   width: 10px;
   line-height: 310px;
