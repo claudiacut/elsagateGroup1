@@ -481,48 +481,14 @@ h1 {
   width: 15%;
   position: absolute;
   /* transform: rotate(10deg); */
-  right: 50%;
+left: 42%;
   left: 50%;
   bottom: 11%;
   z-index: 2000;
   cursor:auto;
 }
 
-/* position ok! */
-.arrow-s {
-  width: 15%;
-  position: absolute;
-  /* transform: rotate(10deg); */
-  right: 50%;
-  left: 50%;
-  bottom: 11%;
-  z-index: 2000;
-  cursor:auto;
-}
 
-/* position ok! */
-.arrow-p {
-  width: 15%;
-  position: absolute;
-  /* transform: rotate(10deg); */
-  right: 50%;
-  left: 50%;
-  bottom: 11%;
-  z-index: 2000;
-  cursor:auto;
-}
-
-/* position ok! */
-.arrow-m {
-  width: 15%;
-  position: absolute;
-  /* transform: rotate(10deg); */
-  right: 50%;
-  left: 50%;
-  bottom: 11%;
-  z-index: 2000;
-  cursor:auto;
-}
 
 .arrow-1 {
   width: 4%;
@@ -3898,6 +3864,7 @@ and (max-width: 1605px)
 /* stickers ad  */
 .sticker_ad-e {
   position: absolute;
+  width: 90%;
   transform: scale(0.35) rotate(-18deg);
   top: 0%;
   width: 70%;
@@ -3909,6 +3876,7 @@ and (max-width: 1605px)
 
 .sticker_ad-s {
   position: absolute;
+  width: 90%;
   transform: scale(0.35) rotate(-18deg);
   top: 0%;
   width: 70%;
@@ -3920,6 +3888,7 @@ and (max-width: 1605px)
 
 .sticker_ad-p {
   position: absolute;
+  width: 90%;
   transform: scale(0.35) rotate(-18deg);
   top: 0%;
   width: 70%;
@@ -3931,6 +3900,7 @@ and (max-width: 1605px)
 
 .sticker_ad-m {
   position: absolute;
+  width: 90%;
   transform: scale(0.35) rotate(-18deg);
   top: 0%;
   width: 70%;
