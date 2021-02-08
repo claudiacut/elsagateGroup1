@@ -178,7 +178,9 @@ a:hover, a:focus {
 }
 
 .pad2 {
-  margin-left: 16% !important;
+  margin-left: 20% !important;
+  padding-top: 0% !important;
+padding-bottom: 4% !important;
 }
 
 .subtitle-about-b {
