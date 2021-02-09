@@ -286,6 +286,21 @@ MediaRevealer.prototype.positionMedia = function() {
 			a2.resetMedia();
 		});
 
+		/**************************** effec2_2 ****************************/
+		var cla = new MediaRevealer($('trigger-cla'));
+		cla.el.addEventListener(evOn, function(ev) {
+			clearTimeout(triggertimeout);
+			triggertimeout = setTimeout(function() {
+				cla.positionMedia();
+				cla.mediaEl.style.opacity = 1;
+					cla.mediaEl.style.zIndex = -10;
+			}, triggerdelay);
+		});
+		cla.el.addEventListener(evOff, function(ev) {
+			clearTimeout(triggertimeout);
+			cla.resetMedia();
+		});
+
 }
 
 	// setTimeouts for the mouseenter events.
