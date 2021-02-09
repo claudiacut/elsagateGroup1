@@ -4335,8 +4335,3 @@ html {
   margin-left: 85% !important;
   bottom: 1% !important;
 }
-
-
-.hide::-webkit-scrollbar {
-  display: none;
-}

@@ -1,15 +1,11 @@
 // external js: isotope.pkgd.js
 // init Isotope
-
-
 var $grid = $('.grid').isotope({
   itemSelector: '.color-shape'
 });
 
-
 // store filter for each group
 var filters = {};
-
 
 $('.filters').on( 'click', '.button', function( event ) {
   var $button = $( event.currentTarget );
@@ -22,12 +18,7 @@ $('.filters').on( 'click', '.button', function( event ) {
   var filterValue = concatValues( filters );
   // set filter for Isotope
   $grid.isotope({ filter: filterValue });
-
-
-
 });
-
-
 
 // change is-checked class on buttons
 $('.button-group').each( function( i, buttonGroup ) {
@@ -37,21 +28,7 @@ $('.button-group').each( function( i, buttonGroup ) {
     var $button = $( event.currentTarget );
     $button.addClass('is-checked');
   });
-
-  var noItemsAlert = $('#alert');
-  $grid.isotope( 'on', 'layoutComplete', function() {
-  var numItems = $grid.find('.color-shape:not(.isotope-hidden)').length;
-  if (numItems == 0) {
-        noItemsAlert.show(10);
-    } else {
-        noItemsAlert.hide(10);
-    }
-  });
-
-
 });
-
-
 
 // flatten object by concatting values
 function concatValues( obj ) {
@@ -61,11 +38,3 @@ function concatValues( obj ) {
   }
   return value;
 }
-
-
-
-
-$('#section-2').css({
-    overflow: 'hidden',
-    height: '100%'
-});

@@ -295,20 +295,6 @@ h8 {
   overflow: hidden !important;
 }
 
-.hide::-webkit-scrollbar {
-  display: none;
-}
-
-#alert {
-    padding: 10px 20px;
-    margin: 0 0 20px;
-    border: 1px solid #f22828;
-    border-radius: 4px;
-    font-weight: bold;
-    font-size: 0.75em;
-    display: none;
-    font-family: sans-serif;
-}
 
 .sticker_reddit {
   position: absolute;
