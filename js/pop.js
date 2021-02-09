@@ -22,7 +22,7 @@
 
 
 
-	function MediaRevealer(el) { 
+	function MediaRevealer(el) {
 		this.el = el;
 		this.contentEl = findAncestor(this.el, 'content');
 		this.mediaEl = this.contentEl.querySelector('.pop-media[data-pop-media="' + this.el.getAttribute('data-pop-media') + '"]');
@@ -166,8 +166,95 @@ MediaRevealer.prototype.positionMedia = function() {
 			t2_2.resetMedia();
 		});
 
+		/**************************** effec2_2 ****************************/
+		var c1 = new MediaRevealer($('trigger-c1'));
+		c1.el.addEventListener(evOn, function(ev) {
+			clearTimeout(triggertimeout);
+			triggertimeout = setTimeout(function() {
+				c1.positionMedia();
+				c1.mediaEl.style.opacity = 1;
+					c1.mediaEl.style.zIndex = -10;
+			}, triggerdelay);
+		});
+		c1.el.addEventListener(evOff, function(ev) {
+			clearTimeout(triggertimeout);
+			c1.resetMedia();
+		});
 
+		/**************************** effec2_2 ****************************/
+		var c2 = new MediaRevealer($('trigger-c2'));
+		c2.el.addEventListener(evOn, function(ev) {
+			clearTimeout(triggertimeout);
+			triggertimeout = setTimeout(function() {
+				c2.positionMedia();
+				c2.mediaEl.style.opacity = 1;
+					c2.mediaEl.style.zIndex = -10;
+			}, triggerdelay);
+		});
+		c2.el.addEventListener(evOff, function(ev) {
+			clearTimeout(triggertimeout);
+			c2.resetMedia();
+		});
 
+		/**************************** effec2_2 ****************************/
+		var c3 = new MediaRevealer($('trigger-c3'));
+		c3.el.addEventListener(evOn, function(ev) {
+			clearTimeout(triggertimeout);
+			triggertimeout = setTimeout(function() {
+				c3.positionMedia();
+				c3.mediaEl.style.opacity = 1;
+					c3.mediaEl.style.zIndex = -10;
+			}, triggerdelay);
+		});
+		c3.el.addEventListener(evOff, function(ev) {
+			clearTimeout(triggertimeout);
+			c3.resetMedia();
+		});
+
+		/**************************** effec2_2 ****************************/
+		var c4 = new MediaRevealer($('trigger-c4'));
+		c4.el.addEventListener(evOn, function(ev) {
+			clearTimeout(triggertimeout);
+			triggertimeout = setTimeout(function() {
+				c4.positionMedia();
+				c4.mediaEl.style.opacity = 1;
+					c4.mediaEl.style.zIndex = -10;
+			}, triggerdelay);
+		});
+		c4.el.addEventListener(evOff, function(ev) {
+			clearTimeout(triggertimeout);
+			c4.resetMedia();
+		});
+
+		/**************************** effec2_2 ****************************/
+		var c5 = new MediaRevealer($('trigger-c5'));
+		c5.el.addEventListener(evOn, function(ev) {
+			clearTimeout(triggertimeout);
+			triggertimeout = setTimeout(function() {
+				c5.positionMedia();
+				c5.mediaEl.style.opacity = 1;
+					c5.mediaEl.style.zIndex = -10;
+			}, triggerdelay);
+		});
+		c5.el.addEventListener(evOff, function(ev) {
+			clearTimeout(triggertimeout);
+			c5.resetMedia();
+		});
+
+		/**************************** effec2_2 ****************************/
+		var c6 = new MediaRevealer($('trigger-c6'));
+		c6.el.addEventListener(evOn, function(ev) {
+			clearTimeout(triggertimeout);
+			triggertimeout = setTimeout(function() {
+				c6.positionMedia();
+				c6.mediaEl.style.opacity = 1;
+					c6.mediaEl.style.zIndex = -10;
+			}, triggerdelay);
+		});
+		c6.el.addEventListener(evOff, function(ev) {
+			clearTimeout(triggertimeout);
+			c6.resetMedia();
+		});
 }
 
 	// setTimeouts for the mouseenter events.
