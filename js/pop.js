@@ -255,6 +255,37 @@ MediaRevealer.prototype.positionMedia = function() {
 			clearTimeout(triggertimeout);
 			c6.resetMedia();
 		});
+
+		/**************************** effec2_2 ****************************/
+		var a1 = new MediaRevealer($('trigger-a1'));
+		a1.el.addEventListener(evOn, function(ev) {
+			clearTimeout(triggertimeout);
+			triggertimeout = setTimeout(function() {
+				a1.positionMedia();
+				a1.mediaEl.style.opacity = 1;
+					a1.mediaEl.style.zIndex = -10;
+			}, triggerdelay);
+		});
+		a1.el.addEventListener(evOff, function(ev) {
+			clearTimeout(triggertimeout);
+			a1.resetMedia();
+		});
+
+		/**************************** effec2_2 ****************************/
+		var a2 = new MediaRevealer($('trigger-a2'));
+		a2.el.addEventListener(evOn, function(ev) {
+			clearTimeout(triggertimeout);
+			triggertimeout = setTimeout(function() {
+				a2.positionMedia();
+				a2.mediaEl.style.opacity = 1;
+					a2.mediaEl.style.zIndex = -10;
+			}, triggerdelay);
+		});
+		a2.el.addEventListener(evOff, function(ev) {
+			clearTimeout(triggertimeout);
+			a2.resetMedia();
+		});
+
 }
 
 	// setTimeouts for the mouseenter events.
