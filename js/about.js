@@ -104,14 +104,12 @@ s3_1.addEventListener("click", function() {
 
 s4.addEventListener("click", function() {
   c4.style.zIndex = "100";
-  console.log("miao");
   $('#t4').addClass('start-scrolling')
 
 });
 
 s4_1.addEventListener("click", function() {
   c4.style.zIndex = "1";
-  console.log("ooo");
   $('body, html, #t4').animate({scrollTop: 0, behavior: 'smooth'}, 1200);
 });
 
