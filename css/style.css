@@ -169,39 +169,38 @@ h6, .h6 {
 
 .lil-container .media {
   color: white;
-  margin-top: 105%;
-  font-size: 24px;
+  margin-top: 6.7em;
+  font-size: 1.6em;
 }
 
 .lil-container .photo {
   color: white;
-  margin-top: -15%;
-  font-size: 24px;
+  margin-top: -1em;
+  font-size: 1.6em;
 }
 
 .lil-container .original {
   color: white;
-  top: 0%;
-  font-size: 14px;
+  top: 0em;
+  font-size: 0.9em;
 }
 
 .lil-container .problematic {
   color: white;
-  top: 10%;
-  margin-top: 60%;
-  font-size: 14px;
+  margin-top: 6.5em;
+  font-size: 0.9em;
 }
 
 .lil-container .channel {
   color: white;
-  top: 7%;
-  font-size: 14px;
+  top: 7em;
+  font-size: 0.9em;
 }
 
 .lil-container .source {
   color: white;
-  margin-top: 0%;
-  font-size: 24px;
+  margin-top: 0.3em;
+  font-size: 1.6em;
 }
 
 .pt {
